@@ -7,7 +7,7 @@ level: Beginner
 thumbnail: KT-6674.jpg
 kt: 6674
 exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: aa5c88fb5725a3d1c50d5c6b73fce7add629b08d
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 2%
@@ -35,7 +35,9 @@ Neste tutorial, aprenda as noções básicas de como executar sua primeira opera
 Use os tutoriais de introdução abaixo para criar suas credenciais de API, baixar arquivos de amostra e configurar seu ambiente.
 
 [Introdução à API de serviços PDF e Java](gettingstartedjava.md)
+
 [Introdução à API de serviços do PDF e .Net](gettingstartednet.md)
+
 [Introdução à API de serviços PDF e Node.js](createpdffromhtml.md)
 
 ## Etapa 2: Executar operação de exportação de pdf usando os arquivos de amostra

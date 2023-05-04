@@ -8,7 +8,7 @@ thumbnail: KT-6677.jpg
 kt: 6677
 keywords: Hero
 exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: c1937561d607f1eabbc1921d6090858abb13f0d3
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 2%
@@ -30,7 +30,9 @@ Neste tutorial, você aborda as noções básicas de como executar sua primeira 
 Use os tutoriais de introdução abaixo para criar suas credenciais de API, baixar arquivos de amostra e configurar seu ambiente.
 
 [Introdução à API de serviços PDF e Java](gettingstartedjava.md)
+
 [Introdução à API de serviços do PDF e .Net](gettingstartednet.md)
+
 [Introdução à API de serviços PDF e Node.js](createpdffromhtml.md)
 
 ## Execute o exemplo de OCR fornecido nos arquivos de amostra
