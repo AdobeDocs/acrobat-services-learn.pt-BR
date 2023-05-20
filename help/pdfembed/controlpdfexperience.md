@@ -302,7 +302,7 @@ Navegue até [exemplo de um PDF atrás de um paywall](https://www3.technologyeva
 ### Adicionar código do paywall
 
 1. Vá para snippets/paywallCode.html e copie o conteúdo.
-1. Procurar `<!-- TODO: EXERCISE 3: INSERT PAYWALL CODE -->` em exercise/index.html.
+1. Procurar `<!-- TODO: EXERCISE 3: INSERT PAYWALL CODE -->` em exercises/index.html.
 
    ![Captura de tela do local para copiar o código](assets/ControlPDF_26.png)
 

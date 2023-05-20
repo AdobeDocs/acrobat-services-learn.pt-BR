@@ -206,7 +206,7 @@ O formulário de upload criado é exibido na captura de tela abaixo e você pode
 
 ![Captura de tela do upload do formulário](assets/legal_7.png)
 
-Agora, adicione os seguintes snippets de código ao arquivo controllers /createPDFController.js . Esse código recupera o documento carregado e o transforma em PDF. [!DNL Acrobat Services] salva o arquivo carregado original e o arquivo transformado em diferentes pastas.
+Agora, adicione os seguintes snippets de código ao arquivo controllers /createPDFController.js. Esse código recupera o documento carregado e o transforma em PDF. [!DNL Acrobat Services] salva o arquivo carregado original e o arquivo transformado em diferentes pastas.
 
 ```
 ###controllers/createPDFController.js

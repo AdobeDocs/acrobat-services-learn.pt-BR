@@ -347,7 +347,7 @@ Agora você pode apresentar o link para o PDF gerado para o usuário baixar. Par
 </html>
 ```
 
-Depois, você implementa o `downloadContract` no `PersonController` seguinte:
+Em seguida, você implementa o `downloadContract` no `PersonController` seguinte:
 
 ```
 @RequestMapping("/pdf")
