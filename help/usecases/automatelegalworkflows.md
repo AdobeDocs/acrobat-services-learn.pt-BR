@@ -7,9 +7,9 @@ type: Tutorial
 thumbnail: KT-10202.jpg
 kt: 10202
 exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 98dc9f98f660b43d2ca0780b51624bf3be71c853
 workflow-type: tm+mt
-source-wordcount: '2893'
+source-wordcount: '2876'
 ht-degree: 1%
 
 ---
@@ -551,7 +551,7 @@ Agora você tem informações sobre esse acordo.
   }
 ```
 
-O método mais eficiente para obter notificações quando as atualizações são alteradas é por meio de Webhooks, sobre o qual você pode saber mais [aqui](https://opensource.adobe.com/acrobat-sign/developer_guide/webhookapis.html) e uma lista completa de eventos de webhook disponíveis [aqui](https://opensource.adobe.com/acrobat-sign/developer_guide/webhookevents.html).
+O método mais eficiente para obter notificações quando as atualizações são alteradas é por meio de Webhooks, sobre o qual você pode saber mais [aqui](https://opensource.adobe.com/acrobat-sign/developer_guide/webhookapis.html.
 
 ## Armazenar um documento assinado
 
