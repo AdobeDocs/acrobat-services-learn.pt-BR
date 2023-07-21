@@ -5,9 +5,9 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8092.jpg
-kt: 8092
+jira: KT-8092
 exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 0%
@@ -220,7 +220,7 @@ Para a API de incorporação do PDF, você também precisa de um ponto final que
 
 ## Incorporando o PDF
 
-Agora, crie o ponto de extremidade /job/{id}, que renderiza um modelo contendo o nome da publicação de trabalho solicitada e um PDF incorporado.
+Agora, crie o /job/{id} ponto de extremidade, que renderiza um modelo contendo o nome da publicação de trabalho solicitada e um PDF incorporado.
 
 ```
 router.get('/job/:id', async function(req, res, next) {

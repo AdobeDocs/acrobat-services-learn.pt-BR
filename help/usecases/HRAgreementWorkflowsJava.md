@@ -3,11 +3,11 @@ title: Fluxos de trabalho de documentos de RH em Java
 description: "[!DNL Adobe Acrobat Services] APIs incorporam facilmente recursos de PDF em seus aplicativos da Web de RH"
 type: Tutorial
 role: Developer
-level: Beginner
+level: Intermediate
 thumbnail: KT-7474.jpg
-kt: 7474
+jira: KT-7474
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 2%
@@ -153,7 +153,7 @@ public class PersonController {
 }
 ```
 
-O controlador tem apenas um método: showForm. Ele é responsável por renderizar o formulário usando o modelo HTML localizado em resources/templates/form.html:
+O controlador tem apenas um método: showForm. Ele é responsável pela renderização do formulário usando o modelo de HTML localizado em resources/templates/form.html:
 
 ```
 <html>
@@ -347,7 +347,7 @@ Agora você pode apresentar o link para o PDF gerado para o usuário baixar. Par
 </html>
 ```
 
-Em seguida, você implementa o `downloadContract` no `PersonController` seguinte:
+Depois, você implementa o `downloadContract` no `PersonController` seguinte:
 
 ```
 @RequestMapping("/pdf")

@@ -5,9 +5,9 @@ role: Developer
 level: Intermediate
 type: Tutorial
 thumbnail: KT-8099.jpg
-kt: 8099
+jira: KT-8099
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 2%
@@ -46,7 +46,7 @@ Neste tutorial prático, aprenda a implementar dados e fluxos de trabalho dinâm
 
 Agora que você tem as ferramentas instaladas, pode começar a resolver o problema. As propostas têm conteúdo estático e conteúdo dinâmico exclusivos para cada cliente. Os gargalos ocorrem porque ambos os tipos de dados são necessários sempre que você faz uma proposta. A inserção do texto estático é demorada, portanto ele será automatizado e só será possível lidar manualmente com os dados dinâmicos de cada cliente.
 
-Primeiro, crie um formulário de captura de dados no [Microsoft Forms](https://www.office.com/launch/forms?auth=1) (ou o criador de formulários preferido). Este formulário é para os dados dinâmicos dos clientes que são adicionados a uma proposta de vendas. Preencha este formulário com perguntas para obter os detalhes necessários dos clientes — por exemplo, nome da empresa, data, endereço, escopo do projeto, preços e comentários adicionais. Para criar o seu próprio, use este [formulário](https://forms.office.com/Pages/ShareFormPage.aspx id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__rtiGj5UNElTR0pCQ09ZNkJRUlowSjVQWDNYUEg2RC4u&amp;sharetoken=1AJeMavBAzzxuISRKm Uy). O objetivo é que clientes potenciais preencham o formulário e exportem suas respostas como arquivos JSON, que são passados para a próxima parte do fluxo de trabalho.
+Primeiro, crie um formulário de captura de dados no [Microsoft Forms](https://www.office.com/launch/forms?auth=1) (ou o criador de formulários preferido). Este formulário é para os dados dinâmicos dos clientes que são adicionados a uma proposta de vendas. Preencha este formulário com perguntas para obter os detalhes necessários dos clientes — por exemplo, nome da empresa, data, endereço, escopo do projeto, preços e comentários adicionais. Para criar o seu próprio, use este [formulário](https://forms.office.com/Pages/ShareFormPage.aspx id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAAN__rtiGj5UNElTR0pCQ09ZNkJRUlowSjVQWDNYUEg2RC4u&amp;sharetoken=1AJeMavBAzzxuISRKmUy). O objetivo é que clientes potenciais preencham o formulário e exportem suas respostas como arquivos JSON, que são passados para a próxima parte do fluxo de trabalho.
 
 Alguns criadores de formulários permitem exportar dados apenas como arquivos CSV. Então, você pode achar útil [converter](http://csvjson.com/csv2json) o arquivo CSV gerado em um arquivo JSON.
 

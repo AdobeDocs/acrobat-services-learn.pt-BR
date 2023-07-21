@@ -5,9 +5,9 @@ type: Tutorial
 role: Developer
 level: Beginner
 thumbnail: KT-10382.jpg
-kt: 10382
+jira: KT-10382
 exl-id: 68ec654f-74aa-41b7-9103-44df13402032
-source-git-commit: 799b37e526073893fe7c078db547798d6c31d1b2
+source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -29,6 +29,7 @@ Os usuários existentes do Microsoft Power Automate podem [obter credenciais de 
 
 >[!IMPORTANT]
 > Se estiver fazendo logon para uma versão de avaliação, você deve usar um Adobe ID, e não um Enterprise ID. Se você não for um assinante atual da API de serviços da Adobe PDF e tentar fazer logon com seu Enterprise ID, poderá receber um erro de permissão porque sua empresa não tem direito a usar a API de serviços da Adobe PDF. Por esse motivo, é recomendável usar um Adobe ID pessoal que é gratuito.
+>
 
 1. Depois de fazer logon, você será solicitado a selecionar um nome para suas novas credenciais. Insira seu *Nome da credencial*.
 1. Marque a caixa de seleção para concordar com os termos de desenvolvedor.
