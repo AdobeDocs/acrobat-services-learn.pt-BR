@@ -4,9 +4,10 @@ description: Página de visão geral das APIs do Acrobat Sign
 type: Tutorial
 role: Developer
 level: Beginner, Intermediate, Experienced
+feature: Acrobat Sign API
 thumbnail: KT-11079.jpg
 exl-id: 79603883-26cd-439c-9cfd-6178c4544b93
-source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
+source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 11%
@@ -64,7 +65,7 @@ Saiba como começar a incorporar a versão OEM do Acrobat Sign ao seu aplicativo
     <div>
    <a href="sign-up-developer-account.md"><strong>Inscrevendo-se em uma Conta de Desenvolvedor</strong></a>
     </div>
-    <em>Saiba como se inscrever em uma Conta de desenvolvedor para Acrobat Sign, que é totalmente habilitada com a funcionalidade Assinar e API</em>
+    <em>Saiba como se inscrever para uma Conta de desenvolvedor para o Acrobat Sign, que é totalmente ativada com as funcionalidades de Assinatura e API</em>
     <br>
   </td>
   <td>
@@ -84,15 +85,15 @@ Saiba como começar a incorporar a versão OEM do Acrobat Sign ao seu aplicativo
     <div>
    <a href="creating-an-embed-link.md"><strong>Criar um link incorporado</strong></a>
     </div>
-    <em>Saiba como criar um link incorporado para OAuth, que é o método pelo qual seu aplicativo recebe permissões para usuários</em>
+    <em>Saiba como criar um link incorporado para OAuth, que é o método pelo qual o aplicativo obtém permissões para usuários</em>
     <br>
   </td>
   <td>
    <a href="generating-an-access-token.md">
-      <img alt="Gerando um token de acesso" src="assets/Generatingyouraccesstoken_1280.png" />
+      <img alt="Gerar um token de acesso" src="assets/Generatingyouraccesstoken_1280.png" />
    </a>
     <div>
-   <a href="generating-an-access-token.md"><strong>Gerando um token de acesso</strong></a>
+   <a href="generating-an-access-token.md"><strong>Gerar um token de acesso</strong></a>
     </div>
     <em>Saiba como gerar um token de acesso que pode ser usado com a API do Acrobat Sign</em>
     <br>

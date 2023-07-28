@@ -4,10 +4,11 @@ description: Página de visão geral da API incorporada do Adobe PDF
 type: Tutorial
 role: Developer
 level: Beginner, Intermediate, Experienced
+feature: PDF Embed API
 thumbnail: KT-8117.jpg
 kt: 8117
 exl-id: 2fef89cf-640d-4ff4-9282-070bce8bba78
-source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
+source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -16,9 +17,9 @@ ht-degree: 0%
 
 # Tutoriais da API incorporada do Adobe PDF
 
-![Banner da API incorporada do PDF](../assets/pdfembedhero.jpg)
+![Banner da API de incorporação do PDF](../assets/pdfembedhero.jpg)
 
-A API incorporada PDF é uma API JavaScript gratuita para incorporar PDF de alta fidelidade, permitir a colaboração e ver análises.
+A API de incorporação do PDF é uma API JavaScript gratuita para incorporar PDF de alta fidelidade, permitir a colaboração e ver análises.
 
 <table style="table-layout:fixed">
 <tr>
@@ -34,12 +35,12 @@ A API incorporada PDF é uma API JavaScript gratuita para incorporar PDF de alta
   </td>
   <td>
    <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/pdf-embed-api.html">
-      <img alt="Disputa PDF na web como um profissional" src="assets/Wrangle_1280.png" />
+      <img alt="Use os PDF na Web como um profissional" src="assets/Wrangle_1280.png" />
    </a>
     <div>
-   <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/pdf-embed-api.html"><strong>Disputa PDF na web como um profissional</strong></a>
+   <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/pdf-embed-api.html"><strong>Use os PDF na Web como um profissional</strong></a>
     </div>
-    <em>Veja como usar a API Adobe PDF Embed gratuita para facilitar o uso de PDF em seu site</em>
+    <em>Saiba como usar a API incorporada gratuita do Adobe PDF para facilitar o uso de PDF no seu site</em>
     <br>
   </td>
   <td>

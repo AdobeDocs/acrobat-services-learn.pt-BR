@@ -1,26 +1,27 @@
 ---
-title: Uso da API de serviços do PDF para exportar PDF para Word, PowerPoint e muito mais
-description: Saiba como executar a operação de exportação da API de serviços do PDF usando arquivos de exemplo para as linguagens Node.js, Java e .Net
+title: Usar a API de Serviços de PDF para exportar PDF para Word, PowerPoint e muito mais
+description: Saiba como executar a operação de exportação da API de serviços de PDF usando arquivos de amostra para as linguagens Node.js, Java e .Net
 type: Tutorial
 role: Developer
 level: Intermediate
+feature: PDF Services API
 thumbnail: KT-6674.jpg
 kt: 6674
 exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8
-source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
+source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 2%
 
 ---
 
-# Uso da API de serviços do PDF para exportar PDF para Word, PowerPoint e muito mais
+# Usar a API de Serviços de PDF para exportar PDF para Word, PowerPoint e muito mais
 
-![Criar imagem de PDF Hero](assets/ExportPDF_hero.jpg)
+![Criar imagem principal do PDF](assets/ExportPDF_hero.jpg)
 
-A API de serviços da Adobe PDF converte arquivos PDF em MS Office, texto e imagens usando APIs. Há muitos casos de uso comuns para desbloquear PDF existentes para edição e análise de conteúdo e, com os serviços de API do PDF, os desenvolvedores podem integrar facilmente esse recurso aos sistemas e aplicativos existentes. Converta arquivos PDF em MS Word para edição de conteúdo, aprovações e envio posterior de assinaturas para criar fluxos de trabalho de contrato personalizados. Ou exporte conteúdo de PDF para o formato MS Excel para cálculos financeiros e de fatura ou análise de dados.
+A API de Serviços do Adobe PDF converte arquivos PDF em MS Office, texto e imagens usando APIs. Há muitos casos de uso comuns para desbloquear PDF existentes para edição e análise de conteúdo e, com os serviços de PDF, os desenvolvedores de API podem integrar facilmente esse recurso nos sistemas e aplicativos existentes. Converta arquivos PDF em MS Word para edição de conteúdo, aprovações e envio posterior de assinaturas para criar fluxos de trabalho de contratos personalizados. Ou exporte o conteúdo de PDF para o formato MS Excel para cálculos de fatura e financeiros ou análise de dados.
 
-A operação Exportar suporta as seguintes conversões de arquivo PDF:
+A operação de exportação suporta as seguintes conversões de arquivo PDF:
 
 * PDF para Microsoft Word (DOC, DOCX)
 * PDF para Microsoft PowerPoint (PPTX)
@@ -28,25 +29,25 @@ A operação Exportar suporta as seguintes conversões de arquivo PDF:
 * PDF para texto (RTF)
 * PDF para imagem (JPEG, PNG)
 
-Neste tutorial, aprenda as noções básicas de como executar sua primeira operação de exportação da API de serviços do PDF usando arquivos de exemplo para as linguagens Node.js, Java e .Net.
+Neste tutorial, aprenda os conceitos básicos de como executar sua primeira operação de exportação da API de serviços de PDF usando arquivos de amostra para as linguagens Node.js, Java e .Net.
 
-## Etapa 1: Crie suas credenciais e configure seu ambiente:
+## Etapa 1: Criar suas credenciais e configurar seu ambiente:
 
-Use os tutoriais de introdução abaixo para criar suas credenciais de API, baixar arquivos de amostra e configurar seu ambiente.
+Use os tutoriais de introdução abaixo para criar suas credenciais de API, baixar arquivos de amostra e configurar o seu ambiente.
 
-[Introdução à API de serviços PDF e Java](gettingstartedjava.md)
+[Introdução à API de Serviços PDF e Java](gettingstartedjava.md)
 
-[Introdução à API de serviços do PDF e .Net](gettingstartednet.md)
+[Introdução à API de Serviços PDF e .Net](gettingstartednet.md)
 
-[Introdução à API de serviços PDF e Node.js](createpdffromhtml.md)
+[Introdução à API de Serviços de PDF e ao Node.js](createpdffromhtml.md)
 
-## Etapa 2: Executar operação de exportação de pdf usando os arquivos de amostra
+## Etapa 2: execute a operação de exportação de pdf usando os arquivos de amostra
 
 **Java**
 
 1. Abra um prompt de comando.
 
-1. Altere os diretórios no diretório de código de amostra.
+1. Mude os diretórios para o diretório de código de exemplo.
 
    Por exemplo, C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-java-samples
 
@@ -60,11 +61,11 @@ Seu PDF é criado no diretório src/main/resources.
 
 1. Abra um prompt de comando.
 
-1. Altere os diretórios no diretório de código de amostra.
+1. Mude os diretórios para o diretório de código de exemplo.
 
    Por exemplo, C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-NetSamples
 
-1. Altere os diretórios novamente no diretório ExportPDFtoDocx.
+1. Altere os diretórios novamente para o diretório ExportPDFtoDocx.
 
 1. Execute o seguinte comando:
 
@@ -76,7 +77,7 @@ Seu PDF é criado no mesmo diretório.
 
 1. Abra um prompt de comando.
 
-1. Altere os diretórios no diretório de código de amostra.
+1. Mude os diretórios para o diretório de código de exemplo.
 
    Por exemplo, C:\Temp\PDFToolsAPI\adobe-dc-pdf-tools-sdk-node-samples
 
@@ -88,7 +89,7 @@ Seu PDF é criado no local designado na saída, que por padrão é o diretório 
 
 ## Considerações finais
 
-Agora você deve ter um exemplo ativo que pode ser importado para seus aplicativos existentes para iniciar uma prova de conceito. Em cada um dos diretórios de exemplo, você pode ver outro exemplo para exportar arquivos PDF para o formato de imagem. As mesmas etapas acima permitem executar essa amostra também. Para mudar para outro formato, você pode atualizar o código para o novo formato desejado:
+Agora você deve ter um exemplo de trabalho que pode ser importado para os aplicativos existentes para iniciar uma prova de conceito. Em cada um dos diretórios de amostra, é possível ver outro exemplo para exportar arquivos de PDF para o formato de imagem. As mesmas etapas acima também permitem executar essa amostra. Para mudar para outro formato, você pode atualizar o código para o novo formato que deseja:
 
 SupportedTargetFormats.PPTX
 
@@ -104,6 +105,6 @@ Para outro formato.
 
 * API de serviços PDF [Documentação](https://www.adobe.com/go/pdftoolsapi_doc)
 
-* [Perguntas frequentes](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) para perguntas sobre a API de serviços do PDF
+* [Perguntas frequentes](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) para perguntas sobre a API de serviços PDF
 
-* [Fale conosco](https://www.adobe.com/go/pdftoolsapi_requestform) para perguntas sobre licenciamento e preços
+* [Fale conosco](https://www.adobe.com/go/pdftoolsapi_requestform) em caso de dúvidas sobre licenciamento e preços

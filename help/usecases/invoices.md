@@ -1,36 +1,37 @@
 ---
-title: Controle de NFFs
-description: Saiba como gerar, proteger e entregar faturas de clientes automaticamente
+title: Manuseando NFFs
+description: Saiba como gerar, proteger com senha e entregar faturas de clientes automaticamente
 role: Developer
 level: Intermediate
 type: Tutorial
+feature: Use Cases
 thumbnail: KT-8145.jpg
 jira: KT-8145
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
-source-git-commit: 2d1151c17dfcfa67aca05411976f4ef17adf421b
+source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 1%
 
 ---
 
-# Controle de faturas
+# Manuseando faturas
 
-![Use Case Hero Banner](assets/UseCaseInvoicesHero.jpg)
+![Banner do herói do caso de uso](assets/UseCaseInvoicesHero.jpg)
 
-É ótimo quando os negócios estão crescendo, mas a produtividade é prejudicada quando chega a hora de preparar todas essas faturas. Gerar faturas manualmente é demorado, além de você correr o risco de cometer um erro, potencialmente perder dinheiro ou enfurecer um cliente com uma quantia incorreta.
+É ótimo quando os negócios estão crescendo, mas a produtividade é prejudicada quando chega a hora de preparar todas essas faturas. Gerar faturas manualmente é demorado, além de você correr o risco de cometer um erro, potencialmente perder dinheiro ou irritar um cliente com um valor incorreto.
 
-Pense em Danielle, por exemplo, trabalhando no [departamento de contabilidade](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html) [de uma empresa de assistência médica](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). É o fim do mês, então ela está extraindo informações de vários sistemas diferentes, verificando sua precisão e formatando as faturas. Depois de todo esse trabalho, ela finalmente está pronta para converter os documentos em PDF (para que qualquer pessoa possa visualizá-los sem comprar um software específico) e enviar a cada cliente sua fatura personalizada.
+Pense em Danielle, por exemplo, trabalhando no [departamento de contabilidade](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html) [de uma empresa de fornecimento médico](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). É o fim do mês, então ela está extraindo informações de vários sistemas diferentes, verificando a precisão e formatando as faturas. Depois de todo esse trabalho, ela finalmente está pronta para converter os documentos em PDF (para que qualquer pessoa possa visualizá-los sem adquirir um software específico) e enviar a cada cliente sua fatura personalizada.
 
-Mesmo quando o faturamento mensal está completo, Danielle não pode escapar dessas faturas. Alguns clientes têm ciclos de faturamento não mensais, por isso ela está sempre criando uma fatura para alguém. Ocasionalmente, um cliente edita sua fatura e paga menos. Danielle, então, gasta tempo solucionando esta incompatibilidade de fatura. Nesse ritmo, ela precisa contratar um assistente para acompanhar todo o trabalho!
+Mesmo quando o faturamento mensal está completo, Danielle não pode escapar dessas faturas. Alguns clientes têm ciclos de faturamento não mensais, por isso ela está sempre criando uma fatura para alguém. Ocasionalmente, um cliente edita sua fatura e paga indevidamente. Danielle passa tempo resolvendo essa incompatibilidade de faturas. Nesse ritmo, ela precisa contratar um assistente para acompanhar todo o trabalho!
 
-O que Danielle precisa é de uma forma de gerar faturas com rapidez e precisão, tanto em lote no final do mês como ad hoc em outros momentos. O ideal é que, se ela pudesse proteger essas faturas de edições, não precisaria se preocupar em solucionar problemas de valores incompatíveis.
+Danielle precisa de uma forma de gerar faturas com rapidez e precisão, em lote no final do mês e ad hoc em outros momentos. De maneira ideal, se ela pudesse proteger essas faturas de edições, não teria que se preocupar em solucionar problemas de valores incompatíveis.
 
 ## O que você pode aprender
 
-Neste tutorial prático, aprenda a usar a API de geração de documentos do Adobe para gerar faturas automaticamente, proteger os PDF por senha e entregar uma fatura para cada cliente. Basta conhecer Node.js, JavaScript, Express.js, HTML e CSS.
+Neste tutorial prático, saiba como usar a API de geração de documento Adobe para gerar faturas automaticamente, proteger por senha os PDF e enviar uma fatura para cada cliente. Basta um pouco de conhecimento de Node.js, JavaScript, Express.js, HTML e CSS.
 
-O código completo deste projeto é [disponível no GitHub](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation). Você deve configurar o diretório público com seu modelo e as pastas de dados brutos. Em produção, você deve buscar os dados de uma API externa. Você também pode explorar esta versão arquivada do aplicativo que contém os recursos do modelo.
+O código completo deste projeto é [disponível no GitHub](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation). Você deve configurar o diretório público com seu modelo e as pastas de dados brutos. Em produção, você deve buscar os dados de uma API externa. Você também pode explorar essa versão arquivada do aplicativo que contém os recursos do modelo.
 
 ## APIs e recursos relevantes
 
@@ -44,7 +45,7 @@ O código completo deste projeto é [disponível no GitHub](https://github.com/a
 
 ## Preparando os dados
 
-Este tutorial não mostra como os dados são importados de seus data warehouses. Seus pedidos de clientes podem estar em um banco de dados, API externa ou software personalizado. A API de geração de documentos do Adobe espera um documento JSON contendo os dados de faturamento, como informações do gerenciamento de relacionamento com o cliente (CRM) ou da plataforma de comércio eletrônico. Este tutorial pressupõe que os dados já estão no formato JSON.
+Este tutorial não analisa como os dados são importados de seus data warehouses. Seus pedidos de clientes podem estar em um banco de dados, uma API externa ou um software personalizado. A API de geração de documento Adobe espera um documento JSON que contenha os dados de faturamento, como informações de seu gerenciamento de relacionamento com o cliente (CRM) ou plataforma de comércio eletrônico. Este tutorial presume que os dados já estão no formato JSON.
 
 Para simplificar, use a seguinte estrutura JSON para faturamento:
 
@@ -74,39 +75,39 @@ Para simplificar, use a seguinte estrutura JSON para faturamento:
 
 O documento JSON contém os detalhes do cliente, bem como as informações do pedido. Use este documento estruturado para elaborar sua fatura e exibir os elementos no formato PDF.
 
-## Criando um modelo de fatura
+## Desenvolvendo um modelo de NFF
 
-A API de geração de documento do Adobe espera que um modelo baseado no Microsoft Word e um documento JSON criem um documento PDF ou Word dinâmico. Crie um modelo do Microsoft Word para o aplicativo de faturamento e use o [suplemento gratuito do Marcador de Geração de Documentos](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo) para gerar as tags de modelo. Instale o suplemento e abra a guia no Microsoft Word.
+A API de geração de documento Adobe espera que um modelo baseado no Microsoft Word e um documento JSON criem um documento PDF ou Word dinâmico. Crie um modelo do Microsoft Word para o aplicativo de faturamento e use o [complemento Document Generation Tagger gratuito](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo) para gerar as tags de modelo. Instale o suplemento e abra a guia no Microsoft Word.
 
-![Captura de tela do suplemento Marcador de Geração de Documento](assets/invoices_1.png)
+![Captura de tela do complemento Document Generation Tagger](assets/invoices_1.png)
 
-Depois de colar o conteúdo JSON no suplemento, conforme mostrado acima, clique em Gerar tags. Agora, este plug- in mostra o formato do seu objeto. Seu modelo básico pode usar o nome e o email do cliente, mas não mostra as informações do pedido. As informações da ordem são discutidas posteriormente neste tutorial.
+Depois de colar o conteúdo JSON no suplemento, como mostrado acima, clique em Gerar tags. Este plug-in mostra o formato do seu objeto. Seu modelo básico pode usar o nome e o email do cliente, mas não mostra as informações do pedido. As informações da ordem são discutidas posteriormente neste tutorial.
 
-![Captura de tela do modelo de Autor do Marcador de Geração de Documento](assets/invoices_2.png)
+![Captura de tela do modelo Document Generation Tagger Author](assets/invoices_2.png)
 
-Em seu documento do Microsoft Word, comece a escrever o modelo de fatura. Deixe o cursor onde você deve inserir dados dinâmicos e, em seguida, selecione a tag na janela do suplemento Adobe. Clique em **Inserir texto** para que o suplemento Adobe Document Generation Tagger possa gerar e inserir as tags. Para personalização, vamos inserir o nome e o email do cliente.
+Dentro do documento do Microsoft Word, comece a escrever o modelo de fatura. Deixe o cursor onde você deve inserir dados dinâmicos e selecione a tag na janela do suplemento Adobe. Clique em **Inserir texto** portanto, o complemento Adobe Document Generation Tagger pode gerar e inserir as tags. Para personalização, vamos inserir o nome e o email do cliente.
 
-Agora, passe para os dados que mudam a cada nova fatura. Selecione o **Avançado** do suplemento. Para ver as opções disponíveis para gerar uma tabela dinâmica com base nos produtos solicitados pelo cliente, clique em **Tabelas e Listas** .
+Agora, passe para os dados que mudam a cada nova fatura. Selecione o **Avançado** do suplemento. Para ver as opções disponíveis para gerar uma tabela dinâmica com base nos produtos solicitados por um cliente, clique em **Tabelas e Listas** .
 
-Selecionar **Pedido** na primeira lista suspensa. Na segunda lista suspensa, selecione as colunas desta tabela. Neste tutorial, selecione as três colunas do objeto para renderizar a tabela.
+Selecionar **Ordem** na primeira lista suspensa. Na segunda lista suspensa, selecione as colunas desta tabela. Neste tutorial, selecione todas as três colunas do objeto para renderizar a tabela.
 
-![Captura de tela da guia Avançado do Marcador de Geração de Documento](assets/invoices_3.png)
+![Captura de tela da guia Document Generation Tagger Advanced (Marcador de geração de documento avançado)](assets/invoices_3.png)
 
-A API de geração de documento também pode executar operações complexas, como agregar elementos dentro de uma matriz. No menu **Avançado** , selecione **Cálculos numéricos** e no **Agregação** , selecione o campo onde deseja aplicar o cálculo.
+A API de geração de documento também pode executar operações complexas, como agregar elementos dentro de um array. No menu **Avançado** , selecione **Cálculos Numéricos** e no **Agregação** selecione o campo no qual deseja aplicar o cálculo.
 
-![Captura de tela dos cálculos numéricos do Marcador de geração de documento](assets/invoices_4.png)
+![Captura de tela dos cálculos numéricos do marcador de geração de documento](assets/invoices_4.png)
 
-Clique no botão **Inserir Cálculo** para inserir essa tag onde necessário dentro do documento. O seguinte texto agora é exibido no arquivo do Microsoft Word:
+Clique no botão **Inserir Cálculo** para inserir essa tag quando necessário no documento. O texto a seguir agora aparece no arquivo do Microsoft Word:
 
-![Captura de tela de tags em um documento do Microsoft Word](assets/invoices_5.png)
+![Captura de tela de marcas no documento do Microsoft Word](assets/invoices_5.png)
 
-Esta amostra de fatura contém informações do cliente, os produtos solicitados e o valor total devido.
+Esta amostra de fatura contém informações do cliente, os produtos pedidos e a quantia total devida.
 
-## Gerando uma NFF usando a API de Geração de Documento Adobe
+## Gerando uma NFF usando a API de Geração de Documento do Adobe
 
-Use o kit de desenvolvimento de software (SDK) Node.js dos Serviços Adobe PDF para combinar os documentos do Microsoft Word e JSON. Crie um aplicativo Node.js para criar a fatura usando a API de geração de documento.
+Use o kit de desenvolvimento de software (SDK) Node.js dos Serviços do Adobe PDF para combinar os documentos do Microsoft Word e JSON. Crie um aplicativo Node.js para criar a fatura usando a API de geração de documento.
 
-A API de serviços do PDF inclui o Serviço de geração de documentos, para que você possa usar as mesmas credenciais para ambos. Aproveite um [teste grátis de seis meses](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)e pague apenas US$ 0,05 por transação de documento.
+A API de serviços PDF inclui o serviço de geração de documentos, para que você possa usar as mesmas credenciais para ambos. Aproveite uma [avaliação gratuita de seis meses](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)e pague apenas US$ 0,05 por transação de documento.
 
 Aqui está o código para mesclar o PDF:
 
@@ -142,9 +143,9 @@ async function compileDocFile(json, inputFile, outputPdf) {
 } 
 ```
 
-Esse código obtém informações do documento JSON de entrada e do arquivo de modelo de entrada. Em seguida, ele cria uma operação de mesclagem de documento para combinar os arquivos em um único relatório PDF. Finalmente, ele executa a operação com suas credenciais de API. Se você ainda não os tiver, [criar credenciais](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getting-credentials) (A Geração de documento e a API de serviços PDF usam as mesmas credenciais).
+Esse código obtém informações do documento JSON de entrada e do arquivo de modelo de entrada. Em seguida, cria uma operação de mesclagem de documento para combinar os arquivos em um único relatório de PDF. Por fim, ele executa a operação com suas credenciais de API. Se você ainda não os tiver, [criar credenciais](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html#getting-credentials) (A geração de documentos e a API de serviços de PDF usam as mesmas credenciais).
 
-Use esse código no roteador Express para processar a solicitação de documento:
+Use esse código dentro do roteador Express para lidar com a solicitação de documento:
 
 ```
 // Create one report and send it back
@@ -169,15 +170,15 @@ try {
 }
 ```
 
-Quando esse código é executado, ele fornece um documento PDF contendo a fatura gerada dinamicamente com base nos dados fornecidos. Com os dados JSON de amostra (fornecidos acima), a saída desse código é:
+Depois que esse código é executado, ele fornece um documento PDF contendo a fatura gerada dinamicamente com base nos dados fornecidos. Com os dados JSON de exemplo (fornecidos acima), a saída desse código é:
 
-![Captura de tela da fatura PDF gerada dinamicamente](assets/invoices_6.png)
+![Captura de tela da fatura de PDF gerada dinamicamente](assets/invoices_6.png)
 
-Esta fatura inclui seus dados dinâmicos do documento JSON.
+Esta fatura inclui os dados dinâmicos do documento JSON.
 
-## Proteger faturas por senha
+## Faturas protegidas por senha
 
-Como Danielle, a contadora, está preocupada com a alteração da fatura pelos clientes, aplique uma senha para restringir a edição. [API de serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html) O pode aplicar automaticamente uma senha aos documentos. Aqui, você usa o Adobe PDF Services SDK para proteger os documentos com uma senha. O código é:
+Como Danielle, a contadora, está preocupada com a alteração da fatura por parte dos clientes, aplique uma senha para restringir a edição. [API de serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html) pode aplicar automaticamente uma senha a documentos. Aqui, você usa o Adobe PDF Services SDK para proteger os documentos com uma senha. O código é:
 
 ```
 async function applyPassword(password, inputFile, outputFile) {
@@ -217,17 +218,17 @@ async function applyPassword(password, inputFile, outputFile) {
 }
 ```
 
-Quando você usa esse código, ele protege seu documento com uma senha e carrega uma nova fatura no sistema. Para saber mais sobre como esse código é usado ou para testá-lo, consulte o [amostra de código](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation).
+Quando você usa esse código, ele protege seu documento com uma senha e faz upload de uma nova fatura para o sistema. Para saber mais sobre como esse código é usado ou para experimentar, consulte o [amostra de código](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation).
 
-Quando terminar de usar a fatura, convém enviá-la automaticamente por email ao cliente. Há algumas maneiras de realizar automaticamente o envio de e-mails aos seus clientes. A maneira mais rápida é usar uma API de email de terceiros junto com uma biblioteca de ajuda como [sendgrid-nodejs](https://github.com/sendgrid/sendgrid-nodejs). Como alternativa, se você já tiver acesso a um servidor SMTP, poderá usar [nodemailer](https://www.npmjs.com/package/nodemailer) para enviar e-mails via SMTP.
+Quando terminar de usar a fatura, convém enviá-la automaticamente por email ao cliente. Existem algumas maneiras de realizar automaticamente enviar e-mail aos seus clientes. A maneira mais rápida é usar uma API de e-mail de terceiros junto com uma biblioteca auxiliar como [sendgrid-nodejs](https://github.com/sendgrid/sendgrid-nodejs). Como alternativa, se você já tiver acesso a um servidor SMTP, poderá usar [nodemailer](https://www.npmjs.com/package/nodemailer) para enviar emails via SMTP.
 
 ## Próximas etapas
 
-Neste tutorial prático, você criou um aplicativo simples para ajudar Danielle na contabilidade com [faturamento](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). Usando a API de serviços do PDF e o SDK de geração de documentos, você preencheu um modelo do Microsoft Word com informações de ordem do cliente de um documento JSON, criando uma fatura PDF. Em seguida, cada documento protegido por senha usando serviços de proteção por senha por [API de serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
+Neste tutorial prático, você criou um aplicativo simples para ajudar Danielle na contabilidade com [faturamento](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). Ao usar a API de serviços de PDF e o SDK de geração de documento, você preencheu um modelo do Microsoft Word com informações de ordem do cliente de um documento JSON, criando uma fatura de PDF. Em seguida, cada documento é protegido por senha usando os serviços de proteção por senha [API de serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
 
-Como Danielle pode gerar faturas automaticamente e não precisa se preocupar com clientes editando suas faturas, ela não precisará contratar um assistente para ajudar com todo o trabalho manual. Ela pode usar seu tempo extra para encontrar economia de custos nos arquivos de contas a pagar.
+Como Danielle pode gerar faturas automaticamente e não precisa se preocupar com clientes que editam suas faturas, ela não precisará contratar um assistente para ajudar com todo o trabalho manual. Ela pode usar seu tempo extra para encontrar economias de custo nos arquivos de contas a pagar.
 
-Agora que você viu como é fácil, expanda esse aplicativo simples usando outras ferramentas do Adobe para incorporar faturas em seu site. Por exemplo, para que os clientes possam exibir suas faturas ou saldo a qualquer momento. [API incorporada do Adobe PDF](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) é livre para usar. Você também pode acessar o departamento de recursos humanos ou de vendas, ajudando a automatizar os contratos e a coletar assinaturas eletrônicas.
+Agora que você viu como é fácil, pode expandir esse aplicativo simples usando outras ferramentas de Adobe para incorporar faturas em seu site. Por exemplo, para que os clientes possam exibir suas faturas ou saldo a qualquer momento. [API incorporada do Adobe PDF](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) é livre para usar. Você pode até mesmo acessar o departamento de vendas ou recursos humanos, ajudando a automatizar os contratos e coletar assinaturas eletrônicas.
 
-Para explorar todas as possibilidades e começar a criar seu próprio aplicativo prático, crie um [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) conta para começar hoje. Aproveite uma teste grátis de seis meses e [pay-as-you-go](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)
-por apenas US$ 0,05 por transação de documento, à medida que sua empresa cresce.
+Para explorar todas as possibilidades e começar a criar seu próprio aplicativo prático, crie um [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) conta para começar hoje. Aproveite uma avaliação gratuita de seis meses depois [pré-pago](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)
+a apenas US$ 0,05 por transação de documento, conforme a escala de sua empresa.
