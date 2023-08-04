@@ -1,14 +1,14 @@
 ---
 title: Introdução à API de Serviços do Adobe PDF e Java
 description: Os desenvolvedores podem começar em apenas alguns minutos com os arquivos de amostra prontos para executar, fornecidos para acessar todos os serviços Web disponíveis
-type: Tutorial
+feature: PDF Services API
 role: Developer
 level: Beginner
-feature: PDF Services API
+type: Tutorial
+jira: KT-6676
 thumbnail: KT-6676.jpg
-kt: 6676
 exl-id: 4a8f2119-c464-496b-bdc8-35dd387bef25
-source-git-commit: b65ffa3efa3978587564eb0be0c0e7381c8c83ab
+source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
