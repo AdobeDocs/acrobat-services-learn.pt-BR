@@ -8,16 +8,14 @@ type: Tutorial
 jira: KT-8089
 thumbnail: KT-8089.jpg
 exl-id: ae1cd9db-9f00-4129-a2a1-ceff1c899a83
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: 2f01f306f5d13bfbaa61442e0e7a89537a62c33c
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2054'
 ht-degree: 2%
 
 ---
 
 # Introdução à API do Adobe Sign
-
-![Banner do herói do caso de uso](assets/UseCaseStartedHero.jpg)
 
 [API do Acrobat Sign](https://www.adobe.io/apis/documentcloud/sign.html) é uma ótima maneira de aprimorar a forma de gerenciar contratos assinados. Os desenvolvedores podem integrar facilmente seus sistemas com a API do Sign, que fornece uma maneira confiável e fácil de fazer upload de documentos, enviá-los para assinatura, enviar lembretes e coletar assinaturas eletrônicas.
 
@@ -93,7 +91,7 @@ Além disso, o aplicativo pode especificar um URL de retorno de chamada para o A
 
 Formulários web (conhecidos anteriormente como widgets de assinatura) são documentos hospedados que qualquer pessoa com acesso pode assinar. Exemplos de formulários web incluem folhas de inscrição, isenções e outros documentos que muitas pessoas acessam e assinam online.
 
-Para criar um novo formulário web usando a API do Sign, primeiro carregue um documento temporário. A solicitação de POST para o `/widgets` O ponto de extremidade usa o `transientDocumentId` .
+Para criar um novo formulário da Web usando a API do Sign, primeiro carregue um documento temporário. A solicitação de POST para o `/widgets` O ponto de extremidade usa o `transientDocumentId` .
 
 Neste exemplo, o formulário da Web é `ACTIVE`, mas você pode criá-lo em um de três estados diferentes:
 
