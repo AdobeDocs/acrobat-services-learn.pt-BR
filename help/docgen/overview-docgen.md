@@ -5,12 +5,12 @@ feature: Document Generation API
 role: Developer
 level: Beginner, Intermediate, Experienced
 type: Tutorial
-jira: 7480
+jira: KT-7480
 thumbnail: KT-7480.jpg
 exl-id: 519a41a2-33af-4022-8919-2cb69995c46c
-source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
+source-git-commit: c64f1519438addb4081469afaed811fbf03ac88e
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,37 @@ A API de geração de documento cria documentos PDF e Word a partir de modelos d
 >[!NOTE]
 >
 >A API de geração de documento está incluída na API de serviços de PDF.
+
+<table style="table-layout:fixed">
+<tr>
+ <td>
+   <a href="automate-doc-gen.md">
+      <img alt="Automatizar a geração de documentos" src="assets/automate-doc-gen.png" />
+   </a>
+    <div>
+   <a href="taggeroverview.md"><strong>Automatizar a geração de documentos</strong></a>
+    </div>
+    <em>Saiba como gerar documentos automaticamente em escala</em>
+    <br>
+  </td>
+    <td>
+    <img alt="Espaçador" src="../assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+   <td>
+    <img alt="Espaçador" src="../assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+  </td>
+   <td>
+    <img alt="Espaçador" src="../assets/WhiteBanner_Placeholder.png" />
+    <div>
+    <br>
+  </td>
+</tr>
+</table>
 
 ## Criação de modelos
 

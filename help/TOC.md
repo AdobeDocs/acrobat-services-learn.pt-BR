@@ -1,17 +1,17 @@
 ---
 user-guide-title: "[!DNL Adobe Acrobat Services]"
 breadcrumb-title: "[!DNL Acrobat Services]"
-user-guide-description: Saiba mais sobre o [!DNL Adobe Acrobat Services]
+user-guide-description: Saiba mais sobre [!DNL Adobe Acrobat Services]
 solution: Acrobat Services
 feature-set: Acrobat Services
 feature: Acrobat Sign API, PDF Services API, PDF Embed API, Document Generation API
 role: Developer
 level: Beginner, Intermediate, Experienced
 auto-video-transcripts: true
-source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
+source-git-commit: c64f1519438addb4081469afaed811fbf03ac88e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 7%
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 7%
    + [Uso da API de Serviços do Adobe PDF em arquivos de PDF de OCR](pdfservices/ocr.md)
 + API de geração de documento {#docgen}
    + [Visão geral](docgen/overview-docgen.md)
+   + [Automatizar a geração de documentos](docgen/automate-doc-gen.md)
    + Criação de modelos {#docgentemplates}
       + [Visão geral do Adobe Document Generation Tagger](docgen/taggeroverview.md)
       + [Adicionar tags de texto](docgen/taggeraddtexttags.md)
