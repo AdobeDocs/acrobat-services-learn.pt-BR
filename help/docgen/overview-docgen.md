@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-7480
 thumbnail: KT-7480.jpg
 exl-id: 519a41a2-33af-4022-8919-2cb69995c46c
-source-git-commit: c64f1519438addb4081469afaed811fbf03ac88e
+source-git-commit: 5354dc45fe27cd4dccbbe62d502277bc44441d9b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,6 @@ A API de geração de documento cria documentos PDF e Word a partir de modelos d
    <a href="automate-doc-gen.md">
       <img alt="Automatizar a geração de documentos" src="assets/automate-doc-gen.png" />
    </a>
-    <div>
-   <a href="taggeroverview.md"><strong>Automatizar a geração de documentos</strong></a>
-    </div>
-    <em>Saiba como gerar documentos automaticamente em escala</em>
-    <br>
   </td>
     <td>
     <img alt="Espaçador" src="../assets/WhiteBanner_Placeholder.png" />
