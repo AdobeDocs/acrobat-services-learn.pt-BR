@@ -1,12 +1,13 @@
 ---
 title: Automatizar a extração de conteúdo
 description: Saiba como automatizar a extração de conteúdo de um documento PDF usando a API de extração de PDF
-feature: Document Generation API
+feature: PDF Extract API
 role: Developer
 level: Beginner
 type: Tutorial
 jira: KT-15032
-source-git-commit: e35377fb467aac8581a5f81d2efb74fb442a6dc5
+exl-id: 6187a396-5039-4297-a4cc-b5d4b9545331
+source-git-commit: 7bc199a7bacb9dcbf1fa90031bfb128dd31109f2
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%
