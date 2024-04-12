@@ -1,14 +1,15 @@
 ---
-title: Marcação automática de acessibilidade do Adobe PDF Tutorials
-description: Página de visão geral da marca de formatação automática de acessibilidade do Adobe
+title: Tutorials da API de marca automática de acessibilidade do Adobe PDF
+description: Página Visão geral dos tutoriais da API de tag automática de acessibilidade de Adobe
 feature: PDF Services API
 role: Developer
 level: Beginner, Intermediate, Experienced
 type: Tutorial
 jira: KT-15327
-source-git-commit: 7bc199a7bacb9dcbf1fa90031bfb128dd31109f2
+exl-id: dfd018a7-8e1f-4c00-9e1f-6b7b8435fbfa
+source-git-commit: 175259d209d0cd61a7bbcd1f8dc9bd21d2f60130
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---

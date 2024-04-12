@@ -8,16 +8,16 @@ jira: KT-7463
 type: Tutorial
 thumbnail: KT-7463.jpg
 exl-id: c73feb77-4057-42fd-831c-a5004c7637c1
-source-git-commit: c130591ed32bb1aab457556938fc994756e8b04a
+source-git-commit: eee88418f6d94c1f35ba05b23ab7fea6a5f54847
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '128'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Acrobat Services] Tutoriais da API
 
-[!DNL Adobe Acrobat Services] tem seis APIs principais: a [!DNL Adobe PDF Services API], o [!DNL Adobe PDF Embed API], o [!DNL Adobe Document Generation API], o [!DNL Adobe PDF Accessibility Auto-Tag API], a [!DNL Adobe PDF Extract API]e [!DNL Adobe PDF Accessibility Auto-Tag API]. As duas últimas APIs e seus SDKs são agrupados em [!DNL Adobe PDF Services API] como parte de uma oferta paga. [!DNL PDF Embed API] é uma oferta gratuita. Essas APIs automatizam a geração, a manipulação e a transformação do conteúdo do documento por meio de um conjunto de serviços da Web modernos baseados em nuvem. Elas ajudam a fornecer experiências mais simples, rápidas e de marca para que você controle a interação do usuário com seus documentos, simplifique os fluxos de trabalho de PDF e promova o uso e a retenção. Esses tutoriais ajudam você a ficar atualizado, fornecendo experiências de marca mais simples, rápidas com o [!DNL Adobe Acrobat Services] APIs.
+[!DNL Adobe Acrobat Services] tem seis APIs principais: a [!DNL Adobe PDF Services API], o [!DNL Adobe PDF Embed API], o [!DNL Adobe Document Generation API], o [!DNL Adobe PDF Electronic Seal API], o [!DNL Adobe PDF Extract API]e [!DNL Adobe PDF Accessibility Auto-Tag API]. As duas últimas APIs e seus SDKs são agrupados em [!DNL Adobe PDF Services API] como parte de uma oferta paga. [!DNL PDF Embed API] é uma oferta gratuita. Essas APIs automatizam a geração, a manipulação e a transformação do conteúdo do documento por meio de um conjunto de serviços da Web modernos baseados em nuvem. Elas ajudam a fornecer experiências mais simples, rápidas e de marca para que você controle a interação do usuário com seus documentos, simplifique os fluxos de trabalho de PDF e promova o uso e a retenção. Esses tutoriais ajudam você a ficar atualizado, fornecendo experiências de marca mais simples, rápidas com o [!DNL Adobe Acrobat Services] APIs.
 
 <table style="table-layout:fixed">
 <tr>
@@ -44,6 +44,11 @@ ht-degree: 2%
 </tr>
 <tr>
   <td>
+   <a href="pdfelectronicseal/overview-electronic-seal.md">
+      <img alt="API de selo eletrônico do PDF" src="assets/PDFElectronicSeal.png" />
+   </a>
+  </td>
+ <td>
    <a href="pdfembed/overview-embed.md">
       <img alt="Introdução à API do Adobe PDF Tools e ao Java" src="assets/pdfembedcard.png" />
    </a>
@@ -57,11 +62,6 @@ ht-degree: 2%
    <a href="usecases/overview-usecases.md">
       <img alt="[!DNL Adobe Acrobat Services] Casos de uso de API" src="assets/usecasescard.png" />
    </a>
-  </td>
-  <td>
-    <img alt="Espaçador" src="assets/GrayBanner_Placeholder.png" />
-    <div>
-    <br>
   </td>
 </tr>
 </table>
