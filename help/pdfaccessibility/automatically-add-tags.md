@@ -1,12 +1,13 @@
 ---
 title: Marcar documentos automaticamente para acessibilidade
 description: Saiba como marcar automaticamente a acessibilidade em escala usando IA
-feature: PDF Services API
+feature: PDF Accessibility Auto-Tag API
 role: Developer
 level: Beginner
 type: Tutorial
 jira: KT-15031
-source-git-commit: 72088d95c4445cf306200749a6806792b6b6236e
+exl-id: 30ea7763-ea52-4395-b514-a284ede1be7b
+source-git-commit: 255a2425fcde4443d8502a92aa0274fac30f7279
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
