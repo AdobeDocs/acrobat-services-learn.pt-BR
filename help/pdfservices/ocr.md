@@ -10,14 +10,14 @@ thumbnail: KT-6677.jpg
 exl-id: 61a9a2d1-94c3-41c2-8f90-a56a938ef245
 source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '567'
+ht-degree: 0%
 
 ---
 
 # Uso da API de Serviços do Adobe PDF em arquivos de PDF de OCR
 
-![Criar imagem principal do PDF](assets/OCR_hero.jpg)
+![Criar Imagem Herói do PDF](assets/OCR_hero.jpg)
 
 Com o OCR (reconhecimento óptico de caracteres), você pode desbloquear PDF digitalizados para extrair texto e criar arquivos pesquisáveis. Usando nossas eficientes APIs baseadas em nuvem, integre o OCR em qualquer fluxo de trabalho de documento para obter a solução perfeita para arquivar, copiar texto e criar índices de documentos pesquisáveis. Crie arquivos pesquisáveis a partir de repositórios de PDF escaneados para desbloquear informações importantes e economizar tempo com rápida capacidade de pesquisa. Ou aplique o OCR aos seus PDF de digitalizações carregadas para permitir que sejam editados para uso em fluxos de trabalho de integração.
 
@@ -37,7 +37,7 @@ Use os tutoriais de introdução abaixo para criar suas credenciais de API, baix
 
 ## Execute o exemplo de OCR fornecido nos arquivos de amostra
 
-Nossa operação de OCR permite localidades em inglês por padrão, mas também oferece suporte para alemão, francês, dinamarquês e [outros idiomas](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#ocr-with-explicit-language). O padrão é a localidade en-us.
+Nossa operação de OCR permite localidades em inglês por padrão, mas também fornece suporte para alemão, francês, dinamarquês e [outros idiomas](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/howtos.html#ocr-with-explicit-language). O padrão é a localidade en-us.
 
 Quando você passa opções com a operação de OCR incluindo o local específico, o método também aceita o parâmetro &#39;type&#39;, que tem duas opções:
 
@@ -95,14 +95,14 @@ Com essas etapas simples usando os arquivos de amostra, você deve ter um exempl
 
 A partir daí, você pode simplesmente substituir os arquivos de entrada e saída localizados na amostra para usar seu próprio PDF a fim de finalizar sua prova de conceito para seu próprio caso de uso.
 
-![Prova de conceito](assets/OCR_poc.png)
+![Prova de Conceito](assets/OCR_poc.png)
 
 ## Recursos e próximas etapas
 
-* Para obter mais ajuda e suporte, visite o Adobe [[!DNL Acrobat Services] APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&amp;sort=latest_replies&amp;filter=all) fórum da comunidade
+* Para obter ajuda e suporte adicionais, visite o fórum da comunidade de [[!DNL Acrobat Services] APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&amp;sort=latest_replies&amp;filter=all) do Adobe
 
-* API de serviços PDF [Documentação](https://www.adobe.com/go/pdftoolsapi_doc)
+* Documentação [API de Serviços PDF](https://www.adobe.com/go/pdftoolsapi_doc)
 
-* [Perguntas frequentes](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) para perguntas sobre a API de serviços PDF
+* [Perguntas frequentes](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) sobre a API de Serviços PDF
 
 * [Fale conosco](https://www.adobe.com/go/pdftoolsapi_requestform) em caso de dúvidas sobre licenciamento e preços

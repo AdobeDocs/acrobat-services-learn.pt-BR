@@ -10,7 +10,7 @@ thumbnail: KT-8117.jpg
 exl-id: 2fef89cf-640d-4ff4-9282-070bce8bba78
 source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ A API de incorporação do PDF é uma API JavaScript gratuita para incorporar PD
     <div>
    <a href="controlpdfexperience.md"><strong>Controle sua experiência online de PDF e reúna análises</strong></a>
     </div>
-    <em>Saiba como usar a API incorporada do Adobe PDF para controlar a aparência, permitir a colaboração e coletar análises sobre como os usuários interagem com PDF, incluindo o tempo gasto em uma página e pesquisas</em>
+    <em>Saiba como usar a API incorporada do Adobe PDF para controlar a aparência, habilitar a colaboração e coletar análises sobre como os usuários interagem com PDF, incluindo o tempo gasto em uma página e pesquisas</em>
     <br>
   </td>
   <td>
@@ -36,9 +36,9 @@ A API de incorporação do PDF é uma API JavaScript gratuita para incorporar PD
       <img alt="Use os PDF na Web como um profissional" src="assets/Wrangle_1280.png" />
    </a>
     <div>
-   <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/pdf-embed-api.html"><strong>Use os PDF na Web como um profissional</strong></a>
+   <a href="https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/pdf-embed-api.html"><strong>Use PDF na Web como um profissional</strong></a>
     </div>
-    <em>Saiba como usar a API incorporada gratuita do Adobe PDF para facilitar o uso de PDF no seu site</em>
+    <em>Veja como usar a API incorporada gratuita do Adobe PDF para facilitar o uso de PDF em seu site</em>
     <br>
   </td>
   <td>

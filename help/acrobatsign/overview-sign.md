@@ -30,7 +30,7 @@ As APIs do Acrobat Sign permitem criar aplicativos e incorporar a interface e a 
     <div>
     <a href="signapi.md"><strong>Introdução</strong></a>
     </div>
-    <em>Saiba como incluir a API do Sign em seu aplicativo para coletar assinaturas e outras informações</em>
+    <em>Saiba como incluir a API do Sign no seu aplicativo para coletar assinaturas e outras informações</em>
     <br>
   </td>
   <td>
@@ -64,7 +64,7 @@ Saiba como começar a incorporar a versão OEM do Acrobat Sign ao seu aplicativo
     <div>
    <a href="sign-up-developer-account.md"><strong>Inscrevendo-se em uma Conta de Desenvolvedor</strong></a>
     </div>
-    <em>Saiba como se inscrever para uma Conta de desenvolvedor para o Acrobat Sign, que é totalmente ativada com as funcionalidades de Assinatura e API</em>
+    <em>Saiba como se inscrever para uma Conta de Desenvolvedor para o Acrobat Sign, que é totalmente habilitada com a funcionalidade do Sign e da API</em>
     <br>
   </td>
   <td>
@@ -82,9 +82,9 @@ Saiba como começar a incorporar a versão OEM do Acrobat Sign ao seu aplicativo
       <img alt="Criar um link incorporado" src="assets/Creatinganembedlink_1280.png" />
    </a>
     <div>
-   <a href="creating-an-embed-link.md"><strong>Criar um link incorporado</strong></a>
+   <a href="creating-an-embed-link.md"><strong>Criando um link incorporado</strong></a>
     </div>
-    <em>Saiba como criar um link incorporado para OAuth, que é o método pelo qual o aplicativo obtém permissões para usuários</em>
+    <em>Saiba como criar um link incorporado para OAuth, que é o método pelo qual o aplicativo obtém permissões para os usuários</em>
     <br>
   </td>
   <td>
@@ -92,7 +92,7 @@ Saiba como começar a incorporar a versão OEM do Acrobat Sign ao seu aplicativo
       <img alt="Gerar um token de acesso" src="assets/Generatingyouraccesstoken_1280.png" />
    </a>
     <div>
-   <a href="generating-an-access-token.md"><strong>Gerar um token de acesso</strong></a>
+   <a href="generating-an-access-token.md"><strong>Gerando um token de acesso</strong></a>
     </div>
     <em>Saiba como gerar um token de acesso que pode ser usado com a API do Acrobat Sign</em>
     <br>
@@ -104,9 +104,9 @@ Saiba como começar a incorporar a versão OEM do Acrobat Sign ao seu aplicativo
       <img alt="Criação de um documento temporário" src="assets/Creatingatransientdocument_1280.png" />
    </a>
     <div>
-   <a href="creating-a-transient-document.md"><strong>Criação de um documento temporário</strong></a>
+   <a href="creating-a-transient-document.md"><strong>Criando um documento temporário</strong></a>
     </div>
-    <em>Saiba como criar um documento temporário que pode ser usado com o aplicativo Acrobat Sign</em>
+    <em>Saiba como criar um documento temporário que pode ser usado com o ponto de acesso do Acrobat Sign</em>
     <br>
   </td>
   <td>

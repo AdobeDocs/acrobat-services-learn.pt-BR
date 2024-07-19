@@ -10,7 +10,7 @@ thumbnail: KT-8090.jpg
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
 source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -19,20 +19,20 @@ ht-degree: 0%
 
 ![Banner do herói do caso de uso](assets/UseCaseDigitalHero.jpg)
 
-Documentos eletrônicos estão em toda parte. Na verdade, provavelmente há [trilhões de PDF](https://itextpdf.com/en/blog/technical-notes/do-you-know-how-many-pdf-documents-exist-world) globalmente, e esse número aumenta a cada dia. Ao incorporar um visualizador de PDF em suas páginas da Web, você permite que os usuários exibam documentos sem reformular seu HTML e CSS ou obstruir o acesso ao seu site.
+Documentos eletrônicos estão em toda parte — na verdade, há provavelmente [trilhões de PDF](https://itextpdf.com/en/blog/technical-notes/do-you-know-how-many-pdf-documents-exist-world) globalmente, e esse número aumenta a cada dia. Ao incorporar um visualizador de PDF em suas páginas da Web, você permite que os usuários exibam documentos sem reformular seu HTML e CSS ou obstruir o acesso ao seu site.
 
-Vamos explorar um cenário popular. Uma empresa publica [whitepapers em seu site](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html)
-para fornecer contexto para seus aplicativos e serviços. O profissional de marketing do site quer entender melhor como os usuários interagem com seu conteúdo baseado em PDF e incorporá-lo com sua página e marca. Decidiram publicar os documentos oficiais como [conteúdo controlado](https://whatis.techtarget.com/definition/gated-content-ungated-content#:~:text=Gated%20content%20is%20online%20materials,about%20their%20jobs%20and%20organizations.), controlando quem pode baixá-los.
+Vamos explorar um cenário popular. Uma empresa publica [documentos técnicos em seu site](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html)
+para fornecer contexto para seus aplicativos e serviços. O profissional de marketing do site quer entender melhor como os usuários interagem com seu conteúdo baseado em PDF e incorporá-lo com sua página e marca. Eles decidiram publicar os white papers como [conteúdo controlado](https://whatis.techtarget.com/definition/gated-content-ungated-content#:~:text=Gated%20content%20is%20online%20materials,about%20their%20jobs%20and%20organizations.), controlando quem pode baixá-los.
 
 ## O que você pode aprender
 
-Neste tutorial prático, saiba como exibir documentos PDF incorporados dentro de páginas da Web usando [API incorporada do Adobe PDF](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html), que é gratuito e fácil de usar. Estes exemplos usam alguns JavaScript, Node.js, Express.js, HTML e CSS. Você pode ver o código completo do projeto em [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
+Neste tutorial prático, saiba como exibir documentos PDF incorporados dentro de páginas da Web usando a [API incorporada do Adobe PDF](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html), que é gratuita e fácil de usar. Estes exemplos usam alguns JavaScript, Node.js, Express.js, HTML e CSS. Você pode exibir o código completo do projeto em [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
 
 ## APIs e recursos relevantes
 
-* [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+* [API de inserção de PDF](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [API de serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [API de Serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [Código do projeto](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)
 
@@ -40,9 +40,9 @@ Neste tutorial prático, saiba como exibir documentos PDF incorporados dentro de
 
 Vamos começar criando um site usando o Node.js e o Express, que usa um modelo de aparência atraente e oferece vários PDF para download.
 
-Primeiro, [baixar e instalar o Node.js](https://nodejs.org/en/download/).
+Primeiro, [baixe e instale o Node.js](https://nodejs.org/en/download/).
 
-Para criar um projeto Node.js facilmente com uma estrutura mínima de aplicação Web, instale a ferramenta gerador de aplicações `` `express-generator` ``.
+Para criar um projeto Node.js facilmente com uma estrutura mínima de aplicativo Web, instale a ferramenta gerador de aplicativo `` `express-generator` ``.
 
 ```
 npm install express-generator -g
@@ -67,41 +67,41 @@ Em seguida, inicie o servidor Web local e execute o aplicativo.
 npm start
 ```
 
-Por fim, abra o site em <http://localhost:3000>.
+Finalmente, abra o site em <http://localhost:3000>.
 
-![Captura de tela de um site básico](assets/ddp_1.png)
+![Captura de tela do site básico](assets/ddp_1.png)
 
 Agora você tem um site básico.
 
 ## Renderizando dados do white paper
 
-Para publicar whitepapers no site, os dados do whitepaper são definidos e preparados no site para exibir esses documentos. Primeiro, crie uma nova pasta \\data na raiz do projeto. As informações sobre os white papers disponíveis vêm de um novo arquivo chamado [data.json](https://github.com/marcelooliveira/EmbedPDF/blob/main/pdf-app/data/data.json), que é colocado na pasta de dados.
+Para publicar whitepapers no site, os dados do whitepaper são definidos e preparados no site para exibir esses documentos. Primeiro, crie uma nova pasta \\data na raiz do projeto. As informações nos documentos técnicos disponíveis são provenientes de um novo arquivo chamado [data.json](https://github.com/marcelooliveira/EmbedPDF/blob/main/pdf-app/data/data.json), que é colocado na pasta de dados.
 
-Para dar ao aplicativo Web uma aparência agradável e elegante, instale o [Bootstrap](https://getbootstrap.com/) e [Fonte incrível](https://fontawesome.com/) bibliotecas front-end.
+Para dar ao aplicativo Web uma aparência bacana e refinada, instale as bibliotecas de front-end do [Bootstrap](https://getbootstrap.com/) e do [Font Awesome](https://fontawesome.com/).
 
 ```
 npm install bootstrap
 npm install font-awesome
 ```
 
-Abra o arquivo app.js e inclua esses diretórios como origens de arquivos estáticos, colocando-os depois do diretório `` `express.static` `` linha.
+Abra o arquivo app.js e inclua esses diretórios como origens de arquivos estáticos, colocando-os após a linha `` `express.static` `` existente.
 
 ```
 app.use(express.static(path.join(__dirname, '/node_modules/bootstrap/dist')));
 app.use(express.static(path.join(__dirname, '/node_modules/font-awesome')));
 ```
 
-Para incluir os documentos do PDF, crie uma pasta denominada \\pdfs na pasta \\public do projeto. Em vez de criar os PDF e as miniaturas você mesmo, pode copiá-los desta [Pasta do repositório GitHub](https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app/public) para as pastas \\pdfs e \\image.
+Para incluir os documentos do PDF, crie uma pasta denominada \\pdfs na pasta \\public do projeto. Em vez de criar os PDF e as miniaturas você mesmo, é possível copiá-los desta [pasta do repositório do GitHub](https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app/public) para as pastas \\pdfs e \\image.
 
 A pasta \\public\\pdfs agora contém os documentos do PDF:
 
-![Captura de tela dos ícones de arquivos PDF](assets/ddp_2.png)
+![Captura de tela de ícones de arquivos de PDF](assets/ddp_2.png)
 
 Enquanto a pasta \\public\\images deve conter as miniaturas para cada um dos documentos do PDF:
 
-![Captura de tela das miniaturas de PDF](assets/ddp_3.png)
+![Captura de tela de miniaturas de PDF](assets/ddp_3.png)
 
-Agora, abra o arquivo \\route\\index.js, que contém a lógica para roteamento da home page. Para usar os dados do white paper do arquivo data.json, você deve carregar o módulo Node.js responsável por acessar e interagir com o sistema de arquivos. Em seguida, declare `fs` constante na primeira linha do arquivo \\route\\index.js, da seguinte forma:
+Agora, abra o arquivo \\route\\index.js, que contém a lógica para roteamento da home page. Para usar os dados do white paper do arquivo data.json, você deve carregar o módulo Node.js responsável por acessar e interagir com o sistema de arquivos. Em seguida, declare a constante `fs` na primeira linha do arquivo \\route\\index.js, da seguinte maneira:
 
 ```
 const fs = require('fs');
@@ -120,29 +120,29 @@ Agora modifique a linha para chamar o método de renderização para a exibiçã
 res.render('index', { title: 'Embedding PDF', papers: papers });
 ```
 
-Para renderizar a coleção de documentos na página inicial, abra o arquivo \\views\\index.ejs e substitua o código existente pelo código do seu projeto [arquivo de índice](https://github.com/marcelooliveira/EmbedPDF/blob/main/pdf-app/views/index.ejs).
+Para renderizar a coleção de documentos na página inicial, abra o arquivo \\views\\index.ejs e substitua o código existente pelo código do [arquivo de índice](https://github.com/marcelooliveira/EmbedPDF/blob/main/pdf-app/views/index.ejs) do seu projeto.
 
-Agora, execute npm start e open novamente <http://localhost:3000> para ver sua coleção de white papers disponíveis.
+Agora, execute novamente o npm start e abra o <http://localhost:3000> para exibir sua coleção de documentos disponíveis.
 
 ![Captura de tela de miniaturas para documentos técnicos](assets/ddp_4.png)
 
-Nas próximas seções estão envolvidos o aprimoramento do site e o uso de [PDF Embed API](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) para exibir os documentos PDF na página da web. A API incorporada do PDF é gratuita, basta obter uma credencial de API.
+Nas próximas seções, envolve o aprimoramento do site e o uso da [API de Incorporação de PDF](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) para exibir os documentos de PDF na página da Web. A API incorporada do PDF é gratuita, basta obter uma credencial de API.
 
 ## Obter uma credencial de API incorporada do PDF
 
-Para obter uma credencial de API incorporada de PDF gratuita, visite o [Começar](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) pague após cadastrar-se em uma nova conta ou fazer logon em sua conta existente.
+Para obter uma credencial de API incorporada de PDF gratuita, visite a página [Introdução](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) após cadastrar-se em uma nova conta ou fazer logon em sua conta existente.
 
-Clique em **Criar novas credenciais** e depois **Começar:**
+Clique em **Criar Novas Credenciais** e depois em **Começar:**
 
-![Imagem de como criar novas credenciais](assets/ddp_5.png)
+![Captura de tela de como criar novas credenciais](assets/ddp_5.png)
 
 Nesse ponto, você será solicitado a criar uma conta gratuita, se não tiver uma.
 
-Selecionar **PDF Embed API** e digite o nome das suas credenciais e o domínio do aplicativo. Use o **localhost** domínio devido ao teste do aplicativo web localmente.
+Selecione **API de Incorporação de PDF** e digite o nome das suas credenciais e o domínio do aplicativo. Usar o domínio **localhost** devido ao teste do aplicativo Web localmente.
 
-![Captura de tela da criação de novas credenciais para a PDF Embed API](assets/ddp_6.png)
+![Captura de tela da criação de novas credenciais para a API de PDF incorporada](assets/ddp_6.png)
 
-Clique no botão **Criar credenciais** para acessar suas credenciais de PDF e obter a ID do cliente (CHAVE de API).
+Clique no botão **Criar Credenciais** para acessar suas credenciais de PDF e obter a ID de Cliente (CHAVE de API).
 
 ![Captura de tela de como copiar novas credenciais](assets/ddp_7.png)
 
@@ -166,19 +166,19 @@ require('dotenv').config();
 
 ## Exibindo PDF no aplicativo da Web
 
-Agora use a API incorporada do PDF para exibir PDF no site. Abra o live [Demonstração da API incorporada do PDF](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf).
+Agora use a API incorporada do PDF para exibir PDF no site. Abra a [Demonstração da API de Incorporação de PDF](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) ao vivo.
 
-![Captura de tela da demonstração ao vivo da API PDF incorporada](assets/ddp_8.png)
+![Captura de tela da demonstração da API de PDF incorporado ao vivo](assets/ddp_8.png)
 
 No painel esquerdo, você pode escolher o modo de incorporação que melhor se adapta às necessidades do seu site:
 
-* **Janela inteira**: o PDF cobre todo o espaço da página da web
+* **Janela Completa**: o PDF cobre todo o espaço da página da Web
 
-* **Contêiner dimensionado**: o PDF é exibido dentro da página da web, uma página de cada vez, em um div com tamanho limitado
+* **Contêiner Tamanho**: o PDF é exibido dentro da página da Web, uma página de cada vez, em um div com tamanho limitado
 
-* **In-line**: o PDF inteiro é exibido em um div dentro da página da Web
+* **In-Line**: o PDF inteiro é exibido em um div dentro da página da Web
 
-* **Lightbox**: o PDF é exibido como uma camada no topo da sua página da Web
+* **Lightbox**: o PDF é exibido como uma camada acima da sua página da Web
 
 É recomendável usar o modo incorporado in-line para documentos técnicos e, posteriormente, o gerador de códigos para incorporar um PDF no aplicativo.
 
@@ -293,15 +293,15 @@ res.render('in-line', { title: paper.title, paper: paper });
 module.exports = router;
 ```
 
-Olhe novamente para o [demonstração ao vivo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) para gerar automaticamente o código de API incorporado do PDF. Clique em **In-line** no painel esquerdo:
+Veja novamente a [demonstração ao vivo](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) para gerar o código de API incorporado de PDF automaticamente. Clique em **In-Line** no painel esquerdo:
 
-![Captura de tela da demonstração ao vivo da API PDF incorporada](assets/ddp_8.png)
+![Captura de tela da demonstração da API de PDF incorporado ao vivo](assets/ddp_8.png)
 
-Clique em **Gerar código** para ver o código de HTML necessário para exibir um visualizador de PDF de contêiner dimensionado.
+Clique em **Gerar Código** para ver o código de HTML necessário para exibir um visualizador de PDF de Contêiner Dimensionado.
 
-![Captura de tela da visualização do código](assets/ddp_9.png)
+![Captura de tela de visualização de código](assets/ddp_9.png)
 
-Clique em **Copiar código** e cole o código no arquivo in-line.ejs.
+Clique em **Copiar Código** e cole o código no arquivo in-line.ejs.
 
 ```
 <div>
@@ -343,9 +343,9 @@ embedMode: "IN_LINE"
 
 Agora execute o aplicativo com o comando npm start e abra o site em <http://localhost:3000>.
 
-![Captura de tela das miniaturas do PDF white paper](assets/ddp_10.png)
+![Captura de tela das miniaturas do white paper PDF](assets/ddp_10.png)
 
-Por fim, escolha um white paper e clique em **Exibir documento** para abrir uma nova página com o PDF incorporado em linha:
+Por fim, escolha um white paper e clique em **Exibir documento** para abrir uma nova página com o PDF incorporado embutido:
 
 ![Captura de tela do white paper PDF ](assets/ddp_11.png)
 
@@ -522,11 +522,11 @@ showFullScreen: <%= permissions.showFullScreen %>
 </html>
 ```
 
-![Captura de tela do conteúdo de controle](assets/ddp_14.png)
+![Captura de tela de conteúdo de controle](assets/ddp_14.png)
 
 Os visitantes do site agora só podem acessar PDF após enviar suas informações:
 
-![Captura de tela do conteúdo de PDF no visualizador incorporado](assets/ddp_15.png)
+![Captura de tela de conteúdo PDF no visualizador incorporado](assets/ddp_15.png)
 
 ## Ativação de eventos
 
@@ -547,16 +547,16 @@ Agora, execute novamente o aplicativo e abra as ferramentas de desenvolvedor do 
 
 ![Captura de tela do código](assets/ddp_16.png)
 
-Você pode enviar esses dados para [Adobe Analytics](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=view) ou outras ferramentas de análise.
+Você pode enviar esses dados para o [Adobe Analytics](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=view) ou para outras ferramentas de análise.
 
 ## Próximas etapas
 
-[!DNL Acrobat Services] As APIs ajudam os desenvolvedores a solucionar facilmente os desafios da publicação digital usando um fluxo de trabalho centrado em PDF. Você viu como criar um aplicativo Web de nó de amostra para exibir uma coleção de documentos. Em seguida, adquira um [credencial de API gratuita](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) acesso restrito aos white papers, que podem ser exibidos em um de quatro [modos de incorporação](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf).
+As APIs do [!DNL Acrobat Services] ajudam os desenvolvedores a solucionar facilmente desafios de publicação digital usando um fluxo de trabalho centrado em PDF. Você viu como criar um aplicativo Web de nó de amostra para exibir uma coleção de documentos. Em seguida, adquira uma [credencial de API gratuita](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) e crie acesso restrito aos documentos, que podem ser exibidos em um dos quatro [modos incorporados](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf).
 
-A junção desse fluxo de trabalho ajuda a [profissional de marketing hipotético](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html) colete informações de contato principais em troca de downloads de whitepaper e veja estatísticas sobre quem está interagindo com os PDF. Você pode incorporar esses recursos em seu site para orientar e monitorar o engajamento do usuário.
+A junção desse fluxo de trabalho ajuda o [comerciante hipotético](https://www.adobe.io/apis/documentcloud/dcsdk/digital-content-publishing.html) a coletar informações de contato do cliente potencial em troca de downloads de whitepaper e exibir estatísticas sobre quem está interagindo com os PDF. Você pode incorporar esses recursos em seu site para orientar e monitorar o engajamento do usuário.
 
-Se você é um desenvolvedor do Angular ou do React, pode gostar de tentar [amostras adicionais](https://github.com/adobe/pdf-embed-api-samples) apresentando como integrar a API incorporada do PDF aos projetos do React e do Angular.
+Se você é um desenvolvedor do Angular ou do React, poderá gostar de experimentar [amostras adicionais](https://github.com/adobe/pdf-embed-api-samples) que incluem como integrar a API incorporada do PDF aos projetos do React e do Angular.
 
-O Adobe permite que você crie sua experiência completa para o cliente com soluções inovadoras. Fazer Check-out [API incorporada do Adobe PDF](https://www.adobe.io/apis/documentcloud/viesdk) gratuitamente. Para explorar o que mais você pode fazer, experimente a API de Serviços do Adobe PDF com [pay-as-you-gopr](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)[formação de gelo](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
+O Adobe permite que você crie sua experiência completa para o cliente com soluções inovadoras. Confira gratuitamente a [API de Incorporação do Adobe PDF](https://www.adobe.io/apis/documentcloud/viesdk). Para explorar o que mais você pode fazer, experimente a API de Serviços do Adobe PDF com [pagamento conforme gopr](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)[congelamento](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
 
-[Começar agora](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) com [!DNL Adobe Acrobat Services] APIs hoje.
+[Comece](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) com [!DNL Adobe Acrobat Services] APIs hoje.

@@ -10,14 +10,14 @@ thumbnail: KT-6674.jpg
 exl-id: 55f5b04e-0249-47d9-9131-2f9ec01db7e8
 source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 2%
+source-wordcount: '478'
+ht-degree: 0%
 
 ---
 
 # Usar a API de Serviços de PDF para exportar PDF para Word, PowerPoint e muito mais
 
-![Criar imagem principal do PDF](assets/ExportPDF_hero.jpg)
+![Criar Imagem Herói do PDF](assets/ExportPDF_hero.jpg)
 
 A API de Serviços do Adobe PDF converte arquivos PDF em MS Office, texto e imagens usando APIs. Há muitos casos de uso comuns para desbloquear PDF existentes para edição e análise de conteúdo e, com os serviços de PDF, os desenvolvedores de API podem integrar facilmente esse recurso nos sistemas e aplicativos existentes. Converta arquivos PDF em MS Word para edição de conteúdo, aprovações e envio posterior de assinaturas para criar fluxos de trabalho de contratos personalizados. Ou exporte o conteúdo de PDF para o formato MS Excel para cálculos de fatura e financeiros ou análise de dados.
 
@@ -101,10 +101,10 @@ Para outro formato.
 
 ## Recursos e próximas etapas
 
-* Para obter ajuda e suporte adicionais, visite o [[!DNL Adobe Acrobat Services] APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&amp;sort=latest_replies&amp;filter=all) fórum da comunidade
+* Para obter ajuda e suporte adicionais, visite o fórum da comunidade [[!DNL Adobe Acrobat Services] APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&amp;sort=latest_replies&amp;filter=all)
 
-* API de serviços PDF [Documentação](https://www.adobe.com/go/pdftoolsapi_doc)
+* Documentação [API de Serviços PDF](https://www.adobe.com/go/pdftoolsapi_doc)
 
-* [Perguntas frequentes](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) para perguntas sobre a API de serviços PDF
+* [Perguntas frequentes](https://community.adobe.com/t5/document-cloud-sdk/faq-for-document-services-pdf-tools-api/m-p/10726197) sobre a API de Serviços PDF
 
 * [Fale conosco](https://www.adobe.com/go/pdftoolsapi_requestform) em caso de dúvidas sobre licenciamento e preços
