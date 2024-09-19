@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8115
 thumbnail: KT-8115.jpg
 exl-id: 4188897e-f6e6-41ea-be6f-359a3ef0e040
-source-git-commit: e2debb7ef139f890cdfc158f7634ee5c836fab32
+source-git-commit: ad13c28a0c218fc0027afc02445e5ed532c2340d
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -152,31 +152,31 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
 </tr>
 <tr>
   <td>
-    <a href="AgreementWorkflowsNodejs.md">
+    <a href="agreementworkflowsnodejs.md">
       <img alt="Fluxos de trabalho do contrato no Node.js" src="assets/AWNjs_thumb.png" />
     </a>
     <div>
-    <a href="AgreementWorkflowsNodejs.md"><strong>Fluxos de trabalho do contrato no Node.js</strong></a>
+    <a href="agreementworkflowsnodejs.md"><strong>Fluxos de trabalho do contrato no Node.js</strong></a>
     </div>
     As APIs do <em>[!DNL Adobe Acrobat Services] incorporam facilmente recursos de PDF em seus aplicativos Web</em>
     <br>
   </td>
   <td>
-    <a href="HRAgreementWorkflowsJava.md">
+    <a href="hragreementworkflowsjava.md">
       <img alt="Fluxos de trabalho de documentos de RH em Java" src="assets/HRWJ_thumb.png" />
     </a>
     <div>
-    <a href="HRAgreementWorkflowsJava.md"><strong>Fluxos de trabalho de documentos de RH em Java</strong></a>
+    <a href="hragreementworkflowsjava.md"><strong>Fluxos de trabalho de documentos de RH em Java</strong></a>
     </div>
     As APIs do <em>[!DNL Adobe Acrobat Services] incorporam facilmente recursos de PDF em seus aplicativos Web de RH</em>
     <br>
   </td>
   <td>
-    <a href="FinanceWorkflowsJava.md">
+    <a href="financeworkflowsjava.md">
       <img alt="Gerenciamento de fluxos de trabalho de documentos financeiros em Java" src="assets/FAWJ_thumb.png" />
     </a>
     <div>
-    <a href="FinanceWorkflowsJava.md"><strong>Gerenciando fluxos de trabalho de documentos financeiros em Java</strong></a>
+    <a href="financeworkflowsjava.md"><strong>Gerenciando fluxos de trabalho de documentos financeiros em Java</strong></a>
     </div>
     <em>[!DNL Adobe Acrobat Services] fornece todas as ferramentas, serviços e recursos necessários para processar e extrair dados de documentos financeiros do PDF</em>
     <br>
