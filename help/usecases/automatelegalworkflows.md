@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10202
 thumbnail: KT-10202.jpg
 exl-id: 2a1752b8-9641-40cc-a0af-1dce6cf49346
-source-git-commit: c74a36116349490af29e66fd81ad59c93174c258
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '2826'
 ht-degree: 0%
@@ -362,7 +362,7 @@ var outputFileName = path.join('output', 'salesOrder_'+Date.now()+".docx");
 
 ## Enviar contrato para assinatura
 
-O [Adobe Acrobat Sign](https://www.adobe.com/br/sign.html) permite enviar contratos para um ou vários destinatários para que eles visualizem e assinem documentos. Juntamente com uma experiência de usuário fácil de usar para enviar um documento para assinatura, há APIs REST disponíveis que permitem usar Word, PDF, HTML e outros formatos e enviá-los para assinatura.
+O [Adobe Acrobat Sign](https://www.adobe.com/acrobat/business/sign.html) permite enviar contratos para um ou vários destinatários para que eles visualizem e assinem documentos. Juntamente com uma experiência de usuário fácil de usar para enviar um documento para assinatura, há APIs REST disponíveis que permitem usar Word, PDF, HTML e outros formatos e enviá-los para assinatura.
 
 O exemplo abaixo mostra como usar a página de documentação da API REST para pegar o documento gerado anteriormente e enviá-lo para assinatura. Primeiro, saiba como fazer isso por meio da interface da Web do Acrobat Sign e, em seguida, como fazer isso com a API REST.
 

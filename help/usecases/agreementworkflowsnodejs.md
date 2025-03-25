@@ -1,6 +1,6 @@
 ---
 title: Fluxos de trabalho do contrato no Node.js
-description: “[!DNL Adobe Acrobat Services] APIs incorporam facilmente recursos de PDF em seus aplicativos Web”
+description: As APIs do [!DNL Adobe Acrobat Services] incorporam facilmente recursos de PDF em seus aplicativos Web
 feature: Use Cases
 role: Developer
 level: Beginner
@@ -9,7 +9,7 @@ jira: KT-7473
 thumbnail: KT-7473.jpg
 keywords: Destacado
 exl-id: 44a03420-e963-472b-aeb8-290422c8d767
-source-git-commit: f8a31b8f98d99bf1f3787e0f0f19cc9f26e24d8d
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Neste tutorial prático, saiba como adicionar serviços PDF a um aplicativo Node
 
 * [API de inserção de PDF](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [API DO Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html)
+* [API DO Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
 * [Código do projeto](https://github.com/adobe/pdftools-node-sdk-samples)
 
@@ -294,7 +294,7 @@ Na página que exibe o PDF, adicione um elemento `<div />` para manter o documen
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 ```
 
-O último bit de código necessário é uma função que exibe o documento assim que o Adobe PDF Embed API JavaScript é carregado. Quando você receber a notificação de que o script foi carregado por meio de um evento adobe_dc_view\_sdk.ready, crie um novo objeto AdobeDC.View. Este objeto precisa da ID do cliente e da ID do elemento criado anteriormente. Localize sua ID de cliente no [Console do Adobe Developer](https://console.adobe.io/). Ao exibir as configurações do aplicativo que você criou ao gerar credenciais anteriormente, a ID do cliente é exibida.
+O último bit de código necessário é uma função que exibe o documento assim que o Adobe PDF Embed API JavaScript é carregado. Quando você receber a notificação de que o script foi carregado por meio de um evento adobe_dc_view\_sdk.ready, crie um novo objeto AdobeDC.View. Este objeto precisa da ID do cliente e da ID do elemento criado anteriormente. Localize sua ID de cliente no [Console do Adobe Developer](https://developer.adobe.com/console/). Ao exibir as configurações do aplicativo que você criou ao gerar credenciais anteriormente, a ID do cliente é exibida.
 
 ![Imagem da Chave de Cliente de API](assets/AWNjs_6.png)
 
@@ -312,7 +312,7 @@ A [Demonstração da API de Incorporação do Adobe PDF](https://documentcloud.a
 
 Assim que o documento estiver pronto, você pode adicionar assinaturas digitais para aprovação usando o Adobe Sign. Essa funcionalidade funciona de forma um pouco diferente da funcionalidade usada até agora. Para assinaturas digitais, um aplicativo deve ser configurado para usar o OAuth para autenticação de usuário.
 
-A primeira etapa na configuração do aplicativo é [registrar o aplicativo](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md) para usar o OAuth para Adobe Sign. Depois de entrar, navegue até a tela de criação de aplicativos clicando em *Conta*, abra a seção *API Adobe Sign* e clique em *Aplicativos de API* para abrir a lista de aplicativos registrados.
+A primeira etapa na configuração do aplicativo é [registrar o aplicativo](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/create_app.md) para usar o OAuth para Adobe Sign. Depois de entrar, navegue até a tela de criação de aplicativos clicando em *Conta*, abra a seção *API Adobe Sign* e clique em *Aplicativos de API* para abrir a lista de aplicativos registrados.
 
 ![Imagem da primeira etapa no registro do aplicativo](assets/AWNjs_9.png)
 
@@ -519,4 +519,4 @@ Como você pode ver nas inicializações rápidas e no código fornecido, é fá
 
 Para descobrir os escopos necessários para uma chamada ou para ver como a chamada é compilada, você pode criar chamadas de exemplo da [documentação da API Rest](https://secure.na4.adobesign.com/public/docs/restapi/v6). O [Quickstarts](https://github.com/adobe/pdftools-node-sdk-samples) também demonstra outras funcionalidades e formatos de arquivo para os processos de APIs do [!DNL Adobe Acrobat Services].
 
-Você pode adicionar vários recursos de PDF aos aplicativos, permitindo que os usuários visualizem e assinem seus documentos de modo rápido e fácil, e muito mais. Para começar, confira [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/) hoje.
+Você pode adicionar vários recursos de PDF aos aplicativos, permitindo que os usuários visualizem e assinem seus documentos de modo rápido e fácil, e muito mais. Para começar, confira [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) hoje.

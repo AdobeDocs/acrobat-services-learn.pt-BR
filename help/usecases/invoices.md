@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8145
 thumbnail: KT-8145.jpg
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 É ótimo quando os negócios estão crescendo, mas a produtividade é prejudicada quando chega a hora de preparar todas essas faturas. Gerar faturas manualmente é demorado, além de você correr o risco de cometer um erro, potencialmente perder dinheiro ou irritar um cliente com um valor incorreto.
 
-Pense em Danielle, por exemplo, trabalhando no [departamento de contabilidade](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html) [de uma empresa de suprimentos médicos](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). É o fim do mês, então ela está extraindo informações de vários sistemas diferentes, verificando a precisão e formatando as faturas. Depois de todo esse trabalho, ela finalmente está pronta para converter os documentos em PDF (para que qualquer pessoa possa visualizá-los sem adquirir um software específico) e enviar a cada cliente sua fatura personalizada.
+Pense em Danielle, por exemplo, trabalhando no [departamento de contabilidade](https://developer.adobe.com/document-services/use-cases/financial/invoices) [de uma empresa de suprimentos médicos](https://developer.adobe.com/document-services/use-cases/financial/invoices). É o fim do mês, então ela está extraindo informações de vários sistemas diferentes, verificando a precisão e formatando as faturas. Depois de todo esse trabalho, ela finalmente está pronta para converter os documentos em PDF (para que qualquer pessoa possa visualizá-los sem adquirir um software específico) e enviar a cada cliente sua fatura personalizada.
 
 Mesmo quando o faturamento mensal está completo, Danielle não pode escapar dessas faturas. Alguns clientes têm ciclos de faturamento não mensais, por isso ela está sempre criando uma fatura para alguém. Ocasionalmente, um cliente edita sua fatura e paga indevidamente. Danielle passa tempo resolvendo essa incompatibilidade de faturas. Nesse ritmo, ela precisa contratar um assistente para acompanhar todo o trabalho!
 
@@ -37,9 +37,9 @@ O código completo deste projeto está [disponível no GitHub](https://github.co
 
 * [API de Serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [API de Geração de Documento do Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [API de Geração de Documento do Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [API DO Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html)
+* [API DO Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
 * [Código do projeto](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-invoice-generation)
 
@@ -107,7 +107,7 @@ Esta amostra de fatura contém informações do cliente, os produtos solicitados
 
 Use o kit de desenvolvimento de software (SDK) Node.js dos Serviços do Adobe PDF para combinar os documentos do Microsoft Word e JSON. Crie um aplicativo Node.js para criar a fatura usando a API de geração de documento.
 
-A API de serviços PDF inclui o serviço de geração de documentos, para que você possa usar as mesmas credenciais para ambos. Aproveite uma [avaliação gratuita de seis meses](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) e pague apenas US$ 0,05 por transação de documento.
+A API de serviços PDF inclui o serviço de geração de documentos, para que você possa usar as mesmas credenciais para ambos. Aproveite uma [avaliação gratuita de seis meses](https://developer.adobe.com/document-services/pricing/main) e pague apenas US$ 0,05 por transação de documento.
 
 Aqui está o código para mesclar o PDF:
 
@@ -224,11 +224,11 @@ Quando terminar de usar a fatura, convém enviá-la automaticamente por email ao
 
 ## Próximas etapas
 
-Neste tutorial prático, você criou um aplicativo simples para ajudar Danielle na contabilidade com [faturamento](https://www.adobe.io/apis/documentcloud/dcsdk/invoices.html). Ao usar a API de serviços de PDF e o SDK de geração de documento, você preencheu um modelo do Microsoft Word com informações de ordem do cliente de um documento JSON, criando uma fatura de PDF. Em seguida, cada documento é protegido por senha usando os serviços de proteção por senha pela [API de Serviços do PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
+Neste tutorial prático, você criou um aplicativo simples para ajudar Danielle na contabilidade com [faturamento](https://developer.adobe.com/document-services/use-cases/financial/invoices). Ao usar a API de serviços de PDF e o SDK de geração de documento, você preencheu um modelo do Microsoft Word com informações de ordem do cliente de um documento JSON, criando uma fatura de PDF. Em seguida, cada documento é protegido por senha usando os serviços de proteção por senha pela [API de Serviços do PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html).
 
 Como Danielle pode gerar faturas automaticamente e não precisa se preocupar com clientes que editam suas faturas, ela não precisará contratar um assistente para ajudar com todo o trabalho manual. Ela pode usar seu tempo extra para encontrar economias de custo nos arquivos de contas a pagar.
 
-Agora que você viu como é fácil, pode expandir esse aplicativo simples usando outras ferramentas de Adobe para incorporar faturas em seu site. Por exemplo, para que os clientes possam exibir suas faturas ou saldo a qualquer momento. A [API de Incorporação do Adobe PDF](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) é gratuita para uso. Você pode até mesmo acessar o departamento de vendas ou recursos humanos, ajudando a automatizar os contratos e coletar assinaturas eletrônicas.
+Agora que você viu como é fácil, pode expandir esse aplicativo simples usando outras ferramentas de Adobe para incorporar faturas em seu site. Por exemplo, para que os clientes possam exibir suas faturas ou saldo a qualquer momento. A [API de Incorporação do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-embed) é gratuita para uso. Você pode até mesmo acessar o departamento de vendas ou recursos humanos, ajudando a automatizar os contratos e coletar assinaturas eletrônicas.
 
-Para explorar todas as possibilidades e começar a criar seu próprio aplicativo prático, crie uma conta gratuita do [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) para começar hoje. Aproveite uma avaliação gratuita de seis meses e [pague conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html)
+Para explorar todas as possibilidades e começar a criar seu próprio aplicativo prático, crie uma conta gratuita do [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) para começar hoje. Aproveite uma avaliação gratuita de seis meses e [pague conforme usa](https://developer.adobe.com/document-services/pricing/main)
 a apenas US$ 0,05 por transação de documento, conforme a escala de sua empresa.

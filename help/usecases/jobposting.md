@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-8092
 thumbnail: KT-8092.jpg
 exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Ao operar um site com vários usuários, é crucial criar uma experiência que garanta uma experiência tranquila para todos.
 
-Imagine o seguinte cenário: você tem um site que permite aos empregadores [carregar publicações de trabalho](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html). Para candidatos a emprego, é conveniente visualizar facilmente todos os documentos relacionados a uma publicação em um formato consistente. No entanto, é conveniente para os empregadores anexar informações em qualquer formato de arquivo que eles tenham. Para oferecer conveniência a ambos os tipos de usuários, você pode converter automaticamente todos os documentos carregados em PDF e incorporá-los em linha na publicação.
+Imagine o seguinte cenário: você tem um site que permite aos empregadores [carregar publicações de trabalho](https://developer.adobe.com/document-services/use-cases/content-publishing/job-posting). Para candidatos a emprego, é conveniente visualizar facilmente todos os documentos relacionados a uma publicação em um formato consistente. No entanto, é conveniente para os empregadores anexar informações em qualquer formato de arquivo que eles tenham. Para oferecer conveniência a ambos os tipos de usuários, você pode converter automaticamente todos os documentos carregados em PDF e incorporá-los em linha na publicação.
 
 ## O que você pode aprender
 
@@ -37,9 +37,9 @@ Para iniciar, configure um aplicativo Web Node.js simples com base em Express. O
 
 ## Criação de credenciais de API do Adobe
 
-Primeiro, você deve [criar credenciais](https://www.adobe.com/go/dcsdks_credentials) para a API incorporada do Adobe PDF (gratuita para uso) e a API de serviços do Adobe PDF (gratuita para seis meses e depois [pagar conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) por apenas \$0,05 por transação de documento). Ao criar credenciais para a API de Serviços do PDF, selecione a opção “Criar amostra de código personalizada”. Salve o arquivo ZIP e extraia pdftools-api-credentials.json e private.key no diretório raiz do projeto Node.js Express.
+Primeiro, você deve [criar credenciais](https://www.adobe.com/go/dcsdks_credentials) para a API incorporada do Adobe PDF (gratuita para uso) e a API de serviços do Adobe PDF (gratuita para seis meses e depois [pagar conforme usa](https://developer.adobe.com/document-services/pricing/main) por apenas \$0,05 por transação de documento). Ao criar credenciais para a API de Serviços do PDF, selecione a opção “Criar amostra de código personalizada”. Salve o arquivo ZIP e extraia pdftools-api-credentials.json e private.key no diretório raiz do projeto Node.js Express.
 
-Você também precisa de uma chave de API para a API incorporada disponível gratuitamente. Em [Projetos](https://console.adobe.io/projects), vá para o projeto que você criou. Depois, clique em **Adicionar ao Projeto** e selecione **API**. Por fim, clique em **API de PDF incorporado**.
+Você também precisa de uma chave de API para a API incorporada disponível gratuitamente. Em [Projetos](https://developer.adobe.com/console/projects), vá para o projeto que você criou. Depois, clique em **Adicionar ao Projeto** e selecione **API**. Por fim, clique em **API de PDF incorporado**.
 
 Especifique o domínio para a API de PDF incorporada. A chave de API deve ser pública (encontre-a no código executado pelo navegador). Ao especificar um domínio, você garante que outra pessoa em um domínio diferente não possa usar a chave de API.
 
@@ -274,7 +274,7 @@ Para ver uma incorporação em linha em ação, confira esta [demonstração ao 
 
 ## Próximas etapas
 
-Este tutorial prático abordou como usar o Node.js com [!DNL Acrobat Services] para converter uma [publicação de trabalho](https://www.adobe.io/apis/documentcloud/dcsdk/job-posting.html) carregada em vários formatos em um PDF. O PDF resultante foi então incorporado em uma página da Web. Agora você pode adicionar a mesma função ao seu site, facilitando o upload de descrições de cargos, folhetos e muito mais para os candidatos a emprego encontrarem. Esses recursos ajudam todos a obter as informações necessárias para encontrar o emprego dos seus sonhos.
+Este tutorial prático abordou como usar o Node.js com [!DNL Acrobat Services] para converter uma [publicação de trabalho](https://developer.adobe.com/document-services/use-cases/content-publishing/job-posting) carregada em vários formatos em um PDF. O PDF resultante foi então incorporado em uma página da Web. Agora você pode adicionar a mesma função ao seu site, facilitando o upload de descrições de cargos, folhetos e muito mais para os candidatos a emprego encontrarem. Esses recursos ajudam todos a obter as informações necessárias para encontrar o emprego dos seus sonhos.
 
 O [!DNL Acrobat Services] ajuda a adicionar funções importantes de manuseio de documentos ao seu site ou aplicativo. Se quiser aprofundar-se no que essas APIs podem fazer, consulte a seguinte documentação do quickstart:
 
@@ -282,4 +282,4 @@ O [!DNL Acrobat Services] ajuda a adicionar funções importantes de manuseio de
 
 * [API de Serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-Para começar a adicionar recursos amigáveis de manuseio de documentos ao seu site, [inscreva-se para o teste grátis](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). A API incorporada do Adobe PDF é sempre gratuita e a API de serviços do Adobe PDF é gratuita por seis meses; basta 0,05 por transação de documento para que você possa [pagar conforme crescer na sua empresa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html).
+Para começar a adicionar recursos amigáveis de manuseio de documentos ao seu site, [inscreva-se para o teste grátis](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). A API incorporada do Adobe PDF é sempre gratuita e a API de serviços do Adobe PDF é gratuita por seis meses; basta 0,05 por transação de documento para que você possa [pagar conforme crescer na sua empresa](https://developer.adobe.com/document-services/pricing/main).

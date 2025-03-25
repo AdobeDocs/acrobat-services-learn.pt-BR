@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8095
 thumbnail: KT-8095.jpg
 exl-id: a22230b5-1ff2-4870-84da-f06a904c99e1
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -135,7 +135,7 @@ Esses snippets de código instalam as dependências do aplicativo, incluindo o M
 
 Essas APIs automatizam a geração, manipulação e transformação de conteúdo de PDF por meio de um conjunto de serviços Web baseados em nuvem.
 
-Para obter as credenciais, você precisa [registrar](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) e concluir o fluxo de trabalho. A API de incorporação do PDF é gratuita. A API de serviços PDF e a API de geração de documentos são gratuitas por seis meses. Quando a sua avaliação terminar, você poderá [pagar conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) por apenas US$ 0,05 por transação de documento. Você paga apenas à medida que a empresa cresce e processa mais contratos.
+Para obter as credenciais, você precisa [registrar](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) e concluir o fluxo de trabalho. A API de incorporação do PDF é gratuita. A API de serviços PDF e a API de geração de documentos são gratuitas por seis meses. Quando a sua avaliação terminar, você poderá [pagar conforme usa](https://developer.adobe.com/document-services/pricing/main) por apenas US$ 0,05 por transação de documento. Você paga apenas à medida que a empresa cresce e processa mais contratos.
 
 ![Captura de tela de criação de credenciais](assets/searching_1.png)
 
@@ -431,4 +431,4 @@ O uso do [!DNL Acrobat Services] para transformação de documentos é altamente
 Agora que você já sabe como usar as APIs do [!DNL Acrobat Services], poderá aprimorar suas habilidades com a prática. Você pode clonar o repositório usado neste tutorial e experimentar algumas das habilidades que acabou de aprender. Ainda melhor, você pode tentar recompilar este aplicativo enquanto explora as possibilidades ilimitadas de [!DNL Acrobat Services] APIs.
 
 Pronto para habilitar o compartilhamento e a revisão de documentos em seu próprio aplicativo? Inscreva-se no seu [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html)
-conta de desenvolvedor. Aproveite uma avaliação gratuita de seis meses e [pague conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) por apenas \$0,05 por transação de documento à medida que sua empresa cresce.
+conta de desenvolvedor. Aproveite uma avaliação gratuita de seis meses e [pague conforme usa](https://developer.adobe.com/document-services/pricing/main) por apenas \$0,05 por transação de documento à medida que sua empresa cresce.

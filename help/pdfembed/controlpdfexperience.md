@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7487
 thumbnail: KT-7487.jpg
 exl-id: 64ffdacb-d6cb-43e7-ad10-bbd8afc0dbf4
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Na parte 1, saiba como começar a usar tudo o que você precisa para as partes 1
 **Do que você precisa**
 
 * [baixar](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial) dos recursos do tutorial
-* Adobe ID [obtenha um aqui](https://accounts.adobe.com/br)
+* Adobe ID [obtenha um aqui](https://account.adobe.com/)
 * Servidor Web (Node JS, PHP, etc.)
 * Conhecimento prático de HTML / JavaScript / CSS
 
@@ -75,7 +75,7 @@ Na parte 1, saiba como começar a usar tudo o que você precisa para as partes 1
 
 ### Obtendo credenciais
 
-1. Vá para o [site Adobe.io](https://www.adobe.io/).
+1. Vá para o [site Adobe.io](https://developer.adobe.com/).
 1. Clique em **[!UICONTROL Saiba mais]** em Criar experiências de documento envolventes.
 
    ![Captura de tela do botão Saiba mais](assets/ControlPDF_1.png)
@@ -114,7 +114,7 @@ Na parte 2, você aprenderá como incorporar facilmente a API de PDF em uma pág
 
 Criamos código para você utilizar. Embora você possa usar seu próprio código, as demonstrações serão feitas no contexto dos recursos do tutorial. Baixe o código de exemplo [aqui](https://github.com/benvanderberg/adobe-pdf-embed-api-tutorial).
 
-1. Vá para o [[!DNL Adobe Acrobat Services] site](https://www.adobe.io/apis/documentcloud/dcsdk/).
+1. Vá para o [[!DNL Adobe Acrobat Services] site](https://developer.adobe.com/document-services/homepage/).
 
    ![Captura de tela do site [!DNL Adobe Acrobat Services]](assets/ControlPDF_6.png)
 
@@ -218,7 +218,7 @@ Agora que você criou com sucesso uma página da Web que tem a API de PDF incorp
 
 Há vários eventos JavaScript diferentes disponíveis como parte da API de incorporação de PDF. Você pode acessá-los na documentação do [!DNL Adobe Acrobat Services].
 
-1. Navegue até o site de [documentação](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html).
+1. Navegue até o site de [documentação](https://developer.adobe.com/document-services/docs/overview).
 1. Revise os diferentes tipos de evento disponíveis como parte da API. Eles são úteis para referência e também serão úteis para seus futuros projetos.
 
    ![Captura de tela do guia de referência](assets/ControlPDF_17.png)
@@ -326,4 +326,4 @@ Agora você pode ver a demonstração.
 
 ## Recursos adicionais
 
-Recursos adicionais podem ser encontrados [aqui](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html).
+Recursos adicionais podem ser encontrados [aqui](https://developer.adobe.com/document-services/docs/overview).

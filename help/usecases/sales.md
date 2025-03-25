@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 As propostas de vendas são o primeiro passo na jornada de um negócio em direção à aquisição de clientes. Como em tudo, as primeiras impressões duram. Portanto, sua primeira interação com os clientes definiu suas expectativas para seus negócios. Sua proposta deve ser concisa, precisa e conveniente.
 
-Os contratos e as propostas contêm diferentes tipos de dados na sua estrutura de documentos. Eles contêm dados dinâmicos (nome do cliente, valor da cotação e assim por diante) e dados estáticos (texto padrão como recursos de firma, perfis de equipe e termos padrão da SOW). A criação de documentos de modelo, como propostas de vendas, geralmente envolve tarefas monótonas, como a substituição manual de detalhes do projeto em um modelo padrão. Neste tutorial, você usa dados dinâmicos e fluxos de trabalho para criar um processo eficiente para [criar propostas de vendas](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html).
+Os contratos e as propostas contêm diferentes tipos de dados na sua estrutura de documentos. Eles contêm dados dinâmicos (nome do cliente, valor da cotação e assim por diante) e dados estáticos (texto padrão como recursos de firma, perfis de equipe e termos padrão da SOW). A criação de documentos de modelo, como propostas de vendas, geralmente envolve tarefas monótonas, como a substituição manual de detalhes do projeto em um modelo padrão. Neste tutorial, você usa dados dinâmicos e fluxos de trabalho para criar um processo eficiente para [criar propostas de vendas](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/sales-proposals-and-contracts).
 
 ## O que você pode aprender
 
@@ -35,11 +35,11 @@ Neste tutorial prático, saiba como implementar dados dinâmicos e fluxos de tra
 
 * [npm](https://www.npmjs.com/get-npm)
 
-* [[!DNL Acrobat Services] APIs](https://www.adobe.io/apis/documentcloud/dcsdk/)
+* [[!DNL Acrobat Services] APIs](https://developer.adobe.com/document-services/homepage/)
 
-* [API de Geração de Documento do Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [API de Geração de Documento do Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [API DO Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html)
+* [API DO Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
 * [Marcador de Geração de Documento do Adobe](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
 
@@ -47,11 +47,11 @@ Neste tutorial prático, saiba como implementar dados dinâmicos e fluxos de tra
 
 Agora que você tem as ferramentas instaladas, pode começar a resolver o problema. As propostas têm conteúdo estático e conteúdo dinâmico exclusivos para cada cliente. Os gargalos ocorrem porque os dois tipos de dados são necessários sempre que você faz uma proposta. É demorado inserir o texto estático, então você vai automatizá-lo e lidar apenas manualmente com os dados dinâmicos de cada cliente.
 
-Primeiro, crie um formulário de captura de dados no [Microsoft Forms](https://www.office.com/launch/forms?auth=1) (ou no criador de formulários preferido). Este formulário é para os dados dinâmicos dos clientes que são adicionados a uma proposta de vendas. Preencha este formulário com perguntas para obter os detalhes necessários dos clientes — por exemplo, nome da empresa, data, endereço, escopo do projeto, preços e comentários adicionais. Para criar seu próprio formulário, use este [formulário](https://forms.office.com/Pages/ShareFormPage.aspx id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAN__rtiGj5UNElTR0pCQ09ZNkJRUlowSjVQWDNYUEg2RC4u&amp;sharetoken=1AJeMavBAzzxuISRKmUy). O objetivo é que os clientes em potencial preencham o formulário e exportem suas respostas como arquivos JSON, que são passados para a próxima parte do fluxo de trabalho.
+Primeiro, crie um formulário de captura de dados no [Microsoft Forms](https://www.office.com/launch/forms?auth=1) (ou no criador de formulários preferido). Este formulário é para os dados dinâmicos dos clientes que são adicionados a uma proposta de vendas. Preencha este formulário com perguntas para obter os detalhes necessários dos clientes — por exemplo, nome da empresa, data, endereço, escopo do projeto, preços e comentários adicionais. Para criar seu próprio formulário, use este [formulário]&#x200B;(https://forms.office.com/Pages/ShareFormPage.aspx id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAN__rtiGj5UNElTR0pCQ09ZNkJRUlowSjVQWDNYUEg2RC4u&amp;sharetoken=1AJeMavBAzzxuISRKmUy). O objetivo é que os clientes em potencial preencham o formulário e exportem suas respostas como arquivos JSON, que são passados para a próxima parte do fluxo de trabalho.
 
 Alguns criadores de formulários só permitem exportar dados como arquivos CSV. Portanto, você pode achar útil [converter](http://csvjson.com/csv2json) o arquivo CSV gerado em um arquivo JSON.
 
-Os dados estáticos são reutilizados em todas as propostas de vendas. Portanto, você pode usar um modelo de proposta de vendas no Microsoft Word para fornecer o texto estático. Você pode usar este [modelo](https://1drv.ms/w/s!AiqaN2pp7giKkmhVu2_2pId9MiPa?e=oeqoQ2), mas pode criar seu próprio modelo ou usar um [modelo de Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Os dados estáticos são reutilizados em todas as propostas de vendas. Portanto, você pode usar um modelo de proposta de vendas no Microsoft Word para fornecer o texto estático. Você pode usar este [modelo](https://1drv.ms/w/s!AiqaN2pp7giKkmhVu2_2pId9MiPa?e=oeqoQ2), mas pode criar seu próprio modelo ou usar um [modelo de Adobe](https://developer.adobe.com/document-services/apis/doc-generation).
 
 Agora, você precisa de algo que tire os dados dinâmicos dos clientes no formato JSON e o texto estático no modelo do Microsoft Word para fazer uma proposta de vendas exclusiva para um cliente. As APIs [!DNL Acrobat Services] são usadas para mesclar os dois e gerar um PDF que pode ser assinado.
 
@@ -79,7 +79,7 @@ Depois de gerar as tags, você pode inseri-las no documento. Tags são adicionad
 
 ## Usar as APIs
 
-Vá para a [página inicial](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html) das [!DNL Acrobat Services] APIs. Para começar a usar as APIs do [!DNL Acrobat Services], você precisa de credenciais para o aplicativo. Role para baixo até o fim e selecione **Iniciar avaliação gratuita** para criar credenciais. Você pode usar esses serviços gratuitamente por seis meses e pagar conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) por apenas US$ 0,05 por transação de documento, assim você paga apenas pelo que precisa.[
+Vá para a [página inicial](https://developer.adobe.com/document-services/apis/doc-generation) das [!DNL Acrobat Services] APIs. Para começar a usar as APIs do [!DNL Acrobat Services], você precisa de credenciais para o aplicativo. Role para baixo até o fim e selecione **Iniciar avaliação gratuita** para criar credenciais. Você pode usar esses serviços gratuitamente por seis meses e pagar conforme usa](https://developer.adobe.com/document-services/pricing/main) por apenas US$ 0,05 por transação de documento, assim você paga apenas pelo que precisa.[
 
 Selecione **API de Serviços do PDF** como seu serviço de escolha e preencha os outros detalhes conforme mostrado abaixo.
 
@@ -137,12 +137,12 @@ console.log('Exception encountered while executing operation', err);
 
 Este código obtém seu arquivo JSON do formulário do Microsoft com a ajuda das tags criadas com o [!DNL Acrobat Services]. Em seguida, ele mescla os dados com o modelo de proposta de vendas criado no Microsoft Word para gerar um novo PDF. O PDF é salvo no arquivo recém-criado .pasta /output.
 
-Além disso, o código usa a [API do Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html) para que as duas empresas assinem a proposta de vendas gerada. Confira esta publicação do blog para obter uma explicação detalhada desta API.
+Além disso, o código usa a [API do Adobe Sign](https://developer.adobe.com/adobesign-api/) para que as duas empresas assinem a proposta de vendas gerada. Confira esta publicação do blog para obter uma explicação detalhada desta API.
 
 ## Próximas etapas
 
-Você começou com um processo ineficiente e tedioso que precisava de automação. Você passou de criar documentos manualmente para cada cliente a criar um fluxo de trabalho simplificado para automatizar e simplificar o [processo de proposta de vendas](https://www.adobe.io/apis/documentcloud/dcsdk/sales-proposals-and-contracts.html).
+Você começou com um processo ineficiente e tedioso que precisava de automação. Você passou de criar documentos manualmente para cada cliente a criar um fluxo de trabalho simplificado para automatizar e simplificar o [processo de proposta de vendas](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/sales-proposals-and-contracts).
 
 Com o Microsoft Forms, você obtém dados importantes de seus clientes que incluiriam suas propostas exclusivas. Você criou um modelo de proposta de vendas no Microsoft Word para fornecer o texto estático que não deseja recriar todas as vezes. Você usou [!DNL Acrobat Services] APIs para mesclar dados do formulário e do modelo para criar um PDF de proposta de vendas para seus clientes de uma maneira mais eficiente.
 
-Este tutorial prático é apenas uma amostra do que é possível com essas APIs. Para descobrir mais soluções, visite a página de APIs do [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Use todas essas ferramentas gratuitamente por seis meses. Em seguida, pague apenas US$ 0,05 por transação de documento no plano [pré-pago](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html), de forma que você pague apenas à medida que sua equipe adicionar mais clientes potenciais ao pipeline de vendas.
+Este tutorial prático é apenas uma amostra do que é possível com essas APIs. Para descobrir mais soluções, visite a página de APIs do [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Use todas essas ferramentas gratuitamente por seis meses. Em seguida, pague apenas US$ 0,05 por transação de documento no plano [pré-pago](https://developer.adobe.com/document-services/pricing/main), de forma que você pague apenas à medida que sua equipe adicionar mais clientes potenciais ao pipeline de vendas.

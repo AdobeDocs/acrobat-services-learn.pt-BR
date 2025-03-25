@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10203
 thumbnail: KT-10203.jpg
 exl-id: 0186b3ee-4915-4edd-8c05-1cbf65648239
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -35,9 +35,9 @@ Embora não seja uma API, os desenvolvedores também podem usar a [API Incorpora
 
 ## O que é o Acrobat Sign?
 
-O [Acrobat Sign](https://www.adobe.com/br/sign.html) é o líder mundial em serviços de assinatura eletrônica. É possível enviar documentos para assinatura usando vários fluxos de trabalho diferentes, incluindo várias assinaturas. O Acrobat Sign também é compatível com fluxos de trabalho que exigem assinaturas e informações adicionais. Todos esses recursos são compatíveis com um painel de controle eficiente com um sistema de criação flexível.
+O [Acrobat Sign](https://www.adobe.com/acrobat/business/sign.html) é o líder mundial em serviços de assinatura eletrônica. É possível enviar documentos para assinatura usando vários fluxos de trabalho diferentes, incluindo várias assinaturas. O Acrobat Sign também é compatível com fluxos de trabalho que exigem assinaturas e informações adicionais. Todos esses recursos são compatíveis com um painel de controle eficiente com um sistema de criação flexível.
 
-Assim como o [!DNL Acrobat Services], o Acrobat Sign tem uma [avaliação gratuita](https://www.adobe.com/sign.html#sign_free_trial) que permite aos desenvolvedores testar o processo de assinatura por meio do painel e com uma API baseada em REST fácil de usar.
+Assim como o [!DNL Acrobat Services], o Acrobat Sign tem uma [avaliação gratuita](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial) que permite aos desenvolvedores testar o processo de assinatura por meio do painel e com uma API baseada em REST fácil de usar.
 
 ## Um cenário de integração
 
@@ -192,7 +192,7 @@ Esse código pega os dois PDF, os mescla e salva o resultado em um novo PDF. Sim
 
 ## O processo de assinatura
 
-Na parada final do processo de integração, o funcionário deve assinar um contrato declarando que leu e concorda com todas as políticas definidas no. O [Acrobat Sign](https://www.adobe.com/br/sign.html) oferece suporte a vários fluxos de trabalho e integrações diferentes, incluindo um fluxo de trabalho automatizado por meio de uma [API](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html). Em termos gerais, a parte final do cenário pode ser concluída da seguinte forma:
+Na parada final do processo de integração, o funcionário deve assinar um contrato declarando que leu e concorda com todas as políticas definidas no. O [Acrobat Sign](https://www.adobe.com/acrobat/business/sign.html) oferece suporte a vários fluxos de trabalho e integrações diferentes, incluindo um fluxo de trabalho automatizado por meio de uma [API](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html). Em termos gerais, a parte final do cenário pode ser concluída da seguinte forma:
 
 Primeiro, crie o documento que inclui o formulário que precisa ser assinado. Há várias maneiras de fazer isso, incluindo um visual criado no painel de usuários do Adobe Sign. Outra opção é usar o complemento Document Generation Word para inserir as tags para você. Este exemplo solicita uma assinatura e uma data.
 
@@ -206,6 +206,6 @@ O modelo pode ser carregado no painel do Acrobat Sign e, em seguida, usado para 
 
 ## Experimente
 
-Tudo o que está descrito neste artigo pode ser testado agora. A [avaliação gratuita](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) da API [!DNL Adobe Acrobat Services] atualmente fornece 1.000 solicitações gratuitas por um período de seis meses. A [avaliação gratuita](https://www.adobe.com/sign.html#sign_free_trial) da Acrobat Sign permite enviar contratos com marca-d&#39;água para fins de teste.
+Tudo o que está descrito neste artigo pode ser testado agora. A [avaliação gratuita](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) da API [!DNL Adobe Acrobat Services] atualmente fornece 1.000 solicitações gratuitas por um período de seis meses. A [avaliação gratuita](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial) da Acrobat Sign permite enviar contratos com marca-d&#39;água para fins de teste.
 
-Dúvidas? O [fórum de suporte](https://community.adobe.com/t5/document-services-apis/ct-p/ct-Document-Cloud-SDK) é monitorado diariamente por desenvolvedores de Adobe e pessoal de suporte. Finalmente, para se inspirar mais, certifique-se de pegar o próximo episódio de [Clipes de Papel](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF). Há reuniões ao vivo regulares com notícias, demonstrações e palestras com os clientes.
+Dúvidas? O [fórum de suporte](https://community.adobe.com/t5/acrobat-services-api/ct-p/ct-Document-Cloud-SDK) é monitorado diariamente por desenvolvedores de Adobe e pessoal de suporte. Finalmente, para se inspirar mais, certifique-se de pegar o próximo episódio de [Clipes de Papel](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF). Há reuniões ao vivo regulares com notícias, demonstrações e palestras com os clientes.

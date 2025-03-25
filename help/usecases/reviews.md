@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ![Banner do herói do caso de uso](assets/UseCaseReviewsHero.jpg)
 
-A colaboração remota entre equipes se tornou necessária para muitas empresas durante a pandemia da Covid-19. O [compartilhamento e revisão de documentos digitais](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) apresenta uma série de desafios para equipes e recursos multifuncionais.
+A colaboração remota entre equipes se tornou necessária para muitas empresas durante a pandemia da Covid-19. O [compartilhamento e revisão de documentos digitais](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval) apresenta uma série de desafios para equipes e recursos multifuncionais.
 
 Esses desafios incluem o compartilhamento de documentos em diferentes formatos de arquivo, a revisão e os comentários efetivos sobre o conteúdo, além da sincronização com as edições mais recentes. As APIs do [!DNL Adobe Acrobat Services] foram projetadas para permitir que os desenvolvedores de aplicativos resolvam esses desafios para seus usuários.
 
@@ -51,7 +51,7 @@ O aplicativo tem os seguintes recursos:
 
 ## Criação de credenciais de API do Adobe
 
-Antes de iniciar o código, você deve [criar credenciais](https://www.adobe.com/go/dcsdks_credentials) para a API de Incorporação do Adobe PDF e a API de Serviços do Adobe PDF. A API de incorporação do PDF é gratuita. A API de Serviços PDF é gratuita para uso por seis meses, depois você pode mudar para um [plano pré-pago](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) por apenas \$0,05 por transação de documento.
+Antes de iniciar o código, você deve [criar credenciais](https://www.adobe.com/go/dcsdks_credentials) para a API de Incorporação do Adobe PDF e a API de Serviços do Adobe PDF. A API de incorporação do PDF é gratuita. A API de Serviços PDF é gratuita para uso por seis meses, depois você pode mudar para um [plano pré-pago](https://developer.adobe.com/document-services/pricing/main) por apenas \$0,05 por transação de documento.
 
 Ao criar credenciais para a API de Serviços PDF, selecione a opção **Criar amostra de código personalizado** e selecione Node.js para o idioma. Salve o arquivo ZIP e extraia pdftools-api-credentials.json e private.key no diretório raiz do projeto Node.js Express.
 
@@ -101,7 +101,7 @@ Agora você está pronto para trabalhar com [!DNL Acrobat Services] APIs.
 
 Para a primeira parte do fluxo de trabalho de documentos, o usuário final deve fazer upload de documentos para compartilhar. Para ativar isso, adicione uma função de upload e consolide os diferentes formatos de arquivo de documento em PDF para prepará-los para o processo de revisão.
 
-Comece criando uma função para converter documentos em PDF com base no [exemplo de snippet para a API de Serviços do PDF](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html). Este exemplo também mostra snippets para muitos outros recursos vitais, incluindo reconhecimento óptico de caracteres (OCR), proteção e remoção de senha e compactação.
+Comece criando uma função para converter documentos em PDF com base no [exemplo de snippet para a API de Serviços do PDF](https://developer.adobe.com/document-services/apis/pdf-services). Este exemplo também mostra snippets para muitos outros recursos vitais, incluindo reconhecimento óptico de caracteres (OCR), proteção e remoção de senha e compactação.
 
 ```
 function fileToPDF( filename, outputFilename, callback ) {
@@ -443,8 +443,8 @@ Por fim, adicione um link na página da Web principal index.html a este ponto fi
 
 ## Próximas etapas
 
-Este tutorial prático mostrou como as APIs do [!DNL Acrobat Services] integram um [fluxo de trabalho de compartilhamento e revisão de documentos](https://www.adobe.io/apis/documentcloud/dcsdk/review-and-approval.html) em um aplicativo Web. O aplicativo permite que funcionários remotos compartilhem arquivos e colaborem com seus colegas de equipe, que são especialmente úteis para funcionários e prestadores de serviço que trabalham em casa.
+Este tutorial prático mostrou como as APIs do [!DNL Acrobat Services] integram um [fluxo de trabalho de compartilhamento e revisão de documentos](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval) em um aplicativo Web. O aplicativo permite que funcionários remotos compartilhem arquivos e colaborem com seus colegas de equipe, que são especialmente úteis para funcionários e prestadores de serviço que trabalham em casa.
 
 Você pode usar essas técnicas para habilitar a colaboração em seu aplicativo ou explorar [Amostras do SDK do Nó de Serviços do PDF](https://github.com/adobe/pdftools-node-sdk-samples) e [Amostras da API Incorporada do PDF](https://github.com/adobe/pdf-embed-api-samples) no GitHub para obter inspiração sobre como usar as APIs Adobe.
 
-Pronto para habilitar o compartilhamento e a revisão de documentos em seu próprio aplicativo? Inscreva sua conta de desenvolvedor do [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Acesse o Adobe PDF Embed gratuitamente e aproveite uma avaliação gratuita de seis meses das outras APIs. Após a avaliação, você pode [pagar conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) por apenas \$0,05 por transação de documento à medida que sua empresa cresce.
+Pronto para habilitar o compartilhamento e a revisão de documentos em seu próprio aplicativo? Inscreva sua conta de desenvolvedor do [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Acesse o Adobe PDF Embed gratuitamente e aproveite uma avaliação gratuita de seis meses das outras APIs. Após a avaliação, você pode [pagar conforme usa](https://developer.adobe.com/document-services/pricing/main) por apenas \$0,05 por transação de documento à medida que sua empresa cresce.

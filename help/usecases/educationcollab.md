@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8091
 thumbnail: KT-8091.jpg
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -21,14 +21,14 @@ ht-degree: 0%
 
 Instituições de ensino usam documentos do PDF para compartilhar material de aprendizado com estudantes. Os PDF fornecem um formato de documento intercambiável para professores.
 
-A integração da [API de Serviços do Adobe PDF](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-tools.html) e da [API de Incorporação do Adobe PDF](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-embed.html) em um aplicativo fornece aos professores e estudantes uma plataforma única para ensinar e aprender. Por exemplo, seu aplicativo pode permitir que os alunos façam perguntas em suas tarefas e boletins de ocorrência e colaborem em tarefas em grupo.
+A integração da [API de Serviços do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-services) e da [API de Incorporação do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-embed) em um aplicativo fornece aos professores e estudantes uma plataforma única para ensinar e aprender. Por exemplo, seu aplicativo pode permitir que os alunos façam perguntas em suas tarefas e boletins de ocorrência e colaborem em tarefas em grupo.
 
 Há um SDK oficial para aplicativos Node.js acessarem a API de serviços de PDF. Isso permite que você converta documentos como Microsoft Word ou Microsoft Excel em
-PDF. Além disso, é possível executar operações mais avançadas, como combinar vários relatórios, reorganizar as páginas e proteger PDF. Para obter mais detalhes, consulte a [documentação do produto](https://www.adobe.io/apis/documentcloud/dcsdk/).
+PDF. Além disso, é possível executar operações mais avançadas, como combinar vários relatórios, reorganizar as páginas e proteger PDF. Para obter mais detalhes, consulte a [documentação do produto](https://developer.adobe.com/document-services/homepage/).
 
 ## O que você pode aprender
 
-Neste tutorial prático, aprenda a criar uma plataforma de aprendizado online que [permita que professores e estudantes compartilhem recursos facilmente](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html) no PDF. Este tutorial usa um [portal de aprendizado](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers) criado com o tempo de execução de JavaScript Node.js (Node.js) e os Serviços PDF.
+Neste tutorial prático, aprenda a criar uma plataforma de aprendizado online que [permita que professores e estudantes compartilhem recursos facilmente](https://developer.adobe.com/document-services/use-cases/collaboration/student-teacher-collaboration) no PDF. Este tutorial usa um [portal de aprendizado](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers) criado com o tempo de execução de JavaScript Node.js (Node.js) e os Serviços PDF.
 
 O portal de aprendizado tem os seguintes recursos:
 
@@ -67,7 +67,7 @@ Para saber como o aplicativo carrega os arquivos, consulte o [código do projeto
 Os estudantes podem converter um ou vários documentos de qualquer tipo em PDF, como Microsoft Word, Excel e PowerPoint, bem como outros tipos populares de arquivos de texto e imagem. O portal de aprendizado usa os Serviços PDF para executar a conversão de arquivos em PDF.
 
 Para criar seu próprio portal de aprendizado, primeiro você deve criar suas próprias credenciais. [Inscreva-se](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) para
-use a API de serviços PDF gratuitamente por seis meses e até 1.000 transações de documentos. Depois disso, [pague conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) a apenas \$0,05 por transação de documento à medida que a classe aumenta suas atribuições.
+use a API de serviços PDF gratuitamente por seis meses e até 1.000 transações de documentos. Depois disso, [pague conforme usa](https://developer.adobe.com/document-services/pricing/main) a apenas \$0,05 por transação de documento à medida que a classe aumenta suas atribuições.
 
 Quando um aluno seleciona um documento no painel, ele vê o seguinte:
 
@@ -171,7 +171,7 @@ Os alunos podem usar anotações para fazer perguntas ou compartilhar seus comen
 
 É importante que professores e escolas vejam como os estudantes estão usando as plataformas online. Isso ajuda os professores a apoiar seus alunos com recursos que os ajudam a ter um melhor desempenho em suas tarefas. A API incorporada do PDF integra-se à análise que você pode usar para medir todos os eventos que ocorrem, como quando os usuários estão abrindo, lendo e fechando documentos. Com a API dos Serviços de PDF, os professores também podem desativar a modificação de impressão, download e arquivos para ajudar a manter a integridade acadêmica.
 
-Se você tiver uma licença do [Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics.html), poderá usar sua [integração imediata](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html?lang=en#adobe-analytics). Caso contrário, use retornos de chamada para integrar seus Serviços PDF com outros provedores de análise, como o [Google](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html?lang=en#google-analytics).
+Se você tiver uma licença do [Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/), poderá usar sua [integração imediata](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#adobe-analytics). Caso contrário, use retornos de chamada para integrar seus Serviços PDF com outros provedores de análise, como o [Google](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#google-analytics).
 
 Para habilitar a medição de eventos de documento, anexe os manipuladores de eventos usando o método `registerCallback` com a instância de Exibição de DC de Adobe. Você pode exibir métricas básicas, como abrir um documento ou ler uma página, no console. Você também pode salvar as métricas em um log ou publicá-las em outros armazenamentos de análise.
 
@@ -197,7 +197,7 @@ Aqui está uma captura de tela do console do navegador da Web:
 
 Essa captura de tela mostra que o aluno abriu o arquivo de atribuição e leu a primeira página, que não rolava para páginas adicionais ou o documento tinha apenas uma página, e então baixou o arquivo. Você pode coletar essas métricas para realizar análises e estudar o comportamento de seus alunos.
 
-Além disso, o [Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html) está integrado com a API incorporada do PDF, portanto, se você tiver uma assinatura do Adobe Analytics suite, poderá publicar suas métricas na sua assinatura. Para publicar as métricas no Adobe Analytics, você só precisa passar a ID do conjunto para o construtor de API incorporado do PDF. (Observe que você deve usar suas credenciais de API de Incorporação de PDF, não suas credenciais de API de Serviços de PDF).
+Além disso, o [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html) está integrado com a API incorporada do PDF, portanto, se você tiver uma assinatura do Adobe Analytics suite, poderá publicar suas métricas na sua assinatura. Para publicar as métricas no Adobe Analytics, você só precisa passar a ID do conjunto para o construtor de API incorporado do PDF. (Observe que você deve usar suas credenciais de API de Incorporação de PDF, não suas credenciais de API de Serviços de PDF).
 
 Aqui está um exemplo de código que mostra como passar a ID do conjunto para o construtor de API incorporado PDF:
 
@@ -211,8 +211,8 @@ var adobeDCView = new AdobeDC.View({
 
 ## Próximas etapas
 
-Este tutorial prático analisou como usar a API de Serviços de PDF e a API Incorporada de PDF para criar um portal de aprendizado, facilitando a [colaboração eficaz entre estudantes e professores](https://www.adobe.io/apis/documentcloud/dcsdk/student-teacher-collaboration.html). Com esse portal, os professores podem fazer upload do material de aprendizado em qualquer formato e convertê-lo em PDF usando a API de serviços do PDF. Os alunos podem visualizar esses PDF usando a API incorporada do PDF.
+Este tutorial prático analisou como usar a API de Serviços de PDF e a API Incorporada de PDF para criar um portal de aprendizado, facilitando a [colaboração eficaz entre estudantes e professores](https://developer.adobe.com/document-services/use-cases/collaboration/student-teacher-collaboration). Com esse portal, os professores podem fazer upload do material de aprendizado em qualquer formato e convertê-lo em PDF usando a API de serviços do PDF. Os alunos podem visualizar esses PDF usando a API incorporada do PDF.
 
 Agora que você sabe como anotar relatórios de PDF, arquivar as anotações e controlar o uso de relatórios de PDF, pode começar a implementar essas soluções em seus próprios projetos.
 
-Você pode usar as APIs do [!DNL Adobe Acrobat Services] para criar experiências de PDF interativas e de fácil utilização em seu site. Aproveite o uso gratuito da API de Serviços do Adobe PDF por seis meses e, a seguir, apenas [pague conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html) (por meio do AWS ou de um contrato direto) por apenas \$0,05 por transação de documento. Use o Adobe PDF Embed gratuitamente e sem limite de tempo. Crie uma conta gratuita para [começar](https://www.adobe.com/go/dcsdks_credentials) hoje.
+Você pode usar as APIs do [!DNL Adobe Acrobat Services] para criar experiências de PDF interativas e de fácil utilização em seu site. Aproveite o uso gratuito da API de Serviços do Adobe PDF por seis meses e, a seguir, apenas [pague conforme usa](https://developer.adobe.com/document-services/pricing/main) (por meio do AWS ou de um contrato direto) por apenas \$0,05 por transação de documento. Use o Adobe PDF Embed gratuitamente e sem limite de tempo. Crie uma conta gratuita para [começar](https://www.adobe.com/go/dcsdks_credentials) hoje.

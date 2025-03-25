@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8097
 thumbnail: KT-8097.jpg
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -19,29 +19,29 @@ ht-degree: 0%
 
 ![Banner do herói do caso de uso](assets/UseCaseLegalHero.jpg)
 
-A digitalização traz desafios. Hoje, a maioria das organizações tem muitos tipos de [contratos legais](https://www.adobe.io/apis/documentcloud/dcsdk/legal-contracts.html) que devem criar, editar, aprovar e ter assinado por diferentes partes. Esses contratos legais geralmente exigem personalização e identidade visual exclusivas. As organizações também podem precisar salvá-los em um formato protegido depois de assinados para mantê-los seguros. Para fazer tudo isso, eles precisam de uma solução robusta de geração e gerenciamento de documentos.
+A digitalização traz desafios. Hoje, a maioria das organizações tem muitos tipos de [contratos legais](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/legal-contracts) que devem criar, editar, aprovar e ter assinado por diferentes partes. Esses contratos legais geralmente exigem personalização e identidade visual exclusivas. As organizações também podem precisar salvá-los em um formato protegido depois de assinados para mantê-los seguros. Para fazer tudo isso, eles precisam de uma solução robusta de geração e gerenciamento de documentos.
 
 Muitas soluções oferecem alguma geração de documento, mas não podem personalizar entradas de dados e lógica condicional, como cláusulas que se aplicam apenas a cenários específicos. A atualização manual dos modelos legais de uma empresa é desafiadora e sujeita a erros, à medida que esses documentos se tornam mais abrangentes. A necessidade de automatizar esses processos é considerável.
 
 ## O que você pode aprender
 
-Neste tutorial prático, explore os recursos das [[!DNL Adobe Acrobat Services] APIs](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html) na geração de campos de entrada personalizados em documentos. Além disso, explore como converter facilmente esses documentos gerados em um formato de documento portátil protegido (PDF) para evitar a manipulação de dados.
+Neste tutorial prático, explore os recursos das [[!DNL Adobe Acrobat Services] APIs](https://developer.adobe.com/document-services/apis/doc-generation) na geração de campos de entrada personalizados em documentos. Além disso, explore como converter facilmente esses documentos gerados em um formato de documento portátil protegido (PDF) para evitar a manipulação de dados.
 
 Este tutorial envolve um pouco de programação ao explorar a conversão de contratos em PDF. Para acompanhar com eficácia, o [Microsoft Word](https://www.microsoft.com/en-us/download/office.aspx) e o [Node.js](https://nodejs.org/) devem estar instalados no computador. Também é recomendável ter uma compreensão básica de Node.js e [sintaxe ES6](https://www.w3schools.com/js/js_es6.asp).
 
 ## APIs e recursos relevantes
 
-* [API de Geração de Documento do Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html)
+* [API de Geração de Documento do Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
 
 * [API de inserção de PDF](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [API DO Adobe Sign](https://www.adobe.io/apis/documentcloud/sign.html)
+* [API DO Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
 * [Código do projeto](https://github.com/agavitalis/adobe_legal_contracts.git)
 
 ## Criação de um documento modelo
 
-Você pode criar documentos legais usando o aplicativo Microsoft Word ou baixando [modelos de amostra do Word](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html#sample-blade) do Adobe. Adobe Ainda assim, não é fácil personalizar as entradas e assinar digitalmente esses documentos sem usar algumas ferramentas auxiliares, como o [complemento Document Generation Tagger](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html?view=docgen-addin) para Microsoft Word.
+Você pode criar documentos legais usando o aplicativo Microsoft Word ou baixando [modelos de amostra do Word](https://developer.adobe.com/document-services/apis/doc-generation#sample-blade) do Adobe. Adobe Ainda assim, não é fácil personalizar as entradas e assinar digitalmente esses documentos sem usar algumas ferramentas auxiliares, como o [complemento Document Generation Tagger](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin) para Microsoft Word.
 
 O Document Generation Tagger é um complemento do Microsoft Word feito para facilitar a personalização de documentos usando tags. Permite a criação de campos dinâmicos em modelos de documento que são preenchidos dinamicamente usando dados JSON.
 
@@ -175,7 +175,7 @@ Depois de instalar os pacotes, certifique-se de que o conteúdo do arquivo packa
 
 Nesses snippets de código, você instalou as dependências do aplicativo, incluindo o mecanismo de modelo Handlebars para a exibição.
 
-O foco principal deste tutorial é o uso de [[!DNL Acrobat Services] APIs](https://www.adobe.io/apis/documentcloud/dcsdk/) para converter documentos em PDF. Portanto, não há um processo passo a passo de como construir esse aplicativo Node.js. No entanto, você pode recuperar o código completo do aplicativo Node.js de trabalho em [GitHub](https://github.com/agavitalis/adobe_legal_contracts.git).
+O foco principal deste tutorial é o uso de [[!DNL Acrobat Services] APIs](https://developer.adobe.com/document-services/homepage/) para converter documentos em PDF. Portanto, não há um processo passo a passo de como construir esse aplicativo Node.js. No entanto, você pode recuperar o código completo do aplicativo Node.js de trabalho em [GitHub](https://github.com/agavitalis/adobe_legal_contracts.git).
 
 ## Integrando [!DNL Adobe Acrobat Services] APIs em um aplicativo Node.js
 
@@ -187,7 +187,7 @@ As APIs do [!DNL Adobe Acrobat Services] são serviços confiáveis baseados em 
 
 * API de geração de documento Adobe
 
-Você precisa de credenciais para usar [!DNL Acrobat Services] APIs (diferentes das credenciais de API incorporadas ao PDF). Se você não tiver credenciais válidas, [registre-se](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) e conclua o fluxo de trabalho conforme ilustrado na captura de tela abaixo. Aproveite uma avaliação gratuita de [seis meses e pague conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html), por apenas US$ 0,05 por transação de documento.
+Você precisa de credenciais para usar [!DNL Acrobat Services] APIs (diferentes das credenciais de API incorporadas ao PDF). Se você não tiver credenciais válidas, [registre-se](https://www.adobe.com/go/dcsdks_credentials?ref=getStartedWithServicesSDK) e conclua o fluxo de trabalho conforme ilustrado na captura de tela abaixo. Aproveite uma avaliação gratuita de [seis meses e pague conforme usa](https://developer.adobe.com/document-services/pricing/main), por apenas US$ 0,05 por transação de documento.
 
 ![Captura de tela da criação de novas credenciais](assets/legal_6.png)
 
@@ -424,8 +424,8 @@ No arquivo do controlador acima, há três funções: listFiles, previewPDF e do
 Neste tutorial prático, você marcou um documento usando o complemento Document Generation Tagger do Microsoft Word. Em seguida, integrou [!DNL Acrobat Services] APIs em um aplicativo Node.js e
 converteu um documento marcado em um formato de PDF para download, embora você também pudesse ter criado o contrato legal diretamente para o PDF. Por fim, você usou a API incorporada do Adobe PDF para visualizar o PDF gerado para verificação e assinatura.
 
-O aplicativo concluído facilita muito marcar [modelos de contrato legal](https://www.adobe.io/apis/documentcloud/dcsdk/legal-contracts.html) com campos dinâmicos, convertê-los em PDF, visualizá-los e assiná-los usando [!DNL Acrobat Services] APIs. Em vez de gastar tempo criando um contrato exclusivo, sua equipe pode enviar automaticamente o contrato correto para cada cliente e dedicar mais tempo à expansão dos seus negócios.
+O aplicativo concluído facilita muito marcar [modelos de contrato legal](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/legal-contracts) com campos dinâmicos, convertê-los em PDF, visualizá-los e assiná-los usando [!DNL Acrobat Services] APIs. Em vez de gastar tempo criando um contrato exclusivo, sua equipe pode enviar automaticamente o contrato correto para cada cliente e dedicar mais tempo à expansão dos seus negócios.
 
-As organizações usam [!DNL Adobe Acrobat Services] APIs para sua integridade e facilidade de uso. E o melhor de tudo é que você pode aproveitar uma avaliação gratuita de [seis meses e depois pagar conforme usa](https://www.adobe.io/apis/documentcloud/dcsdk/pdf-pricing.html). Você paga apenas pelo que usa. Além disso, a API de incorporação do PDF é sempre gratuita.
+As organizações usam [!DNL Adobe Acrobat Services] APIs para sua integridade e facilidade de uso. E o melhor de tudo é que você pode aproveitar uma avaliação gratuita de [seis meses e depois pagar conforme usa](https://developer.adobe.com/document-services/pricing/main). Você paga apenas pelo que usa. Além disso, a API de incorporação do PDF é sempre gratuita.
 
 Pronto para aumentar a produtividade aprimorando o fluxo de documentos? [Comece](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) hoje.
