@@ -35,7 +35,7 @@ Neste tutorial prático, aprenda a implementar um formulário de RH baseado na W
 
 ## Gerar credenciais de API
 
-Comece inscrevendo-se para a avaliação gratuita da API de Serviços do Adobe PDF. Vá para o [site [Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) e clique no botão *Começar* em *Criar Novas Credenciais*. A avaliação gratuita fornece 1.000 transações de documentos que podem ser usadas durante seis meses. Na próxima página (veja abaixo), escolha o serviço (API de Serviços do PDF), defina o nome das credenciais (por exemplo, HRDocumentWFCredentials) e insira uma descrição.
+Comece inscrevendo-se para a avaliação gratuita da API de Serviços do Adobe PDF. Vá para o [&#128279;](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)site [Adobe](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) e clique no botão *Começar* em *Criar Novas Credenciais*. A avaliação gratuita fornece 1.000 transações de documentos que podem ser usadas durante seis meses. Na próxima página (veja abaixo), escolha o serviço (API de Serviços do PDF), defina o nome das credenciais (por exemplo, HRDocumentWFCredentials) e insira uma descrição.
 
 Selecione o idioma (Java para este exemplo) e marque *Criar amostras de código personalizadas*. A última etapa garante que as amostras de código já contenham o arquivo pdftools-api-credentials.json pré-preenchido que você usa, juntamente com a chave privada para autenticar seu aplicativo na API.
 

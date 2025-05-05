@@ -557,6 +557,6 @@ A junção desse fluxo de trabalho ajuda o [comerciante hipotético](https://dev
 
 Se você é um desenvolvedor do Angular ou do React, poderá gostar de experimentar [amostras adicionais](https://github.com/adobe/pdf-embed-api-samples) que incluem como integrar a API incorporada do PDF aos projetos do React e do Angular.
 
-O Adobe permite que você crie sua experiência completa para o cliente com soluções inovadoras. Confira gratuitamente a [API de Incorporação do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-embed/). Para explorar o que mais você pode fazer, experimente a API de Serviços do Adobe PDF com [pagamento conforme gopr](https://developer.adobe.com/document-services/pricing/main)[congelamento](https://developer.adobe.com/document-services/pricing/main).
+O Adobe permite que você crie sua experiência completa para o cliente com soluções inovadoras. Confira gratuitamente a [API de Incorporação do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-embed/). Para explorar o que mais você pode fazer, experimente a API de Serviços do Adobe PDF com [pagamento conforme gopr](https://developer.adobe.com/document-services/pricing/main) [congelamento](https://developer.adobe.com/document-services/pricing/main).
 
 [Comece](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) com [!DNL Adobe Acrobat Services] APIs hoje.

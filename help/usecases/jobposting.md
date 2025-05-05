@@ -25,7 +25,7 @@ Imagine o seguinte cenário: você tem um site que permite aos empregadores [car
 
 ## O que você pode aprender
 
-Este tutorial prático percorre um exemplo de Node.js que usa o [!DNL Adobe Acrobat Services] e seu [SDK do Node.js](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) para adicionar esses recursos a um site de publicação de trabalhos. Isto cria um site que é mais fácil de usar e mais atraente para os empregadores e candidatos a emprego. Aqui está o [código de projeto [completo](https://github.com/contentlab-io/adobe_job_posting)](https://github.com/contentlab-io/adobe_job_posting), caso você queira acompanhar enquanto lê.
+Este tutorial prático percorre um exemplo de Node.js que usa o [!DNL Adobe Acrobat Services] e seu [SDK do Node.js](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) para adicionar esses recursos a um site de publicação de trabalhos. Isto cria um site que é mais fácil de usar e mais atraente para os empregadores e candidatos a emprego. Aqui está o [&#128279;](https://github.com/contentlab-io/adobe_job_posting)código de projeto [completo](https://github.com/contentlab-io/adobe_job_posting), caso você queira acompanhar enquanto lê.
 
 Para iniciar, configure um aplicativo Web Node.js simples com base em Express. O [Express](https://expressjs.com/) é uma estrutura de aplicativo Web minimalista que oferece recursos como roteamento e modelagem. O código do aplicativo está disponível em [GitHub](https://github.com/contentlab-io/adobe_job_posting). Além disso, instale o [banco de dados PostgreSQL](https://www.postgresql.org/) e configure-o para armazenar o PDF.
 
