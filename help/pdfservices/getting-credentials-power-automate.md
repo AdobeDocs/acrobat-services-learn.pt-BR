@@ -116,7 +116,7 @@ Conforme descrito no início deste tutorial, crie um novo fluxo, adicione uma et
 
 Como mostra a captura de tela acima, você pode mudar para uma conta corporativa ou configurar uma nova conta de organização. Depois, você pode adicionar a ação Serviços do Adobe PDF.
 
-Para obter uma visão mais detalhada sobre como criar seu primeiro fluxo do Microsoft Power Automate com o [!DNL Adobe Acrobat Services], consulte [Criar seu primeiro fluxo de trabalho no Microsoft Power Automate](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate).
+Para obter uma visão mais detalhada sobre como criar seu primeiro fluxo do Microsoft Power Automate com o [!DNL Adobe Acrobat Services], consulte [Criar seu primeiro fluxo de trabalho no Microsoft Power Automate](https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfservices/create-workflow-power-automate).
 
 ## Recursos adicionais
 

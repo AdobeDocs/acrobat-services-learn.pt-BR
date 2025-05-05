@@ -29,8 +29,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/automatelegalworkflows" title="Automatizar fluxos de trabalho legais" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_11d45ac52221eb0279a687861908ee87f8b9071fd.png?width=400&format=webply&optimize=medium" alt="Automatizar fluxos de trabalho legais"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/automatelegalworkflows" title="Automatizar fluxos de trabalho legais" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_11d45ac52221eb0279a687861908ee87f8b9071fd.png?width=400&format=webply&optimize=medium" alt="Automatizar fluxos de trabalho legais"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -38,11 +38,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/automatelegalworkflows" target="_self" rel="referrer" title="Automatizar fluxos de trabalho legais">Automatizar fluxos de trabalho legais</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/automatelegalworkflows" target="_self" rel="referrer" title="Automatizar fluxos de trabalho legais">Automatizar fluxos de trabalho legais</a>
                     </p>
                     <p class="is-size-6">Saiba como automatizar fluxos de trabalho legais com conteúdo condicional</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/automatelegalworkflows" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/automatelegalworkflows" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -52,8 +52,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/employeeonboarding" title="Modernização da integração do funcionário" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_132a84764b759671006b4508a187b91ce708b060a.png?width=400&format=webply&optimize=medium" alt="Modernização da integração do funcionário"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/employeeonboarding" title="Modernização da integração do funcionário" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_132a84764b759671006b4508a187b91ce708b060a.png?width=400&format=webply&optimize=medium" alt="Modernização da integração do funcionário"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -61,11 +61,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/employeeonboarding" target="_self" rel="referrer" title="Modernização da integração do funcionário">Modernizando a integração de funcionário</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/employeeonboarding" target="_self" rel="referrer" title="Modernização da integração do funcionário">Modernizando a integração de funcionário</a>
                     </p>
                     <p class="is-size-6">Saiba como modernizar a integração de funcionários</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/employeeonboarding" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/employeeonboarding" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -75,8 +75,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/acceleratesales" title="Acelere seu processo de vendas" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_1ce553da02229c4a25bcf679ca8eb2b165e0b9019.png?width=400&format=webply&optimize=medium" alt="Acelere seu processo de vendas"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/acceleratesales" title="Acelere seu processo de vendas" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_1ce553da02229c4a25bcf679ca8eb2b165e0b9019.png?width=400&format=webply&optimize=medium" alt="Acelere seu processo de vendas"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -84,11 +84,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/acceleratesales" target="_self" rel="referrer" title="Acelere seu processo de vendas">Acelere seu processo de vendas</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/acceleratesales" target="_self" rel="referrer" title="Acelere seu processo de vendas">Acelere seu processo de vendas</a>
                     </p>
                     <p class="is-size-6">Saiba como acelerar as vendas integrando experiências de documento</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/acceleratesales" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/acceleratesales" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -98,8 +98,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/sales" title="Gerenciamento de propostas de vendas e contratos" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_179ae58be6f2a7a0fba8e0a76bd9f5099619f61b0.png?width=400&format=webply&optimize=medium" alt="Gerenciamento de propostas de vendas e contratos"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/sales" title="Gerenciamento de propostas de vendas e contratos" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_179ae58be6f2a7a0fba8e0a76bd9f5099619f61b0.png?width=400&format=webply&optimize=medium" alt="Gerenciamento de propostas de vendas e contratos"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -107,11 +107,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/sales" target="_self" rel="referrer" title="Gerenciamento de propostas de vendas e contratos">Gerenciando propostas de vendas e contratos</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/sales" target="_self" rel="referrer" title="Gerenciamento de propostas de vendas e contratos">Gerenciando propostas de vendas e contratos</a>
                     </p>
                     <p class="is-size-6">Saiba como criar um fluxo de trabalho eficiente para automatizar e simplificar propostas de vendas</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/sales" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/sales" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -121,8 +121,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/nda" title="Criando um NDA" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_12b38eafbf76bee920fa3ab873d392432cdcae963.png?width=400&format=webply&optimize=medium" alt="Criando um NDA"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/nda" title="Criando um NDA" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_12b38eafbf76bee920fa3ab873d392432cdcae963.png?width=400&format=webply&optimize=medium" alt="Criando um NDA"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -130,11 +130,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/nda" target="_self" rel="referrer" title="Criando um NDA">Criando um NDA</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/nda" target="_self" rel="referrer" title="Criando um NDA">Criando um NDA</a>
                     </p>
                     <p class="is-size-6">Saiba como criar um PDF NDA dinâmico para colaboração</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/nda" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/nda" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -144,8 +144,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/legal" title="Gerenciar contratos legais" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_175eb5e0acbeb769b4f69aa4ae5cf24ed55489d87.png?width=400&format=webply&optimize=medium" alt="Gerenciar contratos legais"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/legal" title="Gerenciar contratos legais" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_175eb5e0acbeb769b4f69aa4ae5cf24ed55489d87.png?width=400&format=webply&optimize=medium" alt="Gerenciar contratos legais"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -153,11 +153,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/legal" target="_self" rel="referrer" title="Gerenciar contratos legais">Gerenciar contratos legais</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/legal" target="_self" rel="referrer" title="Gerenciar contratos legais">Gerenciar contratos legais</a>
                     </p>
                     <p class="is-size-6">Saiba como gerar e proteger documentos legais automaticamente com a entrada de dados personalizados</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/legal" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/legal" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -167,8 +167,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/jobposting" title="Lançamento de trabalho" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_1487ad3b5c3c12b24a1c44420ac612f7a5b06d16a.png?width=400&format=webply&optimize=medium" alt="Lançamento de trabalho"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/jobposting" title="Lançamento de trabalho" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_1487ad3b5c3c12b24a1c44420ac612f7a5b06d16a.png?width=400&format=webply&optimize=medium" alt="Lançamento de trabalho"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -176,11 +176,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/jobposting" target="_self" rel="referrer" title="Lançamento de trabalho">Publicação de trabalho</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/jobposting" target="_self" rel="referrer" title="Lançamento de trabalho">Publicação de trabalho</a>
                     </p>
                     <p class="is-size-6">Saiba como desenvolver uma experiência na Web tranquila e consistente para candidatos a emprego e empregadores</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/jobposting" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/jobposting" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -190,8 +190,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/educationcollab" title="Colaboração entre aluno e professor" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_1746197c35f5bd2d66f8cd58e090c5e4fa7a3b5f2.png?width=400&format=webply&optimize=medium" alt="Colaboração entre aluno e professor"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/educationcollab" title="Colaboração entre aluno e professor" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_1746197c35f5bd2d66f8cd58e090c5e4fa7a3b5f2.png?width=400&format=webply&optimize=medium" alt="Colaboração entre aluno e professor"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -199,11 +199,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/educationcollab" target="_self" rel="referrer" title="Colaboração entre aluno e professor">Colaboração Aluno-Professor</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/educationcollab" target="_self" rel="referrer" title="Colaboração entre aluno e professor">Colaboração Aluno-Professor</a>
                     </p>
                     <p class="is-size-6">Saiba como criar uma plataforma de aprendizado online que permite que professores e estudantes compartilhem recursos facilmente no PDF</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/educationcollab" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/educationcollab" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -213,8 +213,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/agreementworkflowsnodejs" title="Fluxos de trabalho do contrato no Node.js" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_1a1148ebfe4641258d91065e83c2d39be0e918c38.png?width=400&format=webply&optimize=medium" alt="Fluxos de trabalho do contrato no Node.js"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/agreementworkflowsnodejs" title="Fluxos de trabalho do contrato no Node.js" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_1a1148ebfe4641258d91065e83c2d39be0e918c38.png?width=400&format=webply&optimize=medium" alt="Fluxos de trabalho do contrato no Node.js"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -222,11 +222,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/agreementworkflowsnodejs" target="_self" rel="referrer" title="Fluxos de trabalho do contrato no Node.js">Fluxos de trabalho do contrato no Node.js</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/agreementworkflowsnodejs" target="_self" rel="referrer" title="Fluxos de trabalho do contrato no Node.js">Fluxos de trabalho do contrato no Node.js</a>
                     </p>
                     <p class="is-size-6">As APIs dos Serviços Adobe Acrobat incorporam facilmente recursos de PDF em seus aplicativos Web</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/agreementworkflowsnodejs" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/agreementworkflowsnodejs" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -236,8 +236,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/hragreementworkflowsjava" title="Fluxos de trabalho de documentos de RH em Java" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_16549bea7754eaa4cfefb538aa4589ff68530a1fd.png?width=400&format=webply&optimize=medium" alt="Fluxos de trabalho de documentos de RH em Java"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/hragreementworkflowsjava" title="Fluxos de trabalho de documentos de RH em Java" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_16549bea7754eaa4cfefb538aa4589ff68530a1fd.png?width=400&format=webply&optimize=medium" alt="Fluxos de trabalho de documentos de RH em Java"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -245,11 +245,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/hragreementworkflowsjava" target="_self" rel="referrer" title="Fluxos de trabalho de documentos de RH em Java">Fluxos de trabalho de documentos de RH em Java</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/hragreementworkflowsjava" target="_self" rel="referrer" title="Fluxos de trabalho de documentos de RH em Java">Fluxos de trabalho de documentos de RH em Java</a>
                     </p>
                     <p class="is-size-6">As APIs dos Serviços Adobe Acrobat incorporam facilmente recursos de PDF em seus aplicativos Web de RH</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/hragreementworkflowsjava" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/hragreementworkflowsjava" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -259,8 +259,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/financeworkflowsjava" title="Gerenciamento de fluxos de trabalho de documentos financeiros em Java" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_14763e77cca336e72797a4b6964a94311623df148.png?width=400&format=webply&optimize=medium" alt="Gerenciamento de fluxos de trabalho de documentos financeiros em Java"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/financeworkflowsjava" title="Gerenciamento de fluxos de trabalho de documentos financeiros em Java" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_14763e77cca336e72797a4b6964a94311623df148.png?width=400&format=webply&optimize=medium" alt="Gerenciamento de fluxos de trabalho de documentos financeiros em Java"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -268,11 +268,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/financeworkflowsjava" target="_self" rel="referrer" title="Gerenciamento de fluxos de trabalho de documentos financeiros em Java">Gerenciando fluxos de trabalho de documentos financeiros em Java</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/financeworkflowsjava" target="_self" rel="referrer" title="Gerenciamento de fluxos de trabalho de documentos financeiros em Java">Gerenciando fluxos de trabalho de documentos financeiros em Java</a>
                     </p>
                     <p class="is-size-6">Os Serviços da Adobe Acrobat fornecem todas as ferramentas, serviços e recursos necessários para processar e extrair dados de documentos financeiros do PDF</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/financeworkflowsjava" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/financeworkflowsjava" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -290,8 +290,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/invoices" title="Manuseando faturas" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_1ff9a75e31fa990e15e1010e05fd751371eaf0a8c.png?width=400&format=webply&optimize=medium" alt="Manuseando faturas"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/invoices" title="Manuseando faturas" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_1ff9a75e31fa990e15e1010e05fd751371eaf0a8c.png?width=400&format=webply&optimize=medium" alt="Manuseando faturas"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -299,11 +299,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/invoices" target="_self" rel="referrer" title="Manuseando faturas">Gerenciando faturas</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/invoices" target="_self" rel="referrer" title="Manuseando faturas">Gerenciando faturas</a>
                     </p>
                     <p class="is-size-6">Saiba como gerar, proteger com senha e entregar faturas de clientes automaticamente</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/invoices" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/invoices" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>
@@ -320,8 +320,8 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/ddppdfembedapi" title="Publicação de documentos digitais" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/media_1d8ea2c326af9b7ee0af2fe969a594108bf01b97b.png?width=400&format=webply&optimize=medium" alt="Publicação de documentos digitais"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/ddppdfembedapi" title="Publicação de documentos digitais" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/media_1d8ea2c326af9b7ee0af2fe969a594108bf01b97b.png?width=400&format=webply&optimize=medium" alt="Publicação de documentos digitais"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -329,11 +329,11 @@ Saiba como as APIs do [!DNL Adobe Acrobat Services] podem mudar sua empresa com 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/ddppdfembedapi" target="_self" rel="referrer" title="Publicação de documentos digitais">Publicação de documentos digitais</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/ddppdfembedapi" target="_self" rel="referrer" title="Publicação de documentos digitais">Publicação de documentos digitais</a>
                     </p>
                     <p class="is-size-6">Saiba como exibir documentos PDF incorporados em páginas da Web usando a API incorporada do Adobe PDF</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/usecases/ddppdfembedapi" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/usecases/ddppdfembedapi" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Leitura</span>
                 </a>
             </div>

@@ -422,7 +422,7 @@ https://www.google.com/?code=<YOUR_CODE>&api_access_point=https://api.eu1.adobes
 
 Anote os valores fornecidos para \&lt;YOUR_CODE\> e api_access_point.
 
-Para enviar uma solicitação de POST HTTP que fornece o token de acesso, use os valores client ID, \&lt;YOUR_CODE\> e api_access_point. Você pode usar o [Postman](https://helpx.adobe.com/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) ou cURL:
+Para enviar uma solicitação de POST HTTP que fornece o token de acesso, use os valores client ID, \&lt;YOUR_CODE\> e api_access_point. Você pode usar o [Postman](https://helpx.adobe.com/br/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) ou cURL:
 
 ```
 curl --location --request POST "https://**api.eu1.adobesign.com**/oauth/token"
