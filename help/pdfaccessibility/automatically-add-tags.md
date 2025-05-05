@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Saiba como marcar automaticamente a acessibilidade em escala usando IA. A marcação automática reduz o tempo e o custo necessários para alcançar a conformidade.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428310?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3446264?hidetitle=true&captions=por_br)

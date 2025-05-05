@@ -23,4 +23,4 @@ Saiba como criar um aplicativo no Acrobat Sign.
 >
 >Este tutorial foi desenvolvido especificamente para parceiros OEM que estão criando e incorporando um processo de assinatura em seu aplicativo.
 
->[!VIDEO](https://video.tv.adobe.com/v/347348?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3444583?hidetitle=true&captions=por_br)

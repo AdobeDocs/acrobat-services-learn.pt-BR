@@ -23,4 +23,4 @@ Saiba como criar um link incorporado para OAuth, que é o método pelo qual o ap
 >
 >Este tutorial foi desenvolvido especificamente para parceiros OEM que estão criando e incorporando um processo de assinatura em seu aplicativo.
 
->[!VIDEO](https://video.tv.adobe.com/v/347349?hidetitle=true){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3445413?hidetitle=true&captions=por_br){transcript=true}

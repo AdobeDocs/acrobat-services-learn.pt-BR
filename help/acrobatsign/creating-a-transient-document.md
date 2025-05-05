@@ -22,4 +22,4 @@ Saiba como criar um documento temporário que pode ser usado com a API do Acroba
 >
 >Este tutorial foi desenvolvido especificamente para parceiros OEM que estão criando e incorporando um processo de assinatura em seu aplicativo.
 
->[!VIDEO](https://video.tv.adobe.com/v/347351?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3444775?hidetitle=true&captions=por_br)
