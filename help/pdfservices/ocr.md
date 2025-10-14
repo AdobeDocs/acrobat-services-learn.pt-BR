@@ -99,7 +99,7 @@ A partir daí, você pode simplesmente substituir os arquivos de entrada e saíd
 
 ## Recursos e próximas etapas
 
-* Para obter ajuda e suporte adicionais, visite o fórum da comunidade de [[!DNL Acrobat Services] APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&amp;sort=latest_replies&amp;filter=all) do Adobe
+* Para obter ajuda e suporte adicionais, visite o fórum da comunidade de [[!DNL Acrobat Services] APIs](https://community.adobe.com/t5/document-cloud-sdk/bd-p/Document-Cloud-SDK?page=1&sort=latest_replies&filter=all) do Adobe
 
 * Documentação [API de Serviços PDF](https://www.adobe.com/go/pdftoolsapi_doc)
 

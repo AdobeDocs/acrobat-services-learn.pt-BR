@@ -302,7 +302,7 @@ O último bit de código necessário é uma função que exibe o documento assim
 
 A [Demonstração da API de Incorporação do Adobe PDF](https://documentcloud.adobe.com/view-sdk-demo/index.html#/view/FULL_WINDOW/Bodea%20Brochure.pdf) permite visualizar as várias outras opções de incorporação de documentos PDF.
 
-![Imagem de opções de PDF de incorporação ](assets/AWNjs_7.png)
+![Imagem de opções de PDF de incorporação &#x200B;](assets/AWNjs_7.png)
 
 É possível ativar e desativar várias opções e ver imediatamente como elas são renderizadas. Quando encontrar uma combinação de que você goste, clique no botão *\&lt;/\> Gerar Código* para gerar o código HTML real usando essas opções.
 

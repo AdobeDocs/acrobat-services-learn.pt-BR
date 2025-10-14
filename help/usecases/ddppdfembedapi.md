@@ -26,7 +26,7 @@ para fornecer contexto para seus aplicativos e serviços. O profissional de mark
 
 ## O que você pode aprender
 
-Neste tutorial prático, saiba como exibir documentos PDF incorporados dentro de páginas da Web usando a [API incorporada do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-embed), que é gratuita e fácil de usar. Estes exemplos usam alguns JavaScript, Node.js, Express.js, HTML e CSS. Você pode exibir o código completo do projeto em [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
+Neste tutorial prático, saiba como exibir documentos PDF incorporados dentro de páginas da Web usando a [API incorporada do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-embed), que é gratuita e fácil de usar. Estes exemplos usam alguns JavaScript, Node.js, Express.js, HTML e CSS. Você pode exibir o código completo do projeto em [GitHub](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1).
 
 ## APIs e recursos relevantes
 
@@ -34,7 +34,7 @@ Neste tutorial prático, saiba como exibir documentos PDF incorporados dentro de
 
 * [API de Serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [Código do projeto](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&amp;sa=D&amp;source=editors&amp;ust=1617129543031000&amp;usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)
+* [Código do projeto](https://www.google.com/url?q=https://github.com/marcelooliveira/EmbedPDF/tree/main/pdf-app&sa=D&source=editors&ust=1617129543031000&usg=AOvVaw2rzSwYuJ_JI7biVIgbNMw1)
 
 ## Criando um Aplicativo Web de Nó
 
@@ -347,7 +347,7 @@ Agora execute o aplicativo com o comando npm start e abra o site em <http://loca
 
 Por fim, escolha um white paper e clique em **Exibir documento** para abrir uma nova página com o PDF incorporado embutido:
 
-![Captura de tela do white paper PDF ](assets/ddp_11.png)
+![Captura de tela do white paper PDF &#x200B;](assets/ddp_11.png)
 
 Observe como as opções Download PDF e Print PDF agora estão presentes.
 
