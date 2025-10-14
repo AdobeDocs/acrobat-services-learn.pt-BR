@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10222
 thumbnail: KT-10222.jpg
 exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: b7a20f30a2eb175053c7a25be0411f80dd88899f
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 0%
@@ -130,7 +130,7 @@ Em seguida, navegue até o painel Marcador de geração de documento para inseri
 
    ![Captura de tela de inserção de marca](assets/accsales_5.png)
 
-   Este processo coloca uma marca chamada {{company.name}} porque ela está no caminho do JSON.
+   Este processo coloca uma marca chamada `{{company.name}}` porque ela está no caminho do JSON.
 
    ```
    {
@@ -189,7 +189,7 @@ Os cálculos numéricos permitem calcular somas e outros cálculos com base em u
 1. Em *[!UICONTROL Selecionar tipo de cálculo]*, escolha **[!UICONTROL Agregação]**.
 1. Em *[!UICONTROL Selecionar tipo]*, escolha **[!UICONTROL Soma]**.
 1. Em *[!UICONTROL Selecionar registros]*, escolha **[!UICONTROL ReferencesOrder]**.
-1. Em *[!UICONTROL Selecionar item para executar agregação]&#x200B;**, escolha &#x200B;** [!UICONTROL totalPaymentsDue.price]**.
+1. Em *[!UICONTROL Selecionar item para executar agregação]**, escolha **[!UICONTROL totalPaymentsDue.price]**.
 1. Selecione **[!UICONTROL Inserir Cálculo]**.
 
 Esse processo insere uma tag de cálculo que fornece a soma dos valores. Cálculos mais avançados podem ser feitos usando cálculos JSONata. Por exemplo:
@@ -272,6 +272,7 @@ Uma tag é inserida no documento.
 ![Captura de tela da marca de assinatura no documento](assets/accsales_15.png)
 
 O Acrobat Sign fornece vários outros tipos de campos que você pode inserir, como campos de data.
+
 1. No tipo *Campo*, selecione **[!UICONTROL Data]**.
 1. Mova o cursor acima do local Data no documento.
 1. Selecione **[!UICONTROL Inserir Marca de Texto do Adobe Sign]**.

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: b7a20f30a2eb175053c7a25be0411f80dd88899f
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -136,7 +136,7 @@ const fileUpload = require( "express-fileupload" );
 app.use( fileUpload() );
 ```
 
-Agora, adicione um ponto de extremidade `/upload ` e salve o arquivo carregado dentro da pasta de rascunhos usando o mesmo nome de arquivo. Em seguida, chame a função que você escreveu anteriormente para criar um arquivo PDF do mesmo documento, se ele ainda não estiver no formato PDF. Você pode gerar um nome de arquivo para o novo arquivo PDF com base no nome do documento original carregado:
+Agora, adicione um ponto de extremidade `/upload` e salve o arquivo carregado dentro da pasta de rascunhos usando o mesmo nome de arquivo. Em seguida, chame a função que você escreveu anteriormente para criar um arquivo PDF do mesmo documento, se ele ainda não estiver no formato PDF. Você pode gerar um nome de arquivo para o novo arquivo PDF com base no nome do documento original carregado:
 
 ```
 // Create a PDF file from an uploaded file
