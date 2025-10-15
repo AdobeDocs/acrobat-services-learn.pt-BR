@@ -197,7 +197,7 @@ Aqui está uma captura de tela do console do navegador da Web:
 
 Essa captura de tela mostra que o aluno abriu o arquivo de atribuição e leu a primeira página, que não rolava para páginas adicionais ou o documento tinha apenas uma página, e então baixou o arquivo. Você pode coletar essas métricas para realizar análises e estudar o comportamento de seus alunos.
 
-Além disso, o [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html) está integrado com a API incorporada do PDF, portanto, se você tiver uma assinatura do Adobe Analytics suite, poderá publicar suas métricas na sua assinatura. Para publicar as métricas no Adobe Analytics, você só precisa passar a ID do conjunto para o construtor de API incorporado do PDF. (Observe que você deve usar suas credenciais de API de Incorporação de PDF, não suas credenciais de API de Serviços de PDF).
+Além disso, o [Adobe Analytics](https://business.adobe.com/br/products/adobe-analytics.html) está integrado com a API incorporada do PDF, portanto, se você tiver uma assinatura do Adobe Analytics suite, poderá publicar suas métricas na sua assinatura. Para publicar as métricas no Adobe Analytics, você só precisa passar a ID do conjunto para o construtor de API incorporado do PDF. (Observe que você deve usar suas credenciais de API de Incorporação de PDF, não suas credenciais de API de Serviços de PDF).
 
 Aqui está um exemplo de código que mostra como passar a ID do conjunto para o construtor de API incorporado PDF:
 
