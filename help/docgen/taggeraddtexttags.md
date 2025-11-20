@@ -7,7 +7,7 @@ level: Beginner
 type: Tutorial
 thumbnail: 332116.jpg
 exl-id: 59a0c912-9965-4bf9-8834-28d1dff91055
-source-git-commit: 5222e1626f4e79c02298e81d621216469753ca72
+source-git-commit: 3ad835cd32d86273ee2c8742652b76c19b524d9d
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 0%
@@ -18,4 +18,5 @@ ht-degree: 0%
 
 Saiba como adicionar tags de texto aos modelos do Microsoft Word usando o Document Generation Tagger do Adobe para usar com a API de geração de documento do Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3414225?hidetitle=true&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/332116?hidetitle=true)
+
