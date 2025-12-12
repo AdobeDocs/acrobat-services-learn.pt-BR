@@ -23,5 +23,5 @@ Saiba como se inscrever para uma Conta de desenvolvedor para o Acrobat Sign, que
 >
 >Este tutorial foi desenvolvido especificamente para parceiros OEM que estão criando e incorporando um processo de assinatura em seu aplicativo.
 
->[!VIDEO](https://video.tv.adobe.com/v/347347?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3445923?captions=por_br&hidetitle=true)
 
