@@ -8,9 +8,9 @@ type: Tutorial
 jira: KT-8092
 thumbnail: KT-8092.jpg
 exl-id: 0e24c8fd-7fda-452c-96f9-1e7ab1e06922
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Imagine o seguinte cenário: você tem um site que permite aos empregadores [car
 
 ## O que você pode aprender
 
-Este tutorial prático percorre um exemplo de Node.js que usa o [!DNL Adobe Acrobat Services] e seu [SDK do Node.js](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) para adicionar esses recursos a um site de publicação de trabalhos. Isto cria um site que é mais fácil de usar e mais atraente para os empregadores e candidatos a emprego. Aqui está o [&#128279;](https://github.com/contentlab-io/adobe_job_posting)código de projeto [completo](https://github.com/contentlab-io/adobe_job_posting), caso você queira acompanhar enquanto lê.
+Este tutorial prático percorre um exemplo de Node.js que usa o [!DNL Adobe Acrobat Services] e seu [SDK do Node.js](https://www.npmjs.com/package/@adobe/documentservices-pdftools-node-sdk) para adicionar esses recursos a um site de publicação de trabalhos. Isto cria um site que é mais fácil de usar e mais atraente para os empregadores e candidatos a emprego. Aqui está o [código de projeto ](https://github.com/contentlab-io/adobe_job_posting)completo[](https://github.com/contentlab-io/adobe_job_posting), caso você queira acompanhar enquanto lê.
 
 Para iniciar, configure um aplicativo Web Node.js simples com base em Express. O [Express](https://expressjs.com/) é uma estrutura de aplicativo Web minimalista que oferece recursos como roteamento e modelagem. O código do aplicativo está disponível em [GitHub](https://github.com/contentlab-io/adobe_job_posting). Além disso, instale o [banco de dados PostgreSQL](https://www.postgresql.org/) e configure-o para armazenar o PDF.
 
@@ -283,3 +283,4 @@ O [!DNL Acrobat Services] ajuda a adicionar funções importantes de manuseio de
 * [API de Serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 Para começar a adicionar recursos amigáveis de manuseio de documentos ao seu site, [inscreva-se para o teste grátis](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). A API incorporada do Adobe PDF é sempre gratuita e a API de serviços do Adobe PDF é gratuita por seis meses; basta 0,05 por transação de documento para que você possa [pagar conforme crescer na sua empresa](https://developer.adobe.com/document-services/pricing/main).
+

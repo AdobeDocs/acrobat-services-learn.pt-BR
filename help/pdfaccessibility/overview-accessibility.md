@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 type: Tutorial
 jira: KT-15327
 exl-id: dfd018a7-8e1f-4c00-9e1f-6b7b8435fbfa
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Essa API viabilizada por IA marca automaticamente tabelas, parágrafos, listas, 
 <!-- Comment -->
 <!-- CARDS
 
-* https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags
+* https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags
   {target = _self}
   {title = Automatically tag documents for accessibility}
   {description = Learn how to automatically generate documents at scale}
-  {image = https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfaccessibility/media_12d5056f8a08ccdcd7d45c49ee252d1070e5e8e64.png?width=400&format=webply&optimize=medium}
+  {image = https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfaccessibility/media_12d5056f8a08ccdcd7d45c49ee252d1070e5e8e64.png?width=400&format=webply&optimize=medium}
   {cta = Watch}
 
 -->
@@ -37,8 +37,8 @@ Essa API viabilizada por IA marca automaticamente tabelas, parágrafos, listas, 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags" title="Marcar documentos automaticamente para fins de acessibilidade" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfaccessibility/media_12d5056f8a08ccdcd7d45c49ee252d1070e5e8e64.png?width=400&format=webply&optimize=medium" alt="Marcar documentos automaticamente para fins de acessibilidade"
+                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags" title="Marcar documentos automaticamente para fins de acessibilidade" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfaccessibility/media_12d5056f8a08ccdcd7d45c49ee252d1070e5e8e64.png?width=400&format=webply&optimize=medium" alt="Marcar documentos automaticamente para fins de acessibilidade"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -46,11 +46,11 @@ Essa API viabilizada por IA marca automaticamente tabelas, parágrafos, listas, 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags" target="_self" rel="referrer" title="Marcar documentos automaticamente para fins de acessibilidade">Marcar documentos automaticamente para acessibilidade</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags" target="_self" rel="referrer" title="Marcar documentos automaticamente para fins de acessibilidade">Marcar documentos automaticamente para acessibilidade</a>
                     </p>
                     <p class="is-size-6">Saiba como gerar documentos automaticamente em escala</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfaccessibility/automatically-add-tags" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Assistir</span>
                 </a>
             </div>
@@ -58,3 +58,4 @@ Essa API viabilizada por IA marca automaticamente tabelas, parágrafos, listas, 
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+

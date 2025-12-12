@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10222
 thumbnail: KT-10222.jpg
 exl-id: 9430748f-9e2a-405f-acac-94b08ad7a5e3
-source-git-commit: b7a20f30a2eb175053c7a25be0411f80dd88899f
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 0%
@@ -189,7 +189,7 @@ Os cálculos numéricos permitem calcular somas e outros cálculos com base em u
 1. Em *[!UICONTROL Selecionar tipo de cálculo]*, escolha **[!UICONTROL Agregação]**.
 1. Em *[!UICONTROL Selecionar tipo]*, escolha **[!UICONTROL Soma]**.
 1. Em *[!UICONTROL Selecionar registros]*, escolha **[!UICONTROL ReferencesOrder]**.
-1. Em *[!UICONTROL Selecionar item para executar agregação]&#x200B;**, escolha &#x200B;** [!UICONTROL totalPaymentsDue.price]**.
+1. Em *[!UICONTROL Selecionar item para executar agregação]**, escolha **[!UICONTROL totalPaymentsDue.price]**.
 1. Selecione **[!UICONTROL Inserir Cálculo]**.
 
 Esse processo insere uma tag de cálculo que fornece a soma dos valores. Cálculos mais avançados podem ser feitos usando cálculos JSONata. Por exemplo:
@@ -376,3 +376,4 @@ Tem interesse em saber mais? Veja algumas maneiras adicionais de usar o [!DNL Ad
 * Use os scripts de amostra na pasta /src para ver como aproveitar o PDF
 * Siga o [Blog de Tecnologia do Adobe](https://medium.com/adobetech/tagged/adobe-document-cloud) para obter as dicas e truques mais recentes
 * Assine os [Clipes de Papel (a transmissão ao vivo mensal)](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF) para saber mais sobre a automação usando o [!DNL Adobe Acrobat Services]
+

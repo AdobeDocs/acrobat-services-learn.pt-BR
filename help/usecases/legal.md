@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8097
 thumbnail: KT-8097.jpg
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -429,3 +429,4 @@ O aplicativo concluído facilita muito marcar [modelos de contrato legal](https:
 As organizações usam [!DNL Adobe Acrobat Services] APIs para sua integridade e facilidade de uso. E o melhor de tudo é que você pode aproveitar uma avaliação gratuita de [seis meses e depois pagar conforme usa](https://developer.adobe.com/document-services/pricing/main). Você paga apenas pelo que usa. Além disso, a API de incorporação do PDF é sempre gratuita.
 
 Pronto para aumentar a produtividade aprimorando o fluxo de documentos? [Comece](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) hoje.
+

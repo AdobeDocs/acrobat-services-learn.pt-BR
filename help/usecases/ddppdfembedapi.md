@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8090
 thumbnail: KT-8090.jpg
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 0%
@@ -347,7 +347,7 @@ Agora execute o aplicativo com o comando npm start e abra o site em <http://loca
 
 Por fim, escolha um white paper e clique em **Exibir documento** para abrir uma nova página com o PDF incorporado embutido:
 
-![Captura de tela do white paper PDF &#x200B;](assets/ddp_11.png)
+![Captura de tela do white paper PDF ](assets/ddp_11.png)
 
 Observe como as opções Download PDF e Print PDF agora estão presentes.
 
@@ -557,6 +557,7 @@ A junção desse fluxo de trabalho ajuda o [comerciante hipotético](https://dev
 
 Se você é um desenvolvedor do Angular ou do React, poderá gostar de experimentar [amostras adicionais](https://github.com/adobe/pdf-embed-api-samples) que incluem como integrar a API incorporada do PDF aos projetos do React e do Angular.
 
-O Adobe permite que você crie sua experiência completa para o cliente com soluções inovadoras. Confira gratuitamente a [API de Incorporação do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-embed/). Para explorar o que mais você pode fazer, experimente a API de Serviços do Adobe PDF com [pagamento conforme gopr](https://developer.adobe.com/document-services/pricing/main) [congelamento](https://developer.adobe.com/document-services/pricing/main).
+O Adobe permite que você crie sua experiência completa para o cliente com soluções inovadoras. Confira gratuitamente a [API de Incorporação do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-embed/). Para explorar o que mais você pode fazer, experimente a API de Serviços do Adobe PDF com [pagamento conforme gopr](https://developer.adobe.com/document-services/pricing/main)[congelamento](https://developer.adobe.com/document-services/pricing/main).
 
 [Comece](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) com [!DNL Adobe Acrobat Services] APIs hoje.
+

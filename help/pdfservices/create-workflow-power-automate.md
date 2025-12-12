@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-10379
 thumbnail: KT-10379.jpg
 exl-id: 095b705f-c380-42cc-9329-44ef7de655ee
-source-git-commit: c6272ee4ec33f89f5db27023d78d1f08005b04ef
+source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
 workflow-type: tm+mt
 source-wordcount: '1955'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Neste tutorial prático, saiba como:
 ### Do que você precisa
 
 * **Credenciais de avaliação ou produção dos Serviços do Adobe PDF**
-Saiba mais sobre como obter e configurar credenciais no Microsoft Power Automate [aqui](https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
+Saiba mais sobre como obter e configurar credenciais no Microsoft Power Automate [aqui](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
 * **Microsoft Power Automate com conectores Premium**
 Saiba como verificar o nível de licenciamento do Power Automate [aqui](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types).
 * **OneDrive**
@@ -46,7 +46,7 @@ Há dois [arquivos de exemplo](assets/sample-assets.zip) que você precisa desco
 
 ### Obtendo credenciais
 
-Para concluir este tutorial, você precisa de suas credenciais já configuradas no Microsoft Power Automate para Serviços do Adobe PDF. Se você não concluiu esta etapa, consulte as [instruções aqui](https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
+Para concluir este tutorial, você precisa de suas credenciais já configuradas no Microsoft Power Automate para Serviços do Adobe PDF. Se você não concluiu esta etapa, consulte as [instruções aqui](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfservices/getting-credentials-power-automate).
 
 ## Parte 1: Criar novo fluxo e converter Word em PDF
 
@@ -315,3 +315,4 @@ Neste tutorial, você converteu um documento do Word em um PDF, gerou um documen
 * Veja os modelos pré-criados disponíveis no Microsoft Power Automate.
 * Aprenda com os [artigos](https://medium.com/adobetech/tagged/microsoft-power-automate) no Blog da Adobe Tech.
 * Revise a [documentação](https://developer.adobe.com/document-services/docs/overview/document-generation-api/) sobre a API de geração de documento Adobe.
+
