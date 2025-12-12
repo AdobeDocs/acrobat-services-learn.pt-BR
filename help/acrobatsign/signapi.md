@@ -276,7 +276,7 @@ Como alternativa aos Formulários web, você pode criar contratos. As seções a
 
 Enviar um documento para destinatários especificados para assinatura ou aprovação cria um contrato. Você pode monitorar o status e a conclusão de um contrato usando APIs.
 
-Você pode criar um contrato usando um [documento temporário](https://helpx.adobe.com/sign/kb/how-to-send-an-agreement-through-REST-API.html), um [documento da biblioteca](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) ou uma URL. Neste exemplo, o contrato é baseado no `transientDocumentId`, assim como o formulário da Web criado anteriormente.
+Você pode criar um contrato usando um [documento temporário](https://helpx.adobe.com/br/sign/kb/how-to-send-an-agreement-through-REST-API.html), um [documento da biblioteca](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/samples/send_using_library_doc.md) ou uma URL. Neste exemplo, o contrato é baseado no `transientDocumentId`, assim como o formulário da Web criado anteriormente.
 
 ```
 POST /api/rest/v6/agreements HTTP/1.1
