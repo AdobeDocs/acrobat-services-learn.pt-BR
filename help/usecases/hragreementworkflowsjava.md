@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7474
 thumbnail: KT-7474.jpg
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Neste tutorial prático, aprenda a implementar um formulário de RH baseado na W
 
 ## Gerar credenciais de API
 
-Comece inscrevendo-se para a avaliação gratuita da API de Serviços do Adobe PDF. Vá para o [site &#x200B;](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)Adobe[&#128279;](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) e clique no botão *Começar* em *Criar Novas Credenciais*. A avaliação gratuita fornece 1.000 transações de documentos que podem ser usadas durante seis meses. Na próxima página (veja abaixo), escolha o serviço (API de Serviços do PDF), defina o nome das credenciais (por exemplo, HRDocumentWFCredentials) e insira uma descrição.
+Comece inscrevendo-se para a avaliação gratuita da API de Serviços do Adobe PDF. Vá para o [site ](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK)Adobe[](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html?ref=getStartedWithServicesSDK) e clique no botão *Começar* em *Criar Novas Credenciais*. A avaliação gratuita fornece 1.000 transações de documentos que podem ser usadas durante seis meses. Na próxima página (veja abaixo), escolha o serviço (API de Serviços do PDF), defina o nome das credenciais (por exemplo, HRDocumentWFCredentials) e insira uma descrição.
 
 Selecione o idioma (Java para este exemplo) e marque *Criar amostras de código personalizadas*. A última etapa garante que as amostras de código já contenham o arquivo pdftools-api-credentials.json pré-preenchido que você usa, juntamente com a chave privada para autenticar seu aplicativo na API.
 
@@ -422,7 +422,7 @@ https://www.google.com/?code=<YOUR_CODE>&api_access_point=https://api.eu1.adobes
 
 Anote os valores fornecidos para \&lt;YOUR_CODE\> e api_access_point.
 
-Para enviar uma solicitação de POST HTTP que fornece o token de acesso, use os valores client ID, \&lt;YOUR_CODE\> e api_access_point. Você pode usar o [Postman](https://helpx.adobe.com/br/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) ou cURL:
+Para enviar uma solicitação de POST HTTP que fornece o token de acesso, use os valores client ID, \&lt;YOUR_CODE\> e api_access_point. Você pode usar o [Postman](https://helpx.adobe.com/sign/kb/how-to-create-access-token-using-postman-adobe-sign.html) ou cURL:
 
 ```
 curl --location --request POST "https://**api.eu1.adobesign.com**/oauth/token"
@@ -603,4 +603,3 @@ Como você pode ver, ao aproveitar os quickstarts, é possível implementar um f
 Levando o exemplo adiante, você pode criar formulários que os destinatários podem assinar remotamente e com segurança. Quando você precisa de várias assinaturas, é possível até mesmo rotear formulários automaticamente para uma série de pessoas em um fluxo de trabalho. A integração de seus funcionários foi aprimorada e seu departamento de RH vai adorar você.
 
 Confira [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) para adicionar vários recursos de PDF aos seus aplicativos hoje.
-
