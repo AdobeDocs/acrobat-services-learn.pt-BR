@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8145
 thumbnail: KT-8145.jpg
 exl-id: 5871ef8d-be9c-459f-9660-e2c9230a6ceb
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 0%
@@ -232,4 +232,3 @@ Agora que você viu como é fácil, pode expandir esse aplicativo simples usando
 
 Para explorar todas as possibilidades e começar a criar seu próprio aplicativo prático, crie uma conta gratuita do [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) para começar hoje. Aproveite uma avaliação gratuita de seis meses e [pague conforme usa](https://developer.adobe.com/document-services/pricing/main)
 a apenas US$ 0,05 por transação de documento, conforme a escala de sua empresa.
-

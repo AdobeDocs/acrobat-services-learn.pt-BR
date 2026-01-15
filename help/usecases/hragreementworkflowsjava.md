@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-7474
 thumbnail: KT-7474.jpg
 exl-id: add4cc5c-06e3-4ceb-930b-e8c9eda5ca1f
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 0%
@@ -603,4 +603,3 @@ Como você pode ver, ao aproveitar os quickstarts, é possível implementar um f
 Levando o exemplo adiante, você pode criar formulários que os destinatários podem assinar remotamente e com segurança. Quando você precisa de várias assinaturas, é possível até mesmo rotear formulários automaticamente para uma série de pessoas em um fluxo de trabalho. A integração de seus funcionários foi aprimorada e seu departamento de RH vai adorar você.
 
 Confira [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/homepage/) para adicionar vários recursos de PDF aos seus aplicativos hoje.
-

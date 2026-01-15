@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 0%
@@ -146,4 +146,3 @@ Você começou com um processo ineficiente e tedioso que precisava de automaçã
 Com o Microsoft Forms, você obtém dados importantes de seus clientes que incluiriam suas propostas exclusivas. Você criou um modelo de proposta de vendas no Microsoft Word para fornecer o texto estático que não deseja recriar todas as vezes. Você usou [!DNL Acrobat Services] APIs para mesclar dados do formulário e do modelo para criar um PDF de proposta de vendas para seus clientes de uma maneira mais eficiente.
 
 Este tutorial prático é apenas uma amostra do que é possível com essas APIs. Para descobrir mais soluções, visite a página de APIs do [[!DNL Adobe Acrobat Services]](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html). Use todas essas ferramentas gratuitamente por seis meses. Em seguida, pague apenas US$ 0,05 por transação de documento no plano [pré-pago](https://developer.adobe.com/document-services/pricing/main), de forma que você pague apenas à medida que sua equipe adicionar mais clientes potenciais ao pipeline de vendas.
-

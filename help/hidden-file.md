@@ -3,13 +3,13 @@ title: Arquivo oculto
 description: Arquivo oculto para fins de teste
 hide: true
 hidefromtoc: true
-source-git-commit: 3dda76423509e444defc962c12a26c835d63cafa
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '10'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 # Arquivo oculto
 
-15 de outubro de 2025
+sexta-feira, 15 de janeiro de 2026

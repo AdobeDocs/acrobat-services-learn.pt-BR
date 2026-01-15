@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8090
 thumbnail: KT-8090.jpg
 exl-id: 3aa9aa40-a23c-409c-bc0b-31645fa01b40
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 0%
@@ -560,4 +560,3 @@ Se você é um desenvolvedor do Angular ou do React, poderá gostar de experimen
 O Adobe permite que você crie sua experiência completa para o cliente com soluções inovadoras. Confira gratuitamente a [API de Incorporação do Adobe PDF](https://developer.adobe.com/document-services/apis/pdf-embed/). Para explorar o que mais você pode fazer, experimente a API de Serviços do Adobe PDF com [pagamento conforme gopr](https://developer.adobe.com/document-services/pricing/main) [congelamento](https://developer.adobe.com/document-services/pricing/main).
 
 [Comece](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) com [!DNL Adobe Acrobat Services] APIs hoje.
-

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8098
 thumbnail: KT-8098.jpg
 exl-id: f4ec0182-a46e-43aa-aea3-bf1d19f1a4ec
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -191,4 +191,3 @@ Neste tutorial prático, o Adobe Document Generation Tagger foi usado para gerar
 
 Você pode usar essas técnicas para criar dinamicamente seus próprios NDAs ou outros documentos, liberando o tempo da sua equipe para se concentrar no trabalho produtivo. Explore o [[!DNL Adobe Acrobat Services]](https://developer.adobe.com/document-services/apis/pdf-services) para encontrar APIs e SDKs para seu idioma e o tempo de execução de sua escolha para que você possa adicionar funções de PDF diretamente aos seus aplicativos para criar rapidamente documentos de PDF. [Comece](https://www.adobe.io/apis/documentcloud/dcsdk/gettingstarted.html) com uma avaliação gratuita de seis meses depois
 [pague conforme usa](https://developer.adobe.com/document-services/pricing/main) por apenas US$ 0,05 por transação de documento.
-

@@ -8,7 +8,7 @@ type: Tutorial
 jira: KT-8091
 thumbnail: KT-8091.jpg
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
-source-git-commit: bd53d86abb0e5f9ee302c39e07c00101e5a1f8ed
+source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -216,4 +216,3 @@ Este tutorial prático analisou como usar a API de Serviços de PDF e a API Inco
 Agora que você sabe como anotar relatórios de PDF, arquivar as anotações e controlar o uso de relatórios de PDF, pode começar a implementar essas soluções em seus próprios projetos.
 
 Você pode usar as APIs do [!DNL Adobe Acrobat Services] para criar experiências de PDF interativas e de fácil utilização em seu site. Aproveite o uso gratuito da API de Serviços do Adobe PDF por seis meses e, a seguir, apenas [pague conforme usa](https://developer.adobe.com/document-services/pricing/main) (por meio do AWS ou de um contrato direto) por apenas \$0,05 por transação de documento. Use o Adobe PDF Embed gratuitamente e sem limite de tempo. Crie uma conta gratuita para [começar](https://www.adobe.com/go/dcsdks_credentials) hoje.
-
