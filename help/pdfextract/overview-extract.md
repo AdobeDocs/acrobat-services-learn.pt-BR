@@ -26,11 +26,11 @@ Desbloqueie a estrutura e os elementos de conteúdo de qualquer PDF com um servi
 <!-- Comment -->
 <!-- CARDS
 
-* https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction
+* https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction
   {target = _self}
   {title = Automate content extraction}
   {description = Learn how to automate the extraction of content from a PDF documents using the PDF Extract API}
-  {image = https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium}
+  {image = https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium}
   {cta = Watch}
 
 -->
@@ -42,8 +42,8 @@ Desbloqueie a estrutura e os elementos de conteúdo de qualquer PDF com um servi
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" title="Automatizar a extração de conteúdo" target="_self" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium" alt="Automatizar a extração de conteúdo"
+                    <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" title="Automatizar a extração de conteúdo" target="_self" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfextract/media_107c9ca639cccd7aea6b882e9e704699d7af57aa1.png?width=400&format=webply&optimize=medium" alt="Automatizar a extração de conteúdo"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -51,11 +51,11 @@ Desbloqueie a estrutura e os elementos de conteúdo de qualquer PDF com um servi
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" title="Automatizar a extração de conteúdo">Automatizar extração de conteúdo</a>
+                        <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" title="Automatizar a extração de conteúdo">Automatizar extração de conteúdo</a>
                     </p>
                     <p class="is-size-6">Saiba como automatizar a extração de conteúdo de documentos PDF usando a API de extração de PDF</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfextract/automate-content-extraction" target="_self" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Assistir</span>
                 </a>
             </div>
