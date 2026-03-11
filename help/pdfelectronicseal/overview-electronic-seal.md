@@ -7,10 +7,10 @@ level: Beginner, Intermediate, Experienced
 type: Tutorial
 jira: KT-15330
 exl-id: 74198c86-505b-4321-923e-0079e3d767cd
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+source-git-commit: 4d076f7a05fd20b7e864929e74885957f42c5728
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 0%
+source-wordcount: '160'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 0%
 A API de selo eletrônico da Adobe PDF aplica um selo eletrônico a documentos em escala usando um certificado emitido por determinados TSPs (Provedores de serviços confiáveis) na [Lista de confiança aprovada (AATL) da Adobe](https://helpx.adobe.com/br/acrobat/kb/approved-trust-list1.html). O selo eletrônico ajuda a verificar a identidade e a integridade dos documentos. Isso pode ser usado para selar documentos eletronicamente em escala e está incluído na API de serviços de PDF.
 
 <!-- Comment -->
-<!-- CARDS
+<!--
+CARDS
 
 * https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/eseal/automatically-apply-electronic-seal
   {target = _self}
