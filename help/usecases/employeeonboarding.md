@@ -8,10 +8,23 @@ type: Tutorial
 jira: KT-10203
 thumbnail: KT-10203.jpg
 exl-id: 0186b3ee-4915-4edd-8c05-1cbf65648239
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/cyfUGCD0CzmV6M4TiC9ZpYBrOpqHGgmwK8ByVYqSDbE
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 0%
+source-wordcount: 1564
+ht-degree: 1%
 
 ---
 
@@ -52,7 +65,7 @@ Vamos entrar em detalhes sobre como fazer isso.
 
 ## Geração de documentos dinâmicos
 
-Adobe A API de [geração de documento](https://developer.adobe.com/document-services/apis/doc-generation/) permite que os desenvolvedores criem documentos dinâmicos usando o Microsoft Word e uma linguagem de modelo simples, como base para gerar PDF e documentos do Word. Aqui está um exemplo de como isso funciona.
+A API de [geração de documento](https://developer.adobe.com/document-services/apis/doc-generation/) permite que os desenvolvedores criem documentos dinâmicos usando o Microsoft Word e uma linguagem de modelo simples, como base para gerar PDF e documentos do Word. Aqui está um exemplo de como isso funciona.
 
 Vamos começar com um documento do Word que tem valores codificados. O documento pode ter o estilo que desejar, incluir gráficos, tabelas etc. Aqui está o documento inicial.
 
@@ -206,6 +219,6 @@ O modelo pode ser carregado no painel do Acrobat Sign e, em seguida, usado para 
 
 ## Experimente
 
-Tudo o que está descrito neste artigo pode ser testado agora. A [!DNL Adobe Acrobat Services]avaliação gratuita[&#x200B; da API &#x200B;](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) atualmente fornece 1.000 solicitações gratuitas por um período de seis meses. A [avaliação gratuita](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial) da Acrobat Sign permite enviar contratos com marca-d&#39;água para fins de teste.
+Tudo o que está descrito neste artigo pode ser testado agora. A [avaliação gratuita](https://documentcloud.adobe.com/dc-integration-creation-app-cdn/main.html) da API [!DNL Adobe Acrobat Services] atualmente fornece 1.000 solicitações gratuitas por um período de seis meses. A [avaliação gratuita](https://www.adobe.com/acrobat/business/sign.html#sign_free_trial) da Acrobat Sign permite enviar contratos com marca-d&#39;água para fins de teste.
 
 Dúvidas? O [fórum de suporte](https://community.adobe.com/t5/acrobat-services-api/ct-p/ct-Document-Cloud-SDK) é monitorado diariamente por desenvolvedores de Adobe e pessoal de suporte. Finalmente, para se inspirar mais, certifique-se de pegar o próximo episódio de [Clipes de Papel](https://www.youtube.com/playlist?list=PLcVEYUqU7VRe4sT-Bf8flvRz1XXUyGmtF). Há reuniões ao vivo regulares com notícias, demonstrações e palestras com os clientes.

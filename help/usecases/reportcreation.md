@@ -8,9 +8,25 @@ type: Tutorial
 jira: KT-8093
 thumbnail: KT-8093.jpg
 exl-id: 2f2bf1c2-1b33-4eee-9fd2-5d0b77e6b0a9
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/E6grXk4Sptkhetpgt-MoDndf-Ezm97qnutLbUqD-a20
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2:
+  - id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: 1391
 ht-degree: 0%
 
 ---
@@ -19,7 +35,7 @@ ht-degree: 0%
 
 ![Banner do herói do caso de uso](assets/UseCaseReportHero.jpg)
 
-Finanças, educação, marketing e outros setores usam PDF para compartilhar dados com seus clientes e partes interessadas. Os PDF facilitam o compartilhamento de documentos avançados, com tabelas, gráficos e conteúdo interativo, em um formato que todos podem visualizar. As APIs do [!DNL Adobe Acrobat Services] ajudam essas empresas a gerar relatórios de PDF compartilháveis do Microsoft Word, Microsoft Excel, gráficos e outros formatos de documentos diversos.
+Finanças, educação, marketing e outros setores usam PDF para compartilhar dados com seus clientes e partes interessadas. Os PDF facilitam o compartilhamento de documentos avançados, com tabelas, gráficos e conteúdo interativo, em um formato que todos podem visualizar. [!DNL Adobe Acrobat Services] As APIs ajudam essas empresas a gerar relatórios de PDF compartilháveis do Microsoft Word, Microsoft Excel, gráficos e outros formatos de documentos diversos.
 
 Digamos que você [execute uma empresa de rastreamento de mídia social](https://developer.adobe.com/document-services/use-cases/content-publishing/on-demand-report-creation). Seus clientes fazem logon em uma parte do site protegida por senha para exibir a análise da campanha. Muitas vezes, eles desejam compartilhar essas estatísticas com seus executivos, acionistas, doadores ou outras partes interessadas. Documentos de PDF para download são uma ótima maneira de seus clientes compartilharem números, gráficos e muito mais.
 
@@ -31,7 +47,7 @@ Neste tutorial prático, aprenda a usar o SDK de serviços de PDF em um ambiente
 
 ## APIs e recursos relevantes
 
-* [API de Serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [API de serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [API de inserção de PDF](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
