@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-8097
 thumbnail: KT-8097.jpg
 exl-id: e0c32082-4f8f-4d8b-ab12-55d95b5974c5
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/Gd7B7jUfhZPSRujwKVp7hRzb2Nj9-VJFKLYxqwO-GFM
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: 2045
 ht-degree: 0%
 
 ---
@@ -31,17 +38,17 @@ Este tutorial envolve um pouco de programação ao explorar a conversão de cont
 
 ## APIs e recursos relevantes
 
-* [API de Geração de Documento do Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
+* [API de geração de documento Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
 
 * [API de inserção de PDF](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [API DO Adobe Sign](https://developer.adobe.com/adobesign-api/)
+* [API do Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
 * [Código do projeto](https://github.com/agavitalis/adobe_legal_contracts.git)
 
 ## Criação de um documento modelo
 
-Você pode criar documentos legais usando o aplicativo Microsoft Word ou baixando [modelos de amostra do Word](https://developer.adobe.com/document-services/apis/doc-generation#sample-blade) do Adobe. Adobe Ainda assim, não é fácil personalizar as entradas e assinar digitalmente esses documentos sem usar algumas ferramentas auxiliares, como o [complemento Document Generation Tagger](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin) para Microsoft Word.
+Você pode criar documentos legais usando o aplicativo Microsoft Word ou baixando [modelos de amostra do Word](https://developer.adobe.com/document-services/apis/doc-generation#sample-blade) do Adobe. Ainda assim, não é fácil personalizar as entradas e assinar digitalmente esses documentos sem usar algumas ferramentas auxiliares, como o [complemento Document Generation Tagger](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin) para Microsoft Word.
 
 O Document Generation Tagger é um complemento do Microsoft Word feito para facilitar a personalização de documentos usando tags. Permite a criação de campos dinâmicos em modelos de documento que são preenchidos dinamicamente usando dados JSON.
 
@@ -49,7 +56,7 @@ O Document Generation Tagger é um complemento do Microsoft Word feito para faci
 
 Para ilustrar o uso do Document Generation Tagger, instale este suplemento e crie um modelo de dados JSON, que é usado na marcação de um documento legal de contrato simples.
 
-Instale o Document Generation Tagger no Word clicando na guia **Inserir** e, no grupo Suplementos, clique em **Meus Suplementos**. No menu Suplementos do Office, pesquise “Geração de Documento do Adobe“, clique em **Adicionar** e siga o processo. Você pode ver essas etapas na captura de tela acima.
+Instale o Document Generation Tagger no Word clicando na guia **Inserir** e, no grupo Suplementos, clique em **Meus Suplementos**. No menu Suplementos do Office, pesquise “Geração de Documento do Adobe”, clique em **Adicionar** e siga o processo. Você pode ver essas etapas na captura de tela acima.
 
 Depois de instalar o complemento Document Generation Tagger para Word, crie um modelo de dados JSON simples para marcar o documento legal.
 
@@ -87,7 +94,7 @@ Além das tags básicas criadas com o modelo de dados JSON importado, você tamb
 
 Esses recursos avançados não são diferentes das tags básicas. Para incluir a lógica condicional, selecione a parte do documento a ser preenchida. Em seguida, configure a regra que determina a inserção da tag.
 
-Para ilustrar ainda mais, digamos que no contrato haja uma seção que você deseja incluir, apenas condicionalmente. No campo Selecionar tipo de conteúdo, selecione Seção **.** No campo Selecionar registros, escolha a opção que determina se a seção condicional será mostrada. Selecione o operador condicional desejado e defina o valor que está testando no campo Valor. Em seguida, clique em **Inserir Condição.** A captura de tela abaixo ilustra esse processo.
+Para ilustrar ainda mais, digamos que no contrato haja uma seção que você deseja incluir, apenas condicionalmente. No campo Selecionar tipo de conteúdo, selecione **Seção.** No campo Selecionar registros, escolha a opção que determina se a seção condicional será exibida. Selecione o operador condicional desejado e defina o valor que está testando no campo Valor. Em seguida, clique em **Inserir Condição.** A captura de tela abaixo ilustra esse processo.
 
 ![Captura de tela de inserção de conteúdo condicional](assets/legal_5.png)
 

@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-8094
 thumbnail: KT-8094.jpg
 exl-id: d704620f-d06a-4714-9d09-3624ac0fcd3a
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/Y9rEEmFRErrNRz8lwG2ertPmm95ScYCigzepibfBoB0
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: 1654
 ht-degree: 0%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 0%
 
 A colaboração remota entre equipes se tornou necessária para muitas empresas durante a pandemia da Covid-19. O [compartilhamento e revisão de documentos digitais](https://developer.adobe.com/document-services/use-cases/collaboration/review-and-approval) apresenta uma série de desafios para equipes e recursos multifuncionais.
 
-Esses desafios incluem o compartilhamento de documentos em diferentes formatos de arquivo, a revisão e os comentários efetivos sobre o conteúdo, além da sincronização com as edições mais recentes. As APIs do [!DNL Adobe Acrobat Services] foram projetadas para permitir que os desenvolvedores de aplicativos resolvam esses desafios para seus usuários.
+Esses desafios incluem o compartilhamento de documentos em diferentes formatos de arquivo, a revisão e os comentários efetivos sobre o conteúdo, além da sincronização com as edições mais recentes. [!DNL Adobe Acrobat Services] As APIs foram projetadas para permitir que desenvolvedores de aplicativos solucionem esses desafios para seus usuários.
 
 ## O que você pode aprender
 
@@ -43,11 +50,11 @@ O aplicativo tem os seguintes recursos:
 
 ## APIs e recursos relevantes
 
-* [API de Serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [API de serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [API de inserção de PDF](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [Código do Projeto](https://github.com/contentlab-io/adobe_reviews_and_approvals)
+* [Código do projeto](https://github.com/contentlab-io/adobe_reviews_and_approvals)
 
 ## Criação de credenciais de API do Adobe
 

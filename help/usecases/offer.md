@@ -8,10 +8,17 @@ type: Tutorial
 jira: KT-8096
 thumbnail: KT-8096.jpg
 exl-id: 92f955f0-add5-4570-aa3a-ea63055dadb2
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/ZfvtA3o-CQ28V-HdyzMR2TWgw-DpddXoh3zMOAUAqhY
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 0%
+source-wordcount: 1851
+ht-degree: 1%
 
 ---
 
@@ -19,7 +26,7 @@ ht-degree: 0%
 
 ![Banner do herói do caso de uso](assets/UseCaseOfferHero.jpg)
 
-As cartas de oferta de funcionário são uma das primeiras experiências que os funcionários têm com sua organização. Como resultado, você quer ter certeza de que suas letras de oferta são de marca, mas não quer ter que criar sempre uma letra no seu processador de texto do zero. As APIs do [!DNL Adobe Acrobat Services] oferecem uma maneira rápida, fácil e eficaz de lidar com partes importantes da [geração e entrega de cartas de oferta para novos funcionários](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters).
+As cartas de oferta de funcionário são uma das primeiras experiências que os funcionários têm com sua organização. Como resultado, você quer ter certeza de que suas letras de oferta são de marca, mas não quer ter que criar sempre uma letra no seu processador de texto do zero. [!DNL Adobe Acrobat Services] As APIs oferecem uma maneira rápida, fácil e eficaz de lidar com partes importantes da [geração e entrega de cartas de oferta para novos funcionários](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters).
 
 ## O que você pode aprender
 
@@ -27,13 +34,13 @@ Este tutorial prático aborda a configuração de um projeto do Node Express que
 
 ## APIs e recursos relevantes
 
-* [API de Serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [API de serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
-* [API de Geração de Documento do Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
+* [API de geração de documento Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [API DO Adobe Sign](https://developer.adobe.com/adobesign-api/)
+* [API do Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
-* [Suplemento do Word para Marcador de Geração de Documento](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin)
+* [Complemento do Word para Marcador de Geração de Documento](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin)
 
 * [Amostra de projeto](https://developer.adobe.com/document-services/use-cases/agreements-and-contracts/employee-offer-letters)
 
@@ -53,7 +60,7 @@ Agora, gere credenciais para acessar a API. As credenciais estão no formato de 
 
 Clique no botão **[!UICONTROL Gerar par de chaves]**. Você obtém um arquivo config.zip para download. Descompacte o arquivo. Contém dois arquivos: certificate_pub.crt e private.key. Certifique-se de que o último seja mantido seguro, pois contém suas credenciais privadas e pode ser usado para gerar documentos falsos se estiver fora de seu controle.
 
-Clique em **[!UICONTROL Avançar]**. Não, habilita o acesso à API de geração de PDF. Na tela **[!UICONTROL Selecionar perfis de produto]**, verifique o **[!UICONTROL Desenvolvedor de Serviços Enterprise PDF]** e clique no botão **[!UICONTROL Salvar API configurada]**. Agora você pode começar a usar a API.
+Clique em **[!UICONTROL Próximo]**. Não, habilita o acesso à API de geração de PDF. Na tela **[!UICONTROL Selecionar perfis de produto]**, verifique o **[!UICONTROL Desenvolvedor de Serviços Enterprise PDF]** e clique no botão **[!UICONTROL Salvar API configurada]**. Agora você pode começar a usar a API.
 
 ## Configurando o projeto
 
@@ -249,7 +256,7 @@ Bem-vindo
 
 Salve o documento como “OfferLetter-Template.docx” em uma pasta chamada “resources” na raiz do projeto. Observe os três X no documento. Esses Xs são espaços reservados temporários para suas informações JSON. Embora você possa usar uma sintaxe especial para substituir esses espaços reservados, o Adobe fornece um complemento do Word que simplifica essa tarefa. Para instalar o Suplemento, vá para o site do Adobe [Suplemento do Word para Marcador de Geração de Documento](https://developer.adobe.com/document-services/docs/overview/document-generation-api/wordaddin).
 
-Em OfferLetter-Template, clique no novo botão **Geração de documento**. Um painel lateral é aberto. Clique em **Começar**. Você recebe uma área de texto para colar nos dados JSON de amostra. Copie o snippet “offer-data” do JSON de cima para a área de texto. Ele deve ter a seguinte aparência:
+Em OfferLetter-Template, clique no novo botão **Geração de documento**. Um painel lateral é aberto. Clique em **Introdução**. Você recebe uma área de texto para colar nos dados JSON de amostra. Copie o snippet “offer-data” do JSON de cima para a área de texto. Ele deve ter a seguinte aparência:
 
 ![Captura de tela de letra e código](assets/offer_3.png)
 

@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/Jj-xhGUcWVWOMooS2fOPcYmELcH70cG1eRRaPPy66Yk
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: 1442
 ht-degree: 0%
 
 ---
@@ -37,11 +44,11 @@ Neste tutorial prático, saiba como implementar dados dinâmicos e fluxos de tra
 
 * [[!DNL Acrobat Services] APIs](https://developer.adobe.com/document-services/homepage/)
 
-* [API de Geração de Documento do Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
+* [API de geração de documento Adobe](https://developer.adobe.com/document-services/apis/doc-generation)
 
-* [API DO Adobe Sign](https://developer.adobe.com/adobesign-api/)
+* [API do Adobe Sign](https://developer.adobe.com/adobesign-api/)
 
-* [Marcador de Geração de Documento do Adobe](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
+* [Adobe Document Generation Tagger](https://opensource.adobe.com/pdftools-sdk-docs/docgen/latest/wordaddin.html#add-in-demo)
 
 ## Resolvendo o problema
 
@@ -79,7 +86,7 @@ Depois de gerar as tags, você pode inseri-las no documento. Tags são adicionad
 
 ## Usar as APIs
 
-Vá para a [!DNL Acrobat Services]página inicial[&#x200B; das &#x200B;](https://developer.adobe.com/document-services/apis/doc-generation) APIs. Para começar a usar as APIs do [!DNL Acrobat Services], você precisa de credenciais para o aplicativo. Role para baixo até o fim e selecione **Iniciar avaliação gratuita** para criar credenciais. Você pode usar esses serviços gratuitamente por seis meses e pagar conforme usa[&#x200B; por apenas US$ 0,05 por transação de documento, assim você paga apenas pelo que precisa.](https://developer.adobe.com/document-services/pricing/main)
+Vá para a [página inicial](https://developer.adobe.com/document-services/apis/doc-generation) das [!DNL Acrobat Services] APIs. Para começar a usar as APIs do [!DNL Acrobat Services], você precisa de credenciais para o aplicativo. Role para baixo até o fim e selecione **Iniciar avaliação gratuita** para criar credenciais. Você pode usar esses serviços gratuitamente por seis meses e pagar conforme usa](https://developer.adobe.com/document-services/pricing/main) por apenas US$ 0,05 por transação de documento, assim você paga apenas pelo que precisa.[
 
 Selecione **API de Serviços do PDF** como seu serviço de escolha e preencha os outros detalhes conforme mostrado abaixo.
 
@@ -87,7 +94,7 @@ Selecione **API de Serviços do PDF** como seu serviço de escolha e preencha os
 
 Depois de criar suas credenciais, você obtém alguns exemplos de código. Selecione seu idioma preferido (este tutorial usa Node.js). Suas credenciais de API estão em um arquivo zip. Extraia os arquivos para PDFToolsSDK-Node.jsSamples.
 
-Para começar, crie uma pasta vazia chamada doc automático\*\*.\*\* Na pasta, execute o seguinte comando para inicializar um projeto Node.js: `npm init`. Nomeie seu projeto de “doc automático”*.*
+Para iniciar, crie uma pasta vazia chamada auto-doc\*\*.\*\* Na pasta, execute o seguinte comando para inicializar um projeto Node.js: `npm init`. Nomeie seu projeto de “doc automático”*.*
 
 Na pasta ./PDFToolsSDK-Node.jsSamples/adobe-dc-pdf-tools-sdk-node-samples, há um arquivo chamado pdftools-api-credentials.json. Mova-o e private.key para a pasta autodoc. Ele contém suas credenciais de API. Além disso, na pasta autodoc, crie uma subpasta chamada “resources.” Ele armazena os dados formatados em JSON recebidos dos clientes sempre que você gera uma proposta de vendas. Na mesma pasta, salve o modelo de proposta de vendas do Microsoft Word.
 
@@ -135,7 +142,7 @@ console.log('Exception encountered while executing operation', err);
 }
 ```
 
-Este código obtém seu arquivo JSON do formulário do Microsoft com a ajuda das tags criadas com o [!DNL Acrobat Services]. Em seguida, ele mescla os dados com o modelo de proposta de vendas criado no Microsoft Word para gerar um novo PDF. O PDF é salvo no arquivo recém-criado .pasta /output.
+Este código obtém seu arquivo JSON do formulário do Microsoft com a ajuda das tags criadas com o [!DNL Acrobat Services]. Em seguida, ele mescla os dados com o modelo de proposta de vendas criado no Microsoft Word para gerar um novo PDF. O PDF é salvo na pasta ./output recém-criada.
 
 Além disso, o código usa a [API do Adobe Sign](https://developer.adobe.com/adobesign-api/) para que as duas empresas assinem a proposta de vendas gerada. Confira esta publicação do blog para obter uma explicação detalhada desta API.
 

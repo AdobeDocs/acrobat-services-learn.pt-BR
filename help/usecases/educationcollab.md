@@ -8,9 +8,16 @@ type: Tutorial
 jira: KT-8091
 thumbnail: KT-8091.jpg
 exl-id: 570a635c-e539-4afc-a475-ecf576415217
-source-git-commit: ba73105ecf0bd27b7445ec4388fc4009eec273b8
+TQID: https://experienceleague.adobe.com/POsohxFP16AENPclwoaNwxcW0xmPP0iWmGUaKX4H0P4
+product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2: id: c4b1e8f2-d9a8-4792-b5e4-be52bd870028id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: 1543
 ht-degree: 0%
 
 ---
@@ -42,13 +49,13 @@ O portal de aprendizado tem os seguintes recursos:
 
 * Permite que os alunos deixem comentários e façam download deles em seus computadores
 
-Saiba como o [!DNL Adobe Acrobat Services] fornece uma experiência completa para seus alunos com PDF. As APIs do [!DNL Acrobat Services] se integram perfeitamente aos seus aplicativos existentes para que os alunos possam carregar, converter, visualizar arquivos e fazer e salvar comentários, tudo na configuração atual.
+Saiba como o [!DNL Adobe Acrobat Services] fornece uma experiência completa para seus alunos com PDF. [!DNL Acrobat Services] As APIs se integram perfeitamente aos seus aplicativos existentes para que os alunos possam fazer upload, converter, visualizar arquivos e fazer e salvar comentários, tudo na configuração atual.
 
 ## APIs e recursos relevantes
 
-* [API de inserção de PDF](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
+* [PDF Embed API](https://www.adobe.com/devnet-docs/dcsdk_io/viewSDK/index.html)
 
-* [API de Serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
+* [API de serviços PDF](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html)
 
 * [Código do projeto](https://github.com/afzaal-ahmad-zeeshan/adobe-pdf-tools-for-teachers)
 
@@ -171,7 +178,7 @@ Os alunos podem usar anotações para fazer perguntas ou compartilhar seus comen
 
 É importante que professores e escolas vejam como os estudantes estão usando as plataformas online. Isso ajuda os professores a apoiar seus alunos com recursos que os ajudam a ter um melhor desempenho em suas tarefas. A API incorporada do PDF integra-se à análise que você pode usar para medir todos os eventos que ocorrem, como quando os usuários estão abrindo, lendo e fechando documentos. Com a API dos Serviços de PDF, os professores também podem desativar a modificação de impressão, download e arquivos para ajudar a manter a integridade acadêmica.
 
-Se você tiver uma licença do [Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/), poderá usar sua [integração imediata](https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#adobe-analytics). Caso contrário, use retornos de chamada para integrar seus Serviços PDF com outros provedores de análise, como o [Google](https://experienceleague.adobe.com/pt-br/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#google-analytics).
+Se você tiver uma licença do [Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/), poderá usar sua [integração imediata](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#adobe-analytics). Caso contrário, use retornos de chamada para integrar seus Serviços PDF com outros provedores de análise, como o [Google](https://experienceleague.adobe.com/en/docs/acrobat-services-learn/tutorials/pdfembed/controlpdfexperience#google-analytics).
 
 Para habilitar a medição de eventos de documento, anexe os manipuladores de eventos usando o método `registerCallback` com a instância de Exibição de DC de Adobe. Você pode exibir métricas básicas, como abrir um documento ou ler uma página, no console. Você também pode salvar as métricas em um log ou publicá-las em outros armazenamentos de análise.
 
@@ -197,7 +204,7 @@ Aqui está uma captura de tela do console do navegador da Web:
 
 Essa captura de tela mostra que o aluno abriu o arquivo de atribuição e leu a primeira página, que não rolava para páginas adicionais ou o documento tinha apenas uma página, e então baixou o arquivo. Você pode coletar essas métricas para realizar análises e estudar o comportamento de seus alunos.
 
-Além disso, o [Adobe Analytics](https://business.adobe.com/br/products/adobe-analytics.html) está integrado com a API incorporada do PDF, portanto, se você tiver uma assinatura do Adobe Analytics suite, poderá publicar suas métricas na sua assinatura. Para publicar as métricas no Adobe Analytics, você só precisa passar a ID do conjunto para o construtor de API incorporado do PDF. (Observe que você deve usar suas credenciais de API de Incorporação de PDF, não suas credenciais de API de Serviços de PDF).
+Além disso, o [Adobe Analytics](https://business.adobe.com/products/adobe-analytics.html) está integrado com a API incorporada do PDF, portanto, se você tiver uma assinatura do Adobe Analytics suite, poderá publicar suas métricas na sua assinatura. Para publicar as métricas no Adobe Analytics, você só precisa passar a ID do conjunto para o construtor de API incorporado do PDF. (Observe que você deve usar suas credenciais de API de Incorporação de PDF, não suas credenciais de API de Serviços de PDF).
 
 Aqui está um exemplo de código que mostra como passar a ID do conjunto para o construtor de API incorporado PDF:
 
