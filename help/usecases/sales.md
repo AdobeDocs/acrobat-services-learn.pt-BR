@@ -9,12 +9,20 @@ jira: KT-8099
 thumbnail: KT-8099.jpg
 exl-id: 219c70de-fec1-4946-b10e-8ab5812562ef
 TQID: https://experienceleague.adobe.com/Jj-xhGUcWVWOMooS2fOPcYmELcH70cG1eRRaPPy66Yk
-product_v2: id: acdc2bde-2937-4877-90d9-031dd66278c9
-feature_v2: id: b1809bd0-a86b-4991-8083-2e3b517fc3b8id: c4d07275-6387-4756-8bf7-681e581ffd27
-subfeature_v2: id: b4b3dc0f-b1be-46b4-b8ca-134a4629084aid: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: acdc2bde-2937-4877-90d9-031dd66278c9
+feature_v2:
+  - id: b1809bd0-a86b-4991-8083-2e3b517fc3b8
+  - id: c4d07275-6387-4756-8bf7-681e581ffd27
+subfeature_v2:
+  - id: b4b3dc0f-b1be-46b4-b8ca-134a4629084a
+  - id: c6f72a9c-54c4-4933-93c9-d7c656ff1f14
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
 workflow-type: tm+mt
 source-wordcount: 1442
@@ -86,7 +94,7 @@ Depois de gerar as tags, você pode inseri-las no documento. Tags são adicionad
 
 ## Usar as APIs
 
-Vá para a [página inicial](https://developer.adobe.com/document-services/apis/doc-generation) das [!DNL Acrobat Services] APIs. Para começar a usar as APIs do [!DNL Acrobat Services], você precisa de credenciais para o aplicativo. Role para baixo até o fim e selecione **Iniciar avaliação gratuita** para criar credenciais. Você pode usar esses serviços gratuitamente por seis meses e pagar conforme usa](https://developer.adobe.com/document-services/pricing/main) por apenas US$ 0,05 por transação de documento, assim você paga apenas pelo que precisa.[
+Vá para a [página inicial](https://developer.adobe.com/document-services/apis/doc-generation) das [!DNL Acrobat Services] APIs. Para começar a usar as APIs do [!DNL Acrobat Services], você precisa de credenciais para o aplicativo. Role para baixo até o fim e selecione **Iniciar avaliação gratuita** para criar credenciais. Você pode usar esses serviços gratuitamente por seis meses e pagar conforme usa[&#128279;](https://developer.adobe.com/document-services/pricing/main) por apenas US$ 0,05 por transação de documento, assim você paga apenas pelo que precisa.
 
 Selecione **API de Serviços do PDF** como seu serviço de escolha e preencha os outros detalhes conforme mostrado abaixo.
 
