@@ -30,4 +30,4 @@ Saiba como gerar um token de acesso que pode ser usado com a API do Acrobat Sign
 >
 >Este tutorial foi desenvolvido especificamente para parceiros OEM que estão criando e incorporando um processo de assinatura em seu aplicativo.
 
->[!VIDEO](https://video.tv.adobe.com/v/347350?hidetitle=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3444194?captions=por_br&hidetitle=true)
