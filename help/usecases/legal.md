@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
+source-git-commit: a02d17d88a2fb822f7715556b097767cb7f49ad5
 workflow-type: tm+mt
 source-wordcount: 2045
 ht-degree: 0%
@@ -120,7 +120,7 @@ Primeiro, configure a estrutura de pastas para o aplicativo Node.js. Neste exemp
 
 ### Estrutura de diretórios
 
-Crie uma pasta chamada AdobeLegalContractAPI e abra-a em um editor de sua escolha. Crie um aplicativo Node.js básico com o comando ```npm init``` usando a estrutura de pastas abaixo:
+Crie uma pasta chamada AdobeLegalContractAPI e abra-a em um editor de sua escolha. Crie um aplicativo Node.js básico com o comando `npm init` usando a estrutura de pastas abaixo:
 
 ```
 ###Directory Structure
@@ -210,7 +210,7 @@ Você precisa de credenciais para usar [!DNL Acrobat Services] APIs (diferentes 
 
 Uma vez que o processo de inscrição é concluído, uma amostra de código é automaticamente baixada para o seu PC para ajudá-lo a começar. Você pode extrair essa amostra de código e acompanhar. Não se esqueça de copiar os arquivos pdftools-api-credentials.json e private.key da amostra de código extraída para o diretório raiz do projeto Node.js. As credenciais são necessárias para que você possa acessar os pontos de extremidade da API [!DNL Acrobat Services]. Você também pode baixar amostras de SDK com suas credenciais personalizadas para não ter que atualizar a chave no código de exemplo.
 
-Agora, instale o Adobe PDF Services Node SDK executando o comando ```npm install \--save @adobe/documentservices-pdftools-node-sdk``` usando o terminal no diretório raiz do aplicativo. Quando instalado com êxito, você pode usar as APIs do [!DNL Acrobat Services] para manipular documentos em seu aplicativo.
+Agora, instale o Adobe PDF Services Node SDK executando o comando `npm install \--save @adobe/documentservices-pdftools-node-sdk` usando o terminal no diretório raiz do aplicativo. Quando instalado com êxito, você pode usar as APIs do [!DNL Acrobat Services] para manipular documentos em seu aplicativo.
 
 ## Criação de um documento PDF
 

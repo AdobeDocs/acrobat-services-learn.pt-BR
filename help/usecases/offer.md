@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0110d2606056220c4236fe2f0e3afbfc112746e7
+source-git-commit: 613f10928c919ed475347a894af97f692ed233bb
 workflow-type: tm+mt
 source-wordcount: 1851
 ht-degree: 1%
@@ -269,15 +269,15 @@ Em OfferLetter-Template, clique no novo botão **Geração de documento**. Um pa
 
 ![Captura de tela de letra e código](assets/offer_3.png)
 
-Clique no botão **Gerar Marcas**. Você obtém um menu suspenso de tags para inserir nos pontos apropriados do documento. Realce o primeiro X no documento e selecione **[!UICONTROL nome]**. Clique em **[!UICONTROL Inserir Texto]** e “Prezado X” será alterado para “Prezado ```{{`offer_letter`.firstname}}```”. Esta marca está no formato correto para `documentMergeOperation`. Vá em frente e adicione as três tags restantes no Xs apropriado. Não se esqueça de salvar OfferLetter-template.docx. Ele deve ficar assim:
+Clique no botão **Gerar Marcas**. Você obtém um menu suspenso de tags para inserir nos pontos apropriados do documento. Realce o primeiro X no documento e selecione **[!UICONTROL nome]**. Clique em **[!UICONTROL Inserir Texto]** e “Prezado X” será alterado para “Prezado ``{{`offer_letter`.firstname}}``”. Esta marca está no formato correto para `documentMergeOperation`. Vá em frente e adicione as três tags restantes no Xs apropriado. Não se esqueça de salvar OfferLetter-template.docx. Ele deve ficar assim:
 
-Prezado ```{{`offer_letter`.firstname}} {{`offer_letter`.lastname}}```,
+Prezado ``{{`offer_letter`.firstname}} {{`offer_letter`.lastname}}``,
 
-Temos o prazer de oferecer a você uma posição de $ ```{{`offer_letter`.salary}}``` por ano. Sua data de início será ```{{`offer_letter`.startdate}}```.
+Temos o prazer de oferecer a você uma posição de $ ``{{`offer_letter`.salary}}`` por ano. Sua data de início será ``{{`offer_letter`.startdate}}``.
 
 Bem-vindo
 
-Agora o modelo do Word tem uma marcação que corresponde ao formato JSON. Por exemplo, ```{{`offer_letter`.`firstname`}}``` no início do documento do Word é substituído pelo valor na seção “firstname” dos dados JSON.
+Agora o modelo do Word tem uma marcação que corresponde ao formato JSON. Por exemplo, ``{{`offer_letter`.`firstname`}}`` no início do documento do Word é substituído pelo valor na seção “firstname” dos dados JSON.
 
 Voltar à função `generateLetter`. Para proteger sua chamada REST, crie um novo arquivo intitulado pdftools-api-credentials.json na raiz do projeto. Cole os dados JSON a seguir e ajuste-os com detalhes da seção Conta de Serviço (JWT) do [Console do Desenvolvedor](https://developer.adobe.com/console/).
 
